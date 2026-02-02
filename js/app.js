@@ -340,6 +340,7 @@ class BusinessDirectory {
                         <h3 class="card-title">${this.escapeHtml(business.company)}</h3>
                         <span class="card-category ${categoryClass}">${this.escapeHtml(business.category)}</span>
                     </div>
+                    ${business.sellsPlaques ? '<span style="color:#22c55e;font-weight:700;font-size:0.9rem;">✓ Plaques</span>' : ''}
                 </div>
                 <p class="card-county">📍 ${this.escapeHtml(business.county)}</p>
                 <div class="card-links">${links.join('')}</div>
@@ -368,6 +369,7 @@ class BusinessDirectory {
                         <h3 class="card-title">${this.escapeHtml(business.company)}</h3>
                         <span class="card-category ${categoryClass}">${this.escapeHtml(business.category)}</span>
                         <span class="card-county">${this.escapeHtml(business.county)}</span>
+                        ${business.sellsPlaques ? '<span style="color:#22c55e;font-weight:600;font-size:0.8rem;">✓ Plaques</span>' : ''}
                     </div>
                     <div class="card-links">${links.join('')}</div>
                 </div>
