@@ -19,7 +19,6 @@ Thumbs.db
 npm-debug.log*
 
 # Generated files
-data/directory-data.json
 !.gitkeep
 
 # Environment
