@@ -11,7 +11,6 @@ class BusinessDirectory {
         this.clearSearchBtn = document.getElementById('clearSearch');
         this.categoryFilter = document.getElementById('categoryFilter');
         this.countyFilter = document.getElementById('countyFilter');
-        this.qualityFilter = document.getElementById('qualityFilter');
         this.resetFiltersBtn = document.getElementById('resetFilters');
         this.resultsGrid = document.getElementById('resultsGrid');
         this.resultsList = document.getElementById('resultsList');
@@ -47,7 +46,6 @@ class BusinessDirectory {
         // Filters
         this.categoryFilter.addEventListener('change', () => this.filter());
         this.countyFilter.addEventListener('change', () => this.filter());
-        this.qualityFilter.addEventListener('change', () => this.filter());
         
         // Reset
         this.resetFiltersBtn.addEventListener('click', () => this.resetFilters());
@@ -94,16 +92,16 @@ class BusinessDirectory {
         const searchTerm = this.searchInput.value.toLowerCase().trim();
         const category = this.categoryFilter.value;
         const county = this.countyFilter.value;
-        const quality = this.qualityFilter.value;
         
         this.filteredBusinesses = this.businesses.filter(business => {
             // Search filter
             const matchesSearch = !searchTerm || 
-                business.company.toLowerCase().includes(searchTerm) ||
-                business.address.toLowerCase().includes(searchTerm) ||
-                business.county.toLowerCase().includes(searchTerm) ||
-                business.category.toLowerCase().includes(searchTerm) ||
-                (business.email && business.email.toLowerCase().includes(searchTerm));
+                (business.company && business.company.toLowerCase().includes(searchTerm)) ||
+                (business.address && business.address.toLowerCase().includes(searchTerm)) ||
+                (business.county && business.county.toLowerCase().includes(searchTerm)) ||
+                (business.category && business.category.toLowerCase().includes(searchTerm)) ||
+                (business.email && business.email.toLowerCase().includes(searchTerm)) ||
+                (business.phone && business.phone.toLowerCase().includes(searchTerm));
             
             // Category filter
             const matchesCategory = !category || business.category === category;
@@ -111,10 +109,7 @@ class BusinessDirectory {
             // County filter
             const matchesCounty = !county || business.county === county;
             
-            // Quality filter
-            const matchesQuality = !quality || business.quality >= parseInt(quality);
-            
-            return matchesSearch && matchesCategory && matchesCounty && matchesQuality;
+            return matchesSearch && matchesCategory && matchesCounty;
         });
         
         this.render();
@@ -125,7 +120,6 @@ class BusinessDirectory {
         this.clearSearchBtn.style.display = 'none';
         this.categoryFilter.value = '';
         this.countyFilter.value = '';
-        this.qualityFilter.value = '';
         this.filteredBusinesses = [...this.businesses];
         this.render();
     }
@@ -186,7 +180,6 @@ class BusinessDirectory {
                         <h3 class="card-title">${this.escapeHtml(business.company)}</h3>
                         <span class="card-category ${categoryClass}">${this.escapeHtml(business.category)}</span>
                     </div>
-                    <span class="quality-badge ${qualityClass}">★ ${business.quality}</span>
                 </div>
                 <p class="card-county">📍 ${this.escapeHtml(business.county)}</p>
                 <div class="card-links">${links.join('')}</div>
@@ -215,7 +208,6 @@ class BusinessDirectory {
                     <div class="list-item-header">
                         <h3 class="card-title">${this.escapeHtml(business.company)}</h3>
                         <span class="card-category ${categoryClass}">${this.escapeHtml(business.category)}</span>
-                        <span class="quality-badge ${qualityClass}">★ ${business.quality}</span>
                     </div>
                     <p class="card-county">📍 ${this.escapeHtml(business.county)}</p>
                     <div class="card-links">${links.join('')}</div>
