@@ -67,6 +67,12 @@ class BusinessDirectory {
             });
         }
         
+        // Plaque toggle
+        const plaquesOnly = document.getElementById('plaquesOnly');
+        if (plaquesOnly) {
+            plaquesOnly.addEventListener('change', () => this.filter());
+        }
+        
         // Reset
         if (this.resetFiltersBtn) {
             this.resetFiltersBtn.addEventListener('click', () => this.resetFilters());
@@ -128,6 +134,7 @@ class BusinessDirectory {
         const searchTerm = this.searchInput.value.toLowerCase().trim();
         const category = this.categoryFilter.value;
         const county = this.countyFilter.value;
+        const showPlaquesOnly = document.getElementById('plaquesOnly')?.checked || false;
         
         this.filteredBusinesses = this.businesses.filter(business => {
             // Search filter
@@ -145,7 +152,10 @@ class BusinessDirectory {
             // County filter
             const matchesCounty = !county || business.county === county;
             
-            return matchesSearch && matchesCategory && matchesCounty;
+            // Plaque filter
+            const matchesPlaque = !showPlaquesOnly || business.sellsPlaques === true;
+            
+            return matchesSearch && matchesCategory && matchesCounty && matchesPlaque;
         });
         
         this.sort();
@@ -179,6 +189,8 @@ class BusinessDirectory {
         this.categoryFilter.value = '';
         this.countyFilter.value = '';
         this.sortBy.value = 'name-asc';
+        const plaquesOnly = document.getElementById('plaquesOnly');
+        if (plaquesOnly) plaquesOnly.checked = false;
         this.filteredBusinesses = [...this.businesses];
         this.sort();
         this.render();
@@ -340,7 +352,7 @@ class BusinessDirectory {
                         <h3 class="card-title">${this.escapeHtml(business.company)}</h3>
                         <span class="card-category ${categoryClass}">${this.escapeHtml(business.category)}</span>
                     </div>
-                    ${business.sellsPlaques ? '<span style="color:#22c55e;font-weight:700;font-size:0.9rem;">✓ Plaques</span>' : ''}
+                    ${business.sellsPlaques ? '<span title="Sells plaques" style="font-size:1rem;">🏅</span>' : ''}
                 </div>
                 <p class="card-county">📍 ${this.escapeHtml(business.county)}</p>
                 <div class="card-links">${links.join('')}</div>
@@ -369,7 +381,7 @@ class BusinessDirectory {
                         <h3 class="card-title">${this.escapeHtml(business.company)}</h3>
                         <span class="card-category ${categoryClass}">${this.escapeHtml(business.category)}</span>
                         <span class="card-county">${this.escapeHtml(business.county)}</span>
-                        ${business.sellsPlaques ? '<span style="color:#22c55e;font-weight:600;font-size:0.8rem;">✓ Plaques</span>' : ''}
+                        ${business.sellsPlaques ? '<span title="Sells plaques" style="font-size:0.9rem;">🏅</span>' : ''}
                     </div>
                     <div class="card-links">${links.join('')}</div>
                 </div>
