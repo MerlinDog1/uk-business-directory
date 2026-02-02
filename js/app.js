@@ -5,20 +5,25 @@ class BusinessDirectory {
         this.businesses = [];
         this.filteredBusinesses = [];
         this.currentView = 'grid';
+        this.map = null;
+        this.markers = [];
         
         // DOM Elements
         this.searchInput = document.getElementById('searchInput');
         this.clearSearchBtn = document.getElementById('clearSearch');
         this.categoryFilter = document.getElementById('categoryFilter');
         this.countyFilter = document.getElementById('countyFilter');
+        this.sortBy = document.getElementById('sortBy');
         this.resetFiltersBtn = document.getElementById('resetFilters');
         this.resultsGrid = document.getElementById('resultsGrid');
         this.resultsList = document.getElementById('resultsList');
+        this.mapContainer = document.getElementById('mapContainer');
         this.resultsCount = document.getElementById('resultsCount');
         this.loading = document.getElementById('loading');
         this.noResults = document.getElementById('noResults');
         this.gridViewBtn = document.getElementById('gridView');
         this.listViewBtn = document.getElementById('listView');
+        this.mapViewBtn = document.getElementById('mapView');
         
         this.init();
     }
@@ -27,6 +32,7 @@ class BusinessDirectory {
         this.setupEventListeners();
         await this.loadData();
         this.populateFilters();
+        this.sort();
         this.render();
     }
     
@@ -46,6 +52,10 @@ class BusinessDirectory {
         // Filters
         this.categoryFilter.addEventListener('change', () => this.filter());
         this.countyFilter.addEventListener('change', () => this.filter());
+        this.sortBy.addEventListener('change', () => {
+            this.sort();
+            this.render();
+        });
         
         // Reset
         this.resetFiltersBtn.addEventListener('click', () => this.resetFilters());
@@ -53,6 +63,7 @@ class BusinessDirectory {
         // View Toggle
         this.gridViewBtn.addEventListener('click', () => this.setView('grid'));
         this.listViewBtn.addEventListener('click', () => this.setView('list'));
+        this.mapViewBtn.addEventListener('click', () => this.setView('map'));
     }
     
     async loadData() {
@@ -112,7 +123,29 @@ class BusinessDirectory {
             return matchesSearch && matchesCategory && matchesCounty;
         });
         
+        this.sort();
         this.render();
+    }
+    
+    sort() {
+        const sortValue = this.sortBy.value;
+        
+        this.filteredBusinesses.sort((a, b) => {
+            switch (sortValue) {
+                case 'name-asc':
+                    return (a.company || '').localeCompare(b.company || '');
+                case 'name-desc':
+                    return (b.company || '').localeCompare(a.company || '');
+                case 'county-asc':
+                    return (a.county || '').localeCompare(b.county || '');
+                case 'county-desc':
+                    return (b.county || '').localeCompare(a.county || '');
+                case 'category-asc':
+                    return (a.category || '').localeCompare(b.category || '');
+                default:
+                    return 0;
+            }
+        });
     }
     
     resetFilters() {
@@ -120,7 +153,9 @@ class BusinessDirectory {
         this.clearSearchBtn.style.display = 'none';
         this.categoryFilter.value = '';
         this.countyFilter.value = '';
+        this.sortBy.value = 'name-asc';
         this.filteredBusinesses = [...this.businesses];
+        this.sort();
         this.render();
     }
     
@@ -128,8 +163,14 @@ class BusinessDirectory {
         this.currentView = view;
         this.gridViewBtn.classList.toggle('active', view === 'grid');
         this.listViewBtn.classList.toggle('active', view === 'list');
+        this.mapViewBtn.classList.toggle('active', view === 'map');
         this.resultsGrid.style.display = view === 'grid' ? 'grid' : 'none';
         this.resultsList.style.display = view === 'list' ? 'flex' : 'none';
+        this.mapContainer.style.display = view === 'map' ? 'block' : 'none';
+        
+        if (view === 'map') {
+            this.renderMap();
+        }
     }
     
     render() {
@@ -146,11 +187,11 @@ class BusinessDirectory {
         }
         
         this.noResults.style.display = 'none';
+        this.renderGrid();
+        this.renderList();
         
-        if (this.currentView === 'grid') {
-            this.renderGrid();
-        } else {
-            this.renderList();
+        if (this.currentView === 'map') {
+            this.renderMap();
         }
     }
     
@@ -162,9 +203,103 @@ class BusinessDirectory {
         this.resultsList.innerHTML = this.filteredBusinesses.map(business => this.createListItemHTML(business)).join('');
     }
     
+    renderMap() {
+        // County coordinates (approximate centers)
+        const countyCoords = {
+            'Greater London': [51.5074, -0.1278],
+            'Greater Manchester': [53.4808, -2.2426],
+            'West Midlands': [52.4862, -1.8904],
+            'West Yorkshire': [53.8008, -1.5491],
+            'Merseyside': [53.4084, -2.9916],
+            'South Yorkshire': [53.3811, -1.4701],
+            'Tyne and Wear': [54.9783, -1.6178],
+            'Hampshire': [51.0577, -1.3081],
+            'Kent': [51.2787, 0.5217],
+            'Essex': [51.7343, 0.4691],
+            'Lancashire': [53.8175, -2.5556],
+            'Surrey': [51.2538, -0.4473],
+            'Hertfordshire': [51.8098, -0.2377],
+            'Norfolk': [52.6140, 0.8864],
+            'Devon': [50.7156, -3.5309],
+            'Nottinghamshire': [53.1000, -1.0000],
+            'Staffordshire': [52.8793, -2.0572],
+            'Suffolk': [52.1872, 0.9708],
+            'Oxfordshire': [51.7520, -1.2577],
+            'Cambridgeshire': [52.2053, 0.1218],
+            'Derbyshire': [53.1000, -1.5000],
+            'Leicestershire': [52.6369, -1.1398],
+            'Northamptonshire': [52.2405, -0.9027],
+            'Warwickshire': [52.2819, -1.5849],
+            'Somerset': [51.1051, -2.9262],
+            'Dorset': [50.7488, -2.3445],
+            'Gloucestershire': [51.8642, -2.2382],
+            'Wiltshire': [51.3492, -1.9927],
+            'Cheshire': [53.2000, -2.5000],
+            'Cornwall': [50.2660, -5.0527],
+            'Cumbria': [54.5772, -2.7975],
+            'Bristol': [51.4545, -2.5879],
+            'East Sussex': [50.9097, 0.2494],
+            'West Sussex': [50.9364, -0.4614],
+            'Berkshire': [51.4540, -0.9781],
+            'Buckinghamshire': [51.8137, -0.8095],
+            'Bedfordshire': [52.1356, -0.4667],
+            'North Yorkshire': [54.1551, -1.3832],
+            'East Riding of Yorkshire': [53.8439, -0.4275],
+            'Lincolnshire': [53.2344, -0.5382],
+            'Durham': [54.7761, -1.5733],
+            'Northumberland': [55.2083, -2.0784],
+            'Shropshire': [52.7080, -2.7540],
+            'Herefordshire': [52.0765, -2.6544],
+            'Worcestershire': [52.1920, -2.2216],
+            'Rutland': [52.6583, -0.6396],
+            'Isle of Wight': [50.6938, -1.3047],
+            'Northern Ireland': [54.6079, -5.9264],
+            'Wales': [52.1307, -3.7837],
+            'Scotland': [56.4907, -4.2026],
+            'Unidentified': [54.0, -2.0],
+        };
+        
+        if (!this.map) {
+            this.map = L.map('map').setView([53.5, -2.0], 6);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors'
+            }).addTo(this.map);
+        }
+        
+        // Clear existing markers
+        this.markers.forEach(m => this.map.removeLayer(m));
+        this.markers = [];
+        
+        // Count businesses per county
+        const countyCounts = {};
+        this.filteredBusinesses.forEach(b => {
+            countyCounts[b.county] = (countyCounts[b.county] || 0) + 1;
+        });
+        
+        // Add markers for each county
+        Object.entries(countyCounts).forEach(([county, count]) => {
+            const coords = countyCoords[county];
+            if (coords) {
+                const marker = L.circleMarker(coords, {
+                    radius: Math.min(8 + count * 0.5, 25),
+                    fillColor: '#3b82f6',
+                    color: '#1e40af',
+                    weight: 2,
+                    opacity: 1,
+                    fillOpacity: 0.7
+                }).addTo(this.map);
+                
+                marker.bindPopup(`<h4>${county}</h4><p><strong>${count}</strong> businesses</p>`);
+                this.markers.push(marker);
+            }
+        });
+        
+        // Invalidate size in case container was hidden
+        setTimeout(() => this.map.invalidateSize(), 100);
+    }
+    
     createCardHTML(business) {
         const categoryClass = this.getCategoryClass(business.category);
-        const qualityClass = this.getQualityClass(business.quality);
         
         const links = [];
         if (business.website) links.push(this.createLinkHTML(business.website, 'Website', 'globe'));
@@ -193,7 +328,6 @@ class BusinessDirectory {
     
     createListItemHTML(business) {
         const categoryClass = this.getCategoryClass(business.category);
-        const qualityClass = this.getQualityClass(business.quality);
         
         const links = [];
         if (business.website) links.push(`<a href="${business.website}" target="_blank" class="card-link">🌐 Website</a>`);
@@ -208,8 +342,8 @@ class BusinessDirectory {
                     <div class="list-item-header">
                         <h3 class="card-title">${this.escapeHtml(business.company)}</h3>
                         <span class="card-category ${categoryClass}">${this.escapeHtml(business.category)}</span>
+                        <span class="card-county">${this.escapeHtml(business.county)}</span>
                     </div>
-                    <p class="card-county">📍 ${this.escapeHtml(business.county)}</p>
                     <div class="card-links">${links.join('')}</div>
                 </div>
                 <div class="list-item-actions">
@@ -238,12 +372,6 @@ class BusinessDirectory {
             'Trophies': 'category-trophies'
         };
         return map[category] || '';
-    }
-    
-    getQualityClass(quality) {
-        if (quality >= 8) return 'quality-high';
-        if (quality >= 6) return 'quality-medium';
-        return 'quality-low';
     }
     
     escapeHtml(text) {

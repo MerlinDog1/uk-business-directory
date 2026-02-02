@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body>
     <header class="header">
@@ -45,7 +47,17 @@
                             <option value="">All Counties</option>
                         </select>
                     </div>
-                    <button id="resetFilters" class="reset-btn">Reset Filters</button>
+                    <div class="filter-group">
+                        <label for="sortBy">Sort By</label>
+                        <select id="sortBy">
+                            <option value="name-asc">Name A-Z</option>
+                            <option value="name-desc">Name Z-A</option>
+                            <option value="county-asc">County A-Z</option>
+                            <option value="county-desc">County Z-A</option>
+                            <option value="category-asc">Category A-Z</option>
+                        </select>
+                    </div>
+                    <button id="resetFilters" class="reset-btn">Reset</button>
                 </div>
             </section>
 
@@ -55,6 +67,7 @@
                     <div class="view-toggle">
                         <button id="gridView" class="view-btn active" title="Grid View">▦</button>
                         <button id="listView" class="view-btn" title="List View">☰</button>
+                        <button id="mapView" class="view-btn" title="Map View">🗺</button>
                     </div>
                 </div>
                 
@@ -65,6 +78,9 @@
                 
                 <div id="resultsGrid" class="results-grid"></div>
                 <div id="resultsList" class="results-list" style="display: none;"></div>
+                <div id="mapContainer" class="map-container" style="display: none;">
+                    <div id="map"></div>
+                </div>
                 
                 <div id="noResults" class="no-results" style="display: none;">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
