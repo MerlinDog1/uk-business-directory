@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Generated files
+data/directory-data.json
+!.gitkeep
+
+# Environment
+.env
+.env.local

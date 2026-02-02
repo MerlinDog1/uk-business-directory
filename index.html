@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK Business Directory | Sign Companies, Architects, Engravers & Trophy Suppliers</title>
+    <meta name="description" content="Searchable directory of 1,200+ UK businesses across 48 counties. Find sign companies, architects, engravers, and trophy suppliers.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">🇬🇧 UK Business Directory</h1>
+                <p class="tagline">1,200+ businesses • 48 counties • 4 categories</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="search-section">
+                <div class="search-box">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="M21 21l-4.35-4.35"></path>
+                    </svg>
+                    <input type="text" id="searchInput" placeholder="Search by company name, address, or keyword..." autocomplete="off">
+                    <button id="clearSearch" class="clear-btn" style="display: none;">✕</button>
+                </div>
+                
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="categoryFilter">Category</label>
+                        <select id="categoryFilter">
+                            <option value="">All Categories</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="countyFilter">County</label>
+                        <select id="countyFilter">
+                            <option value="">All Counties</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="qualityFilter">Quality Score</label>
+                        <select id="qualityFilter">
+                            <option value="">Any Score</option>
+                            <option value="10">10 (Excellent)</option>
+                            <option value="9">9+ (Very Good)</option>
+                            <option value="8">8+ (Good)</option>
+                            <option value="7">7+ (Above Average)</option>
+                        </select>
+                    </div>
+                    <button id="resetFilters" class="reset-btn">Reset Filters</button>
+                </div>
+            </section>
+
+            <section class="results-section">
+                <div class="results-header">
+                    <p class="results-count"><span id="resultsCount">0</span> businesses found</p>
+                    <div class="view-toggle">
+                        <button id="gridView" class="view-btn active" title="Grid View">▦</button>
+                        <button id="listView" class="view-btn" title="List View">☰</button>
+                    </div>
+                </div>
+                
+                <div id="loading" class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading directory...</p>
+                </div>
+                
+                <div id="resultsGrid" class="results-grid"></div>
+                <div id="resultsList" class="results-list" style="display: none;"></div>
+                
+                <div id="noResults" class="no-results" style="display: none;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="M21 21l-4.35-4.35"></path>
+                        <path d="M8 8l6 6M14 8l-6 6"></path>
+                    </svg>
+                    <h3>No businesses found</h3>
+                    <p>Try adjusting your search or filters</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>UK Business Directory • Built with data from 48 counties</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
