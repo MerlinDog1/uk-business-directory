@@ -38,32 +38,57 @@ class BusinessDirectory {
     
     setupEventListeners() {
         // Search
-        this.searchInput.addEventListener('input', () => {
-            this.clearSearchBtn.style.display = this.searchInput.value ? 'flex' : 'none';
-            this.filter();
-        });
+        if (this.searchInput) {
+            this.searchInput.addEventListener('input', () => {
+                this.clearSearchBtn.style.display = this.searchInput.value ? 'flex' : 'none';
+                this.filter();
+            });
+        }
         
-        this.clearSearchBtn.addEventListener('click', () => {
-            this.searchInput.value = '';
-            this.clearSearchBtn.style.display = 'none';
-            this.filter();
-        });
+        if (this.clearSearchBtn) {
+            this.clearSearchBtn.addEventListener('click', () => {
+                this.searchInput.value = '';
+                this.clearSearchBtn.style.display = 'none';
+                this.filter();
+            });
+        }
         
         // Filters
-        this.categoryFilter.addEventListener('change', () => this.filter());
-        this.countyFilter.addEventListener('change', () => this.filter());
-        this.sortBy.addEventListener('change', () => {
-            this.sort();
-            this.render();
-        });
+        if (this.categoryFilter) {
+            this.categoryFilter.addEventListener('change', () => this.filter());
+        }
+        if (this.countyFilter) {
+            this.countyFilter.addEventListener('change', () => this.filter());
+        }
+        if (this.sortBy) {
+            this.sortBy.addEventListener('change', () => {
+                this.sort();
+                this.render();
+            });
+        }
         
         // Reset
-        this.resetFiltersBtn.addEventListener('click', () => this.resetFilters());
+        if (this.resetFiltersBtn) {
+            this.resetFiltersBtn.addEventListener('click', () => this.resetFilters());
+        }
         
         // View Toggle
-        this.gridViewBtn.addEventListener('click', () => this.setView('grid'));
-        this.listViewBtn.addEventListener('click', () => this.setView('list'));
-        this.mapViewBtn.addEventListener('click', () => this.setView('map'));
+        if (this.gridViewBtn) {
+            this.gridViewBtn.addEventListener('click', () => this.setView('grid'));
+        }
+        if (this.listViewBtn) {
+            this.listViewBtn.addEventListener('click', () => this.setView('list'));
+        }
+        if (this.mapViewBtn) {
+            this.mapViewBtn.addEventListener('click', () => this.setView('map'));
+        }
+        
+        console.log('Event listeners attached:', {
+            sortBy: !!this.sortBy,
+            gridViewBtn: !!this.gridViewBtn,
+            listViewBtn: !!this.listViewBtn,
+            mapViewBtn: !!this.mapViewBtn
+        });
     }
     
     async loadData() {
