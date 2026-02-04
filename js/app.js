@@ -79,6 +79,12 @@ class BusinessDirectory {
             plaquesOnly.addEventListener('change', () => this.filter());
         }
         
+        // Has email toggle
+        const hasEmail = document.getElementById('hasEmail');
+        if (hasEmail) {
+            hasEmail.addEventListener('change', () => this.filter());
+        }
+        
         // Reset
         if (this.resetFiltersBtn) {
             this.resetFiltersBtn.addEventListener('click', () => this.resetFilters());
@@ -164,6 +170,7 @@ class BusinessDirectory {
         const searchTerm = this.searchInput.value.toLowerCase().trim();
         const county = this.countyFilter.value;
         const showPlaquesOnly = document.getElementById('plaquesOnly')?.checked || false;
+        const hasEmailOnly = document.getElementById('hasEmail')?.checked || false;
         
         this.filteredBusinesses = this.businesses.filter(business => {
             // Search filter
@@ -185,7 +192,10 @@ class BusinessDirectory {
             // Plaque filter
             const matchesPlaque = !showPlaquesOnly || business.sellsPlaques === true;
             
-            return matchesSearch && matchesCategory && matchesCounty && matchesPlaque;
+            // Has email filter
+            const matchesEmail = !hasEmailOnly || (business.email && business.email.trim() !== '');
+            
+            return matchesSearch && matchesCategory && matchesCounty && matchesPlaque && matchesEmail;
         });
         
         this.sort();
@@ -236,6 +246,8 @@ class BusinessDirectory {
         this.sortBy.value = 'name-asc';
         const plaquesOnly = document.getElementById('plaquesOnly');
         if (plaquesOnly) plaquesOnly.checked = false;
+        const hasEmail = document.getElementById('hasEmail');
+        if (hasEmail) hasEmail.checked = false;
         this.clearCategories();
         this.deselectAll();
         this.filteredBusinesses = [...this.businesses];
