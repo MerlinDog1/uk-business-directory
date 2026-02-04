@@ -339,27 +339,21 @@ class BusinessDirectory {
     }
     
     downloadCsv() {
-        console.log('Download CSV clicked, selected:', this.selectedBusinesses.size);
-        
         const selected = this.businesses.filter(b => this.selectedBusinesses.has(b.id));
-        console.log('Matched businesses:', selected.length);
         
-        if (selected.length === 0) {
-            console.warn('No businesses selected');
-            return;
-        }
+        if (selected.length === 0) return;
         
         const headers = ['Company', 'Website', 'Email', 'Phone', 'Address', 'County', 'Category', 'Sells Plaques', 'Quality'];
         const rows = selected.map(b => [
-            b.company || '',
-            b.website || '',
-            b.email || '',
-            b.phone || '',
-            b.address || '',
-            b.county || '',
-            b.category || '',
+            String(b.company || ''),
+            String(b.website || ''),
+            String(b.email || ''),
+            String(b.phone || ''),
+            String(b.address || ''),
+            String(b.county || ''),
+            String(b.category || ''),
             b.sellsPlaques ? 'Yes' : 'No',
-            b.quality || 0
+            String(b.quality || 0)
         ]);
         
         const csvContent = [
@@ -368,29 +362,13 @@ class BusinessDirectory {
         ].join('\n');
         
         const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
-        console.log('Blob created, size:', blob.size);
-        
         const link = document.createElement('a');
         link.href = URL.createObjectURL(blob);
         link.download = `uk-business-directory-${new Date().toISOString().split('T')[0]}.csv`;
-        console.log('Download initiated:', link.download);
-        
-        // Try different methods for download
-        try {
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            console.log('Download triggered');
-        } catch (err) {
-            console.error('Click method failed:', err);
-            // Fallback
-            const url = URL.createObjectURL(blob);
-            window.open(url, '_blank');
-            URL.revokeObjectURL(url);
-        }
-        
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
         URL.revokeObjectURL(link.href);
-        console.log('Done');
     }
     
     renderMap() {
