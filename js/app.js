@@ -277,6 +277,9 @@ class BusinessDirectory {
         if (this.currentView === 'map') {
             this.renderMap();
         }
+        
+        // Update selection UI after rendering
+        this.updateSelectionUI();
     }
     
     renderGrid() {
@@ -336,9 +339,15 @@ class BusinessDirectory {
     }
     
     downloadCsv() {
-        const selected = this.businesses.filter(b => this.selectedBusinesses.has(b.id));
+        console.log('Download CSV clicked, selected:', this.selectedBusinesses.size);
         
-        if (selected.length === 0) return;
+        const selected = this.businesses.filter(b => this.selectedBusinesses.has(b.id));
+        console.log('Matched businesses:', selected.length);
+        
+        if (selected.length === 0) {
+            console.warn('No businesses selected');
+            return;
+        }
         
         const headers = ['Company', 'Website', 'Email', 'Phone', 'Address', 'County', 'Category', 'Sells Plaques', 'Quality'];
         const rows = selected.map(b => [
@@ -359,11 +368,29 @@ class BusinessDirectory {
         ].join('\n');
         
         const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+        console.log('Blob created, size:', blob.size);
+        
         const link = document.createElement('a');
         link.href = URL.createObjectURL(blob);
         link.download = `uk-business-directory-${new Date().toISOString().split('T')[0]}.csv`;
-        link.click();
+        console.log('Download initiated:', link.download);
+        
+        // Try different methods for download
+        try {
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            console.log('Download triggered');
+        } catch (err) {
+            console.error('Click method failed:', err);
+            // Fallback
+            const url = URL.createObjectURL(blob);
+            window.open(url, '_blank');
+            URL.revokeObjectURL(url);
+        }
+        
         URL.revokeObjectURL(link.href);
+        console.log('Done');
     }
     
     renderMap() {
