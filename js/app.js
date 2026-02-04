@@ -4,6 +4,8 @@ class BusinessDirectory {
     constructor() {
         this.businesses = [];
         this.filteredBusinesses = [];
+        this.selectedBusinesses = new Set();
+        this.selectedCategories = new Set();
         this.currentView = 'grid';
         this.map = null;
         this.markers = [];
@@ -11,7 +13,7 @@ class BusinessDirectory {
         // DOM Elements
         this.searchInput = document.getElementById('searchInput');
         this.clearSearchBtn = document.getElementById('clearSearch');
-        this.categoryFilter = document.getElementById('categoryFilter');
+        this.categoryCheckboxes = document.getElementById('categoryCheckboxes');
         this.countyFilter = document.getElementById('countyFilter');
         this.sortBy = document.getElementById('sortBy');
         this.resetFiltersBtn = document.getElementById('resetFilters');
@@ -24,6 +26,12 @@ class BusinessDirectory {
         this.gridViewBtn = document.getElementById('gridView');
         this.listViewBtn = document.getElementById('listView');
         this.mapViewBtn = document.getElementById('mapView');
+        this.selectAllBtn = document.getElementById('selectAllBtn');
+        this.deselectAllBtn = document.getElementById('deselectAllBtn');
+        this.downloadCsvBtn = document.getElementById('downloadCsvBtn');
+        this.selectedCountSpan = document.getElementById('selectedCount');
+        this.selectAllCatsBtn = document.getElementById('selectAllCats');
+        this.clearCatsBtn = document.getElementById('clearCats');
         
         this.init();
     }
@@ -31,6 +39,7 @@ class BusinessDirectory {
     async init() {
         this.setupEventListeners();
         await this.loadData();
+        this.populateCategoryCheckboxes();
         this.populateFilters();
         this.sort();
         this.render();
@@ -54,9 +63,6 @@ class BusinessDirectory {
         }
         
         // Filters
-        if (this.categoryFilter) {
-            this.categoryFilter.addEventListener('change', () => this.filter());
-        }
         if (this.countyFilter) {
             this.countyFilter.addEventListener('change', () => this.filter());
         }
@@ -89,12 +95,22 @@ class BusinessDirectory {
             this.mapViewBtn.addEventListener('click', () => this.setView('map'));
         }
         
-        console.log('Event listeners attached:', {
-            sortBy: !!this.sortBy,
-            gridViewBtn: !!this.gridViewBtn,
-            listViewBtn: !!this.listViewBtn,
-            mapViewBtn: !!this.mapViewBtn
-        });
+        // Selection Actions
+        if (this.selectAllBtn) {
+            this.selectAllBtn.addEventListener('click', () => this.selectAll());
+        }
+        if (this.deselectAllBtn) {
+            this.deselectAllBtn.addEventListener('click', () => this.deselectAll());
+        }
+        if (this.downloadCsvBtn) {
+            this.downloadCsvBtn.addEventListener('click', () => this.downloadCsv());
+        }
+        if (this.selectAllCatsBtn) {
+            this.selectAllCatsBtn.addEventListener('click', () => this.selectAllCategories());
+        }
+        if (this.clearCatsBtn) {
+            this.clearCatsBtn.addEventListener('click', () => this.clearCategories());
+        }
     }
     
     async loadData() {
@@ -108,18 +124,32 @@ class BusinessDirectory {
         }
     }
     
-    populateFilters() {
-        // Get unique categories and counties
+    populateCategoryCheckboxes() {
         const categories = [...new Set(this.businesses.map(b => b.category))].sort();
-        const counties = [...new Set(this.businesses.map(b => b.county))].sort();
         
-        // Populate category filter
-        categories.forEach(cat => {
-            const option = document.createElement('option');
-            option.value = cat;
-            option.textContent = cat;
-            this.categoryFilter.appendChild(option);
+        this.categoryCheckboxes.innerHTML = categories.map(cat => `
+            <label class="category-checkbox">
+                <input type="checkbox" value="${this.escapeHtml(cat)}">
+                <span>${this.escapeHtml(cat)}</span>
+            </label>
+        `).join('');
+        
+        // Add event listeners to new checkboxes
+        this.categoryCheckboxes.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+            cb.addEventListener('change', () => {
+                if (cb.checked) {
+                    this.selectedCategories.add(cb.value);
+                } else {
+                    this.selectedCategories.delete(cb.value);
+                }
+                this.filter();
+            });
         });
+    }
+    
+    populateFilters() {
+        // Get unique counties
+        const counties = [...new Set(this.businesses.map(b => b.county))].sort();
         
         // Populate county filter
         counties.forEach(county => {
@@ -132,7 +162,6 @@ class BusinessDirectory {
     
     filter() {
         const searchTerm = this.searchInput.value.toLowerCase().trim();
-        const category = this.categoryFilter.value;
         const county = this.countyFilter.value;
         const showPlaquesOnly = document.getElementById('plaquesOnly')?.checked || false;
         
@@ -146,8 +175,9 @@ class BusinessDirectory {
                 (business.email && business.email.toLowerCase().includes(searchTerm)) ||
                 (business.phone && business.phone.toLowerCase().includes(searchTerm));
             
-            // Category filter
-            const matchesCategory = !category || business.category === category;
+            // Category filter (multi-select)
+            const matchesCategory = this.selectedCategories.size === 0 || 
+                this.selectedCategories.has(business.category);
             
             // County filter
             const matchesCounty = !county || business.county === county;
@@ -160,6 +190,22 @@ class BusinessDirectory {
         
         this.sort();
         this.render();
+    }
+    
+    selectAllCategories() {
+        this.categoryCheckboxes.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+            cb.checked = true;
+            this.selectedCategories.add(cb.value);
+        });
+        this.filter();
+    }
+    
+    clearCategories() {
+        this.categoryCheckboxes.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+            cb.checked = false;
+        });
+        this.selectedCategories.clear();
+        this.filter();
     }
     
     sort() {
@@ -186,11 +232,12 @@ class BusinessDirectory {
     resetFilters() {
         this.searchInput.value = '';
         this.clearSearchBtn.style.display = 'none';
-        this.categoryFilter.value = '';
         this.countyFilter.value = '';
         this.sortBy.value = 'name-asc';
         const plaquesOnly = document.getElementById('plaquesOnly');
         if (plaquesOnly) plaquesOnly.checked = false;
+        this.clearCategories();
+        this.deselectAll();
         this.filteredBusinesses = [...this.businesses];
         this.sort();
         this.render();
@@ -234,10 +281,89 @@ class BusinessDirectory {
     
     renderGrid() {
         this.resultsGrid.innerHTML = this.filteredBusinesses.map(business => this.createCardHTML(business)).join('');
+        
+        // Add event listeners to checkboxes
+        this.resultsGrid.querySelectorAll('.business-checkbox').forEach(cb => {
+            cb.addEventListener('change', (e) => {
+                const id = parseInt(e.target.dataset.id);
+                if (e.target.checked) {
+                    this.selectedBusinesses.add(id);
+                } else {
+                    this.selectedBusinesses.delete(id);
+                }
+                this.updateSelectionUI();
+            });
+        });
     }
     
     renderList() {
         this.resultsList.innerHTML = this.filteredBusinesses.map(business => this.createListItemHTML(business)).join('');
+        
+        // Add event listeners to checkboxes
+        this.resultsList.querySelectorAll('.business-checkbox').forEach(cb => {
+            cb.addEventListener('change', (e) => {
+                const id = parseInt(e.target.dataset.id);
+                if (e.target.checked) {
+                    this.selectedBusinesses.add(id);
+                } else {
+                    this.selectedBusinesses.delete(id);
+                }
+                this.updateSelectionUI();
+            });
+        });
+    }
+    
+    updateSelectionUI() {
+        const count = this.selectedBusinesses.size;
+        this.selectedCountSpan.textContent = count;
+        this.downloadCsvBtn.disabled = count === 0;
+        
+        // Update all checkbox states
+        document.querySelectorAll('.business-checkbox').forEach(cb => {
+            const id = parseInt(cb.dataset.id);
+            cb.checked = this.selectedBusinesses.has(id);
+        });
+    }
+    
+    selectAll() {
+        this.filteredBusinesses.forEach(b => this.selectedBusinesses.add(b.id));
+        this.updateSelectionUI();
+    }
+    
+    deselectAll() {
+        this.selectedBusinesses.clear();
+        this.updateSelectionUI();
+    }
+    
+    downloadCsv() {
+        const selected = this.businesses.filter(b => this.selectedBusinesses.has(b.id));
+        
+        if (selected.length === 0) return;
+        
+        const headers = ['Company', 'Website', 'Email', 'Phone', 'Address', 'County', 'Category', 'Sells Plaques', 'Quality'];
+        const rows = selected.map(b => [
+            b.company || '',
+            b.website || '',
+            b.email || '',
+            b.phone || '',
+            b.address || '',
+            b.county || '',
+            b.category || '',
+            b.sellsPlaques ? 'Yes' : 'No',
+            b.quality || 0
+        ]);
+        
+        const csvContent = [
+            headers.join(','),
+            ...rows.map(row => row.map(cell => `"${cell.replace(/"/g, '""')}"`).join(','))
+        ].join('\n');
+        
+        const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = `uk-business-directory-${new Date().toISOString().split('T')[0]}.csv`;
+        link.click();
+        URL.revokeObjectURL(link.href);
     }
     
     renderMap() {
@@ -337,6 +463,7 @@ class BusinessDirectory {
     
     createCardHTML(business) {
         const categoryClass = this.getCategoryClass(business.category);
+        const isSelected = this.selectedBusinesses.has(business.id) ? 'checked' : '';
         
         const links = [];
         if (business.website) links.push(this.createLinkHTML(business.website, 'Website', 'globe'));
@@ -346,9 +473,13 @@ class BusinessDirectory {
         if (business.facebook) links.push(this.createLinkHTML(business.facebook, 'Facebook', 'facebook'));
         
         return `
-            <article class="business-card">
+            <article class="business-card ${isSelected ? 'selected' : ''}">
                 <div class="card-header">
-                    <div>
+                    <label class="select-checkbox">
+                        <input type="checkbox" class="business-checkbox" data-id="${business.id}" ${isSelected}>
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
                         <h3 class="card-title">${this.escapeHtml(business.company)}</h3>
                         <span class="card-category ${categoryClass}">${this.escapeHtml(business.category)}</span>
                     </div>
@@ -366,6 +497,7 @@ class BusinessDirectory {
     
     createListItemHTML(business) {
         const categoryClass = this.getCategoryClass(business.category);
+        const isSelected = this.selectedBusinesses.has(business.id) ? 'checked' : '';
         
         const links = [];
         if (business.website) links.push(`<a href="${business.website}" target="_blank" class="card-link">🌐 Website</a>`);
@@ -375,7 +507,11 @@ class BusinessDirectory {
         if (business.facebook) links.push(`<a href="${business.facebook}" target="_blank" class="card-link">👤 Facebook</a>`);
         
         return `
-            <article class="business-list-item">
+            <article class="business-list-item ${isSelected ? 'selected' : ''}">
+                <label class="select-checkbox">
+                    <input type="checkbox" class="business-checkbox" data-id="${business.id}" ${isSelected}>
+                    <span class="checkmark"></span>
+                </label>
                 <div class="list-item-main">
                     <div class="list-item-header">
                         <h3 class="card-title">${this.escapeHtml(business.company)}</h3>

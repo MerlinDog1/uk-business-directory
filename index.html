@@ -17,7 +17,7 @@
         <div class="container">
             <div class="header-content">
                 <h1 class="logo">🇬🇧 UK Business Directory</h1>
-                <p class="tagline">1,200+ businesses • 48 counties • 4 categories</p>
+                <p class="tagline">551 businesses • 48+ counties • 4 categories</p>
             </div>
         </div>
     </header>
@@ -35,11 +35,15 @@
                 </div>
                 
                 <div class="filters">
-                    <div class="filter-group">
-                        <label for="categoryFilter">Category</label>
-                        <select id="categoryFilter">
-                            <option value="">All Categories</option>
-                        </select>
+                    <div class="filter-group" style="flex: 2; min-width: 280px;">
+                        <label>Categories</label>
+                        <div id="categoryCheckboxes" class="category-checkboxes">
+                            <!-- Populated by JS -->
+                        </div>
+                        <div class="filter-actions">
+                            <button id="selectAllCats" class="filter-action-btn">Select All</button>
+                            <button id="clearCats" class="filter-action-btn">Clear</button>
+                        </div>
                     </div>
                     <div class="filter-group">
                         <label for="countyFilter">County</label>
@@ -60,10 +64,18 @@
                     <div class="filter-group checkbox-group">
                         <label for="plaquesOnly">
                             <input type="checkbox" id="plaquesOnly">
-                            <span>🏅 Plaque sellers only</span>
+                            <span>🏅 Plaque sellers</span>
                         </label>
                     </div>
                     <button id="resetFilters" class="reset-btn">Reset</button>
+                    <div class="filter-group" style="margin-left: auto;">
+                        <label>Selection</label>
+                        <div class="selection-actions">
+                            <button id="selectAllBtn" class="action-btn">Select All</button>
+                            <button id="deselectAllBtn" class="action-btn">Deselect All</button>
+                            <button id="downloadCsvBtn" class="action-btn primary" disabled>Download CSV (<span id="selectedCount">0</span>)</button>
+                        </div>
+                    </div>
                 </div>
             </section>
 
