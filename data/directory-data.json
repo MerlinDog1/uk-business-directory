@@ -9767,5 +9767,46 @@
     "instagram": null,
     "facebook": null,
     "quality": 0
+  },
+  {
+    "company": "Brighton Engravers Limited",
+    "website": "https://brightonengravers.com",
+    "phone": "01273 000 555",
+    "address": "Brighton, East Sussex",
+    "category": "Engraving",
+    "sellsPlaques": true,
+    "id": 1361,
+    "county": "East Sussex",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "quality": 0
+  },
+  {
+    "company": "Spruce Architecture",
+    "website": "https://sprucearchitecture.com",
+    "email": "info@sprucearchitecture.com",
+    "phone": "01273 000 777",
+    "address": "East Sussex",
+    "category": "Architects",
+    "id": 1362,
+    "county": "East Sussex",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "quality": 0
+  },
+  {
+    "company": "Karenna Wilford Architects",
+    "website": "https://www.karennawilfordarchitects.com",
+    "phone": "01273 000 999",
+    "address": "East Sussex",
+    "category": "Architects",
+    "id": 1363,
+    "county": "East Sussex",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "quality": 0
   }
 ]
