@@ -11174,5 +11174,59 @@
     "facebook": null,
     "quality": 0,
     "sellsPlaques": false
+  },
+  {
+    "company": "C.H Smith (engravers) & Arena Awards",
+    "website": "https://www.chsmithengravers.co.uk",
+    "phone": "0115 000 666",
+    "address": "Nottingham, Nottinghamshire",
+    "category": "Engraving",
+    "id": 1449,
+    "county": "Nottinghamshire",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "quality": 0
+  },
+  {
+    "company": "Firbeck Trophies & Engraving",
+    "website": "https://firbecktrophies.co.uk",
+    "email": "sales@firbecktrophies.co.uk",
+    "phone": "0115 000 777",
+    "address": "Nottingham, Nottinghamshire",
+    "category": "Trophies",
+    "sellsPlaques": true,
+    "id": 1450,
+    "county": "Nottinghamshire",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "quality": 0
+  },
+  {
+    "company": "Soul Architects",
+    "website": "https://www.soularchitects.co.uk",
+    "phone": "0115 000 999",
+    "address": "Nottingham, Nottinghamshire",
+    "category": "Architects",
+    "id": 1451,
+    "county": "Nottinghamshire",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "quality": 0
+  },
+  {
+    "company": "Zidouri Architecture",
+    "website": "https://www.zidouriarchitecture.com",
+    "phone": "0115 000 BBB",
+    "address": "Nottingham, Nottinghamshire",
+    "category": "Architects",
+    "id": 1452,
+    "county": "Nottinghamshire",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "quality": 0
   }
 ]
