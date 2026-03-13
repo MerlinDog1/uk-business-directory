@@ -9593,5 +9593,71 @@
     "instagram": null,
     "facebook": null,
     "quality": 0
+  },
+  {
+    "company": "Synergy",
+    "website": "https://synergy-signs.co.uk",
+    "phone": "0191 372 9001",
+    "address": "County Durham",
+    "category": "Signage",
+    "id": 1348,
+    "county": "Durham",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "quality": 0
+  },
+  {
+    "company": "Interplan Sign Systems Ltd",
+    "website": "http://interplan-signs.co.uk",
+    "phone": "01207 501 200",
+    "address": "County Durham",
+    "category": "Signage",
+    "id": 1349,
+    "county": "Durham",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "quality": 0
+  },
+  {
+    "company": "Swift Engraving Services Ltd",
+    "website": "https://www.swift-engraving.co.uk",
+    "phone": "01388 812384",
+    "address": "County Durham",
+    "category": "Engraving",
+    "id": 1350,
+    "county": "Durham",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "quality": 0
+  },
+  {
+    "company": "A1 Trophies and Engraving",
+    "website": "https://www.a1trophieschengraving.com",
+    "phone": "0191 586 1159",
+    "address": "County Durham",
+    "category": "Trophies",
+    "sellsPlaques": true,
+    "id": 1351,
+    "county": "Durham",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "quality": 0
+  },
+  {
+    "company": "Milbank Architects",
+    "website": "https://milbankarchitects.co.uk",
+    "phone": "01207 693811",
+    "address": "County Durham",
+    "category": "Architects",
+    "id": 1352,
+    "county": "Durham",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "quality": 0
   }
 ]
