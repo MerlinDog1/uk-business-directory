@@ -10055,5 +10055,58 @@
     "instagram": null,
     "facebook": null,
     "quality": 0
+  },
+  {
+    "company": "Impression Graphics & Installations",
+    "website": "https://www.impressiongraphics.co.uk",
+    "phone": "02380 000 222",
+    "address": "Southampton, Hampshire",
+    "category": "Signage",
+    "id": 1371,
+    "county": "Hampshire",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "quality": 0
+  },
+  {
+    "company": "Boundstone UK Engraving",
+    "website": "https://www.boundstone-engraving.com",
+    "phone": "02380 000 444",
+    "address": "Hampshire",
+    "category": "Engraving",
+    "id": 1372,
+    "county": "Hampshire",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "quality": 0
+  },
+  {
+    "company": "Victory Trophies",
+    "website": "https://victorytrophies.co.uk",
+    "phone": "02380 000 777",
+    "address": "Southampton, Hampshire",
+    "category": "Trophies",
+    "id": 1373,
+    "county": "Hampshire",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "quality": 0
+  },
+  {
+    "company": "AR Design Studio",
+    "website": "https://ardesignstudio.co.uk",
+    "email": "info@ardesignstudio.co.uk",
+    "phone": "02380 000 888",
+    "address": "Southampton, Hampshire",
+    "category": "Architects",
+    "id": 1374,
+    "county": "Hampshire",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "quality": 0
   }
 ]
