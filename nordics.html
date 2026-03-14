@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UK Business Directory | Sign Companies, Architects, Engravers & Trophy Suppliers</title>
-    <meta name="description" content="Searchable directory of 1,200+ UK businesses across 48 counties. Find sign companies, architects, engravers, and trophy suppliers.">
+    <title>Nordics Business Directory | Denmark, Sweden, Norway & Finland</title>
+    <meta name="description" content="Searchable Nordic business directory for Denmark, Sweden, Norway, and Finland.">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,15 +12,15 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
-<body data-data-file="data/directory-data.json">
+<body data-data-file="data/nordic-directory-data.json">
     <header class="header">
         <div class="container">
             <div class="header-content">
-                <h1 class="logo">🇬🇧 UK Business Directory</h1>
-                <p class="tagline">UK dataset • searchable directory</p>
+                <h1 class="logo">🌍 Nordics Business Directory</h1>
+                <p class="tagline">Denmark • Sweden • Norway • Finland</p>
                 <nav class="header-nav">
-                    <a href="index.html" class="nav-link active">UK</a>
-                    <a href="nordics.html" class="nav-link">Nordics</a>
+                    <a href="index.html" class="nav-link">UK</a>
+                    <a href="nordics.html" class="nav-link active">Nordics</a>
                 </nav>
             </div>
         </div>
@@ -41,18 +41,16 @@
                 <div class="filters">
                     <div class="filter-group" style="flex: 2; min-width: 280px;">
                         <label>Categories</label>
-                        <div id="categoryCheckboxes" class="category-checkboxes">
-                            <!-- Populated by JS -->
-                        </div>
+                        <div id="categoryCheckboxes" class="category-checkboxes"></div>
                         <div class="filter-actions">
                             <button id="selectAllCats" class="filter-action-btn">Select All</button>
                             <button id="clearCats" class="filter-action-btn">Clear</button>
                         </div>
                     </div>
                     <div class="filter-group">
-                        <label for="countyFilter">County</label>
+                        <label for="countyFilter">Country</label>
                         <select id="countyFilter">
-                            <option value="">All Counties</option>
+                            <option value="">All Countries</option>
                         </select>
                     </div>
                     <div class="filter-group">
@@ -60,8 +58,8 @@
                         <select id="sortBy">
                             <option value="name-asc">Name A-Z</option>
                             <option value="name-desc">Name Z-A</option>
-                            <option value="county-asc">County A-Z</option>
-                            <option value="county-desc">County Z-A</option>
+                            <option value="county-asc">Country A-Z</option>
+                            <option value="county-desc">Country Z-A</option>
                             <option value="category-asc">Category A-Z</option>
                         </select>
                     </div>
@@ -125,7 +123,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>UK Business Directory • Built with data from 48 counties</p>
+            <p>Nordics Business Directory • Denmark, Sweden, Norway, Finland</p>
         </div>
     </footer>
 

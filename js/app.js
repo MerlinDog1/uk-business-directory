@@ -121,7 +121,8 @@ class BusinessDirectory {
     
     async loadData() {
         try {
-            const response = await fetch('data/directory-data.json');
+            const dataFile = document.body?.dataset?.dataFile || 'data/directory-data.json';
+            const response = await fetch(dataFile);
             this.businesses = await response.json();
             this.filteredBusinesses = [...this.businesses];
         } catch (error) {
@@ -436,6 +437,10 @@ class BusinessDirectory {
             'Northern Ireland': [54.6079, -5.9264],
             'Wales': [52.1307, -3.7837],
             'Scotland': [56.4907, -4.2026],
+            'Denmark': [56.2639, 9.5018],
+            'Sweden': [60.1282, 18.6435],
+            'Norway': [60.4720, 8.4689],
+            'Finland': [61.9241, 25.7482],
             'Unidentified': [54.0, -2.0],
         };
         

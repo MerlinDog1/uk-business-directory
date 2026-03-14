@@ -67,6 +67,33 @@ body {
     font-weight: 400;
 }
 
+.header-nav {
+    display: flex;
+    gap: 8px;
+}
+
+.nav-link {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 8px 12px;
+    border: 1px solid #334155;
+    border-radius: 999px;
+    transition: all 0.2s;
+}
+
+.nav-link:hover {
+    color: white;
+    border-color: #64748b;
+}
+
+.nav-link.active {
+    color: white;
+    background: #1e293b;
+    border-color: #64748b;
+}
+
 /* Main */
 .main {
     padding: 32px 0;
