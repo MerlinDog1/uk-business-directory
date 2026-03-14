@@ -27,7 +27,8 @@
     "phone": "",
     "address": "",
     "quality": 0,
-    "sellsPlaques": false
+    "sellsPlaques": false,
+    "isWayfinding": true
   },
   {
     "id": 3,
@@ -177,7 +178,8 @@
     "phone": "",
     "address": "",
     "quality": 0,
-    "sellsPlaques": false
+    "sellsPlaques": false,
+    "isWayfinding": true
   },
   {
     "id": 13,
@@ -312,7 +314,8 @@
     "phone": "",
     "address": "",
     "quality": 0,
-    "sellsPlaques": false
+    "sellsPlaques": false,
+    "isWayfinding": true
   },
   {
     "id": 22,
@@ -1062,7 +1065,8 @@
     "phone": "",
     "address": "",
     "quality": 0,
-    "sellsPlaques": false
+    "sellsPlaques": false,
+    "isWayfinding": true
   },
   {
     "id": 72,
@@ -1077,7 +1081,8 @@
     "phone": "",
     "address": "",
     "quality": 0,
-    "sellsPlaques": false
+    "sellsPlaques": false,
+    "isWayfinding": true
   },
   {
     "id": 73,
@@ -1092,7 +1097,8 @@
     "phone": "",
     "address": "",
     "quality": 0,
-    "sellsPlaques": false
+    "sellsPlaques": false,
+    "isWayfinding": true
   },
   {
     "id": 74,
@@ -1107,7 +1113,7 @@
     "phone": "",
     "address": "",
     "quality": 0,
-    "sellsPlaques": false
+    "sellsPlaques": false,
+    "isWayfinding": true
   }
 ]
-

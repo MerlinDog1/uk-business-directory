@@ -594,19 +594,10 @@ class BusinessDirectory {
     }
 
     isWayfindingConsultancy(business) {
+        if (business.isWayfinding === true) return true;
+
         const company = (business.company || '').toLowerCase();
         const website = (business.website || '').toLowerCase();
-
-        const knownWayfindingFirms = [
-            'triagonal',
-            'focusneo',
-            'metric design',
-            'avaava',
-            'modulex',
-            'sign consult'
-        ];
-
-        if (knownWayfindingFirms.some(name => company.includes(name))) return true;
 
         const wayfindingKeywords = ['wayfinding', 'sign system', 'placemaking', 'environmental graphics'];
         return wayfindingKeywords.some(k => company.includes(k) || website.includes(k));

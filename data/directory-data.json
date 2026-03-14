@@ -13467,7 +13467,8 @@
     "address": "London",
     "quality": 0,
     "sellsPlaques": false,
-    "id": 1602
+    "id": 1602,
+    "isWayfinding": true
   },
   {
     "county": "Greater London",
@@ -13482,7 +13483,8 @@
     "address": "London SE6 1XX",
     "quality": 0,
     "sellsPlaques": false,
-    "id": 1603
+    "id": 1603,
+    "isWayfinding": true
   },
   {
     "county": "Cambridgeshire",
@@ -13497,7 +13499,8 @@
     "address": "Cambridge CB3 0QA",
     "quality": 0,
     "sellsPlaques": false,
-    "id": 1604
+    "id": 1604,
+    "isWayfinding": true
   },
   {
     "county": "Greater London",
@@ -13512,7 +13515,8 @@
     "address": "London WC1R 4BH",
     "quality": 0,
     "sellsPlaques": false,
-    "id": 1605
+    "id": 1605,
+    "isWayfinding": true
   },
   {
     "county": "South Wales",
@@ -13527,7 +13531,8 @@
     "address": "Cardiff CF14 3BH",
     "quality": 0,
     "sellsPlaques": false,
-    "id": 1606
+    "id": 1606,
+    "isWayfinding": true
   },
   {
     "county": "Greater Manchester",
@@ -13542,7 +13547,8 @@
     "address": "Bolton BL2 5RX",
     "quality": 0,
     "sellsPlaques": false,
-    "id": 1607
+    "id": 1607,
+    "isWayfinding": true
   },
   {
     "county": "Surrey",
@@ -13557,7 +13563,8 @@
     "address": "Egham, Surrey TW20 8RB",
     "quality": 0,
     "sellsPlaques": false,
-    "id": 1608
+    "id": 1608,
+    "isWayfinding": true
   },
   {
     "county": "Shropshire",
@@ -13572,6 +13579,7 @@
     "address": "Shrewsbury, Shropshire SY3 8LN",
     "quality": 0,
     "sellsPlaques": false,
-    "id": 1609
+    "id": 1609,
+    "isWayfinding": true
   }
 ]
