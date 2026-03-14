@@ -84,6 +84,12 @@ class BusinessDirectory {
         if (hasEmail) {
             hasEmail.addEventListener('change', () => this.filter());
         }
+
+        // Wayfinding toggle
+        const wayfindingOnly = document.getElementById('wayfindingOnly');
+        if (wayfindingOnly) {
+            wayfindingOnly.addEventListener('change', () => this.filter());
+        }
         
         // Reset
         if (this.resetFiltersBtn) {
@@ -172,6 +178,7 @@ class BusinessDirectory {
         const county = this.countyFilter.value;
         const showPlaquesOnly = document.getElementById('plaquesOnly')?.checked || false;
         const hasEmailOnly = document.getElementById('hasEmail')?.checked || false;
+        const wayfindingOnly = document.getElementById('wayfindingOnly')?.checked || false;
         
         this.filteredBusinesses = this.businesses.filter(business => {
             // Search filter
@@ -195,8 +202,11 @@ class BusinessDirectory {
             
             // Has email filter
             const matchesEmail = !hasEmailOnly || (business.email && business.email.trim() !== '');
+
+            // Wayfinding consultancy filter
+            const matchesWayfinding = !wayfindingOnly || this.isWayfindingConsultancy(business);
             
-            return matchesSearch && matchesCategory && matchesCounty && matchesPlaque && matchesEmail;
+            return matchesSearch && matchesCategory && matchesCounty && matchesPlaque && matchesEmail && matchesWayfinding;
         });
         
         this.sort();
@@ -249,6 +259,8 @@ class BusinessDirectory {
         if (plaquesOnly) plaquesOnly.checked = false;
         const hasEmail = document.getElementById('hasEmail');
         if (hasEmail) hasEmail.checked = false;
+        const wayfindingOnly = document.getElementById('wayfindingOnly');
+        if (wayfindingOnly) wayfindingOnly.checked = false;
         this.clearCategories();
         this.deselectAll();
         this.filteredBusinesses = [...this.businesses];
@@ -489,6 +501,10 @@ class BusinessDirectory {
         
         const links = [];
         if (business.website) links.push(this.createLinkHTML(business.website, 'Website', 'globe'));
+
+        const wayfindingFlag = this.isWayfindingConsultancy(business)
+            ? '<span class="wayfinding-flag" title="Wayfinding consultancy">🧭 Wayfinding</span>'
+            : '';
         if (business.email) links.push(this.createLinkHTML(`mailto:${business.email}`, 'Email', 'mail'));
         if (business.linkedin) links.push(this.createLinkHTML(business.linkedin, 'LinkedIn', 'linkedin'));
         if (business.instagram) links.push(this.createLinkHTML(business.instagram, 'Instagram', 'instagram'));
@@ -504,6 +520,7 @@ class BusinessDirectory {
                     <div class="card-title-area">
                         <h3 class="card-title">${this.escapeHtml(business.company)}</h3>
                         <span class="card-category ${categoryClass}">${this.escapeHtml(business.category)}</span>
+                        ${wayfindingFlag}
                     </div>
                     ${business.sellsPlaques ? '<span title="Sells plaques" style="font-size:1rem;">🏅</span>' : ''}
                 </div>
@@ -523,6 +540,10 @@ class BusinessDirectory {
         
         const links = [];
         if (business.website) links.push(`<a href="${business.website}" target="_blank" class="card-link">🌐 Website</a>`);
+
+        const wayfindingFlag = this.isWayfindingConsultancy(business)
+            ? '<span class="wayfinding-flag" title="Wayfinding consultancy">🧭 Wayfinding</span>'
+            : '';
         if (business.email) links.push(`<a href="mailto:${business.email}" class="card-link">✉️ Email</a>`);
         if (business.linkedin) links.push(`<a href="${business.linkedin}" target="_blank" class="card-link">💼 LinkedIn</a>`);
         if (business.instagram) links.push(`<a href="${business.instagram}" target="_blank" class="card-link">📷 Instagram</a>`);
@@ -538,6 +559,7 @@ class BusinessDirectory {
                     <div class="list-item-header">
                         <h3 class="card-title">${this.escapeHtml(business.company)}</h3>
                         <span class="card-category ${categoryClass}">${this.escapeHtml(business.category)}</span>
+                        ${wayfindingFlag}
                         <span class="card-county">${this.escapeHtml(business.county)}</span>
                         ${business.sellsPlaques ? '<span title="Sells plaques" style="font-size:0.9rem;">🏅</span>' : ''}
                     </div>
@@ -569,6 +591,25 @@ class BusinessDirectory {
             'Trophies': 'category-trophies'
         };
         return map[category] || '';
+    }
+
+    isWayfindingConsultancy(business) {
+        const company = (business.company || '').toLowerCase();
+        const website = (business.website || '').toLowerCase();
+
+        const knownWayfindingFirms = [
+            'triagonal',
+            'focusneo',
+            'metric design',
+            'avaava',
+            'modulex',
+            'sign consult'
+        ];
+
+        if (knownWayfindingFirms.some(name => company.includes(name))) return true;
+
+        const wayfindingKeywords = ['wayfinding', 'sign system', 'placemaking', 'environmental graphics'];
+        return wayfindingKeywords.some(k => company.includes(k) || website.includes(k));
     }
     
     escapeHtml(text) {
