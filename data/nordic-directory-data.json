@@ -1048,6 +1048,66 @@
     "address": "",
     "quality": 0,
     "sellsPlaques": true
+  },
+  {
+    "id": 71,
+    "county": "Denmark",
+    "category": "Signage",
+    "company": "Triagonal",
+    "website": "https://triagonal.info/",
+    "email": "",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "phone": "",
+    "address": "",
+    "quality": 0,
+    "sellsPlaques": false
+  },
+  {
+    "id": 72,
+    "county": "Sweden",
+    "category": "Signage",
+    "company": "FocusNeo",
+    "website": "https://www.focusneo.eu/",
+    "email": "",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "phone": "",
+    "address": "",
+    "quality": 0,
+    "sellsPlaques": false
+  },
+  {
+    "id": 73,
+    "county": "Norway",
+    "category": "Signage",
+    "company": "Metric Design",
+    "website": "https://www.metricdesign.no/",
+    "email": "",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "phone": "",
+    "address": "",
+    "quality": 0,
+    "sellsPlaques": false
+  },
+  {
+    "id": 74,
+    "county": "Finland",
+    "category": "Signage",
+    "company": "Avaava Oy",
+    "website": "https://avaava.fi/",
+    "email": "",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "phone": "",
+    "address": "",
+    "quality": 0,
+    "sellsPlaques": false
   }
 ]
 
