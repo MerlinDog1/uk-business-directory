@@ -1,0 +1,53 @@
+[
+  {
+    "county": "Scotland",
+    "category": "Signage",
+    "company": "EVM (Effective Visual Marketing)",
+    "website": "https://www.evm.co.uk/",
+    "email": "sales@evm.co.uk",
+    "linkedin": "https://www.linkedin.com/company/evm-limited/",
+    "instagram": "https://www.instagram.com/evmlimited/",
+    "facebook": "https://www.facebook.com/EVMLimited",
+    "phone": "0141 638 0255",
+    "address": "Block 8, Units 5-6, 3 Spiersbridge Terrace, Glasgow, G46 8JH",
+    "quality": 0,
+    "sellsPlaques": false,
+    "_sourceFile": "scotland_sign_companies.csv",
+    "_evidence": "Scotland pass: verified email-domain website https://www.evm.co.uk/ resolved and contained signage/wayfinding wording.",
+    "id": 1936
+  },
+  {
+    "county": "Scotland",
+    "category": "Signage",
+    "company": "MSD (Wayfinding)",
+    "website": "https://www.wearemsd.com/",
+    "email": "info@wearemsd.com",
+    "linkedin": "East Kilbride",
+    "instagram": "G75 0TD",
+    "facebook": null,
+    "phone": "01355 243021",
+    "address": "2 Young Place",
+    "quality": 0,
+    "sellsPlaques": false,
+    "_sourceFile": "scotland_sign_companies.csv",
+    "_evidence": "Scotland pass: verified email-domain website https://www.wearemsd.com/ resolved and contained signage/wayfinding wording.",
+    "id": 1937
+  },
+  {
+    "county": "Scotland",
+    "category": "Signage",
+    "company": "Sign Designs Aberdeen Ltd",
+    "website": "https://sdalimited.co.uk/",
+    "email": "info@sdalimited.co.uk",
+    "linkedin": "Aberdeen",
+    "instagram": "AB24 3ER",
+    "facebook": null,
+    "phone": "01224 641153",
+    "address": "13 Canal Road",
+    "quality": 0,
+    "sellsPlaques": false,
+    "_sourceFile": "scotland_sign_companies.csv",
+    "_evidence": "Scotland pass: verified email-domain website https://sdalimited.co.uk/ resolved and contained signage-related wording.",
+    "id": 1938
+  }
+]

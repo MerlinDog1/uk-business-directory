@@ -1,0 +1,351 @@
+# UK Sign Region Sweep Verified Buildout - 2026-06-12
+
+## Summary
+- Scanned regional rows with plausible company-matching email domains.
+- Added 278 verified regional sign-company entries after post-merge pruning.
+- Rejected 219 rows where the email-domain site did not resolve or lacked signage wording.
+- No websites or emails were guessed; websites are verified email-domain sites.
+- Removed 5 initially accepted rows after host review because their email-domain checks landed on Facebook, a holding/backorder page, or a generic non-signage-looking site.
+
+## Post-Merge Prune
+- D-Signs - email-domain check landed on Facebook.
+- Absolute Signs - email-domain check landed on Facebook.
+- Wisdom Signs - email-domain check landed on HugeDomains.
+- Dragon Graphics Ltd - email-domain check landed on a backorder page.
+- Black Box - email-domain check landed on a generic non-signage-looking global site.
+
+## By Source
+- east_anglia_sign_companies.csv: 28
+- midlands_sign_companies.csv: 34
+- north_west_sign_companies.csv: 24
+- scotland_sign_companies.csv: 37
+- south_east_sign_companies.csv: 46
+- south_west_sign_companies.csv: 47
+- wales_sign_companies.csv: 48
+- yorkshire_north_east_sign_companies.csv: 14
+
+## By County
+- Bristol: 11
+- Cambridgeshire: 3
+- Cheshire: 1
+- Cornwall: 3
+- County Durham: 1
+- Cumbria: 1
+- Derbyshire: 2
+- Devon: 9
+- Dorset: 4
+- East Riding of Yorkshire: 2
+- Essex: 9
+- Gloucestershire: 5
+- Greater London: 1
+- Greater Manchester: 12
+- Hampshire: 9
+- Kent: 18
+- Lancashire: 1
+- Leicestershire: 3
+- Lincolnshire: 1
+- Merseyside: 9
+- Norfolk: 9
+- North Yorkshire: 3
+- Northamptonshire: 1
+- Nottinghamshire: 2
+- Scotland: 37
+- Somerset: 9
+- South Yorkshire: 1
+- Staffordshire: 5
+- Suffolk: 7
+- Surrey: 9
+- Sussex: 9
+- Tyne and Wear: 1
+- Wales: 48
+- Warwickshire: 2
+- West Midlands: 16
+- West Yorkshire: 6
+- Wiltshire: 6
+- Worcestershire: 2
+
+## Added Companies
+- Create Signs Ltd (Cambridgeshire) - sales@createsigns.co.uk | 01223 425124 | https://createsigns.co.uk
+- Sign Materials Direct (Cambridgeshire) - info@signmaterialsdirect.com | 01767 318653 | http://signmaterialsdirect.com
+- The Sign Post (UK) Ltd (Cambridgeshire) - info@thesignpost.co.uk | 07889 263071 | https://thesignpost.co.uk
+- Essex Banners (Essex) - info@essexbanners.com | 01708 200166 | https://essexbanners.com
+- Essex Sign & Print (Essex) - info@essexsignandprint.co.uk | 01277 563102 | https://www.essexsignandprint.co.uk/
+- FASTSIGNS Chelmsford (Essex) - chelmsford@fastsigns.com | 01245 350450 | https://www.fastsigns.com/
+- Premier Signs (Essex) - info@premiersigns.co.uk | 01206 845515 | https://www.brandwise.co.uk/premiersigns_co_uk.html
+- S6 Customs Limited (Essex) - info@s6customs.co.uk | 07897 625720 | https://www.s6customs.co.uk/
+- Sign Style Essex (Essex) - info@signstyleessex.co.uk | 01268 710174 | https://signstyleessex.co.uk
+- Signexcel Ltd (Essex) - info@signexcel.co.uk | 01708 747072 | https://www.signexcel.co.uk/
+- Signscape (Essex) - info@signscape.co.uk | 01277 366266 | https://sasl.co.uk/
+- Signtec (Essex) - info@signtec.co.uk | 01245 392022 | https://signtec.co.uk
+- Anglia Sign Casting (Norfolk) - info@angliasigncasting.co.uk | 01603 897111 | https://www.angliasigncasting.co.uk/
+- Displaypro (Norfolk) - info@displaypro.co.uk | 01603 928000 | https://displaypro.co.uk
+- Norwich Signs and Graphics (Norfolk) - info@norwichsignsandgraphics.co.uk | 07777 712201 | https://www.norwichsignsandgraphics.co.uk/
+- Signforce Ltd (Norfolk) - sales@signforce.co.uk | 01603 411573 | https://signforce.co.uk
+- Signs Plus (EA) Ltd (Norfolk) - sales@signsplus.co.uk | 01603 904855 | https://signsplus.co.uk
+- Signworx (The Signworx) (Norfolk) - info@thesignworx.com | 01553 782594 | https://thesignworx.com
+- Soanes Signs (Norfolk) - info@soanessigns.com | 01603 754544 | https://soanessigns.com
+- Solar Signs & Graphics Limited (Norfolk) - info@solarsigns.co.uk | 01603 484648 | https://solarsigns.co.uk
+- Wensum Print (Norfolk) - info@wensumprint.co.uk | 01603 219594 | https://www.wensumprint.co.uk/
+- Concept Signs (essex) (Suffolk) - info@conceptsignsltd.co.uk | 01787 827490 | http://www.conceptsignsltd.co.uk/
+- Esto Signs (Suffolk) - info@estosigns.com | 01473 809328 | https://www.estosigns.com/
+- Extreme Signs & Designs Ltd (Suffolk) - info@extremegraphics.co.uk | 01473 811874 | https://www.extremegraphics.co.uk/
+- G Signs & Design Ltd (Suffolk) - info@gsignsanddesign.co.uk | 01284 752913 | https://www.gsignsanddesign.co.uk/
+- Hudson Group Ltd (Suffolk) - info@hudsongroupltd.co.uk | 01449 723346 | https://www.hudsongroupltd.co.uk/
+- L & M Signs (Suffolk) - info@lmsigns.co.uk | 01842 821990 | http://lmsigns.co.uk
+- LABELCRAFT SIGNS LIMITED (Suffolk) - info@labelcraftsignsltd.co.uk | 01394 285354 | https://labelcraftsignsltd.co.uk
+- Evolution Signs & Graphics (Derbyshire) - info@evolution-signsandgraphics.co.uk | 01246 277 757 | https://www.evolution-signsandgraphics.co.uk/
+- Lemon Signs Ltd (Derbyshire) - info@lemonsigns.com | 01332 202 222 | http://www.lemonsigns.com/
+- Direct Signs (Leicestershire) - info@directsigns.co.uk | 01455 233 444 | https://directsigns.co.uk
+- Sign Here (Leicestershire) - sales@sign-here.co.uk | 0116 253 0446 | https://www.sign-here.co.uk/
+- SignFab (UK) Ltd (Leicestershire) - sales@signfab.co.uk | 0116 261 0104 | https://signfab.co.uk
+- Allen Signs (Lincolnshire) - enquiries@allen-signs.co.uk | 01522 501 500 | https://allen-signs.co.uk
+- Corby Graphix (Northamptonshire) - info@corbygraphix.co.uk | 01536 202 202 | https://corbygraphix.co.uk
+- John E Wright (Nottinghamshire) - sales@johnewright.com | 0115 950 6633 | https://www.johnewright.com/
+- Morgwell Signs (Nottinghamshire) - sales@morgwellsigns.co.uk | 0115 972 9722 | https://www.morgwellsigns.co.uk/
+- Autographic Designs (Staffordshire) - info@autographicdesigns.co.uk | 01543 411 114 | https://www.autographicdesigns.co.uk/
+- Embello (Staffordshire) - sales@embello.co.uk | 01827 282 282 | https://www.embello.co.uk
+- Hardy Signs Ltd (Staffordshire) - sales@hardysigns.co.uk | 01283 569 102 | https://hardysigns.co.uk
+- Mason Architectural Hardware Ltd (Staffordshire) - sales@masonhardwareuk.co.uk | 01889 577 777 | https://masonhardwareuk.co.uk
+- Plan it Signs (Staffordshire) - info@planitsigns.co.uk | 01782 566 222 | https://www.planitsigns.co.uk
+- Design Penguin (Warwickshire) - hello@designpenguin.co.uk | 01789 262 262 | https://www.designpenguin.co.uk/
+- Fusion Wraps Ltd (Warwickshire) - info@fusionwrapsltd.co.uk | 024 7637 7777 | https://www.fusionwrapsltd.co.uk/
+- A.D. Design (West Midlands) - info@addesign.co.uk | 0121 358 1111 | https://addesign.co.uk
+- Artworks Solutions Ltd (West Midlands) - info@artworks-solutions.com | 0121 359 0555 | https://www.artworks-solutions.com/
+- Beta Signs Ltd (West Midlands) - sales@betasigns.co.uk | 0121 501 1000 | https://betasigns.co.uk
+- C J Graphics & Vinyl (West Midlands) - info@cjgraphics.co.uk | 0121 553 3333 | http://cjgraphics.co.uk
+- Cobal Sign Systems Midlands (West Midlands) - midlands@cobal.co.uk | 0121 247 1111 | https://cobal.co.uk
+- Coventry Signs (West Midlands) - sales@coventry-signs.co.uk | 024 7642 1155 | https://www.coventry-signs.co.uk/
+- Fire Route Safety Midlands (West Midlands) - midlands@fireroutesafety.co.uk | 020 7253 9010 | https://www.fireroutesafety.co.uk/
+- Graphic Signs Coventry (West Midlands) - info@graphic-signs.co.uk | 024 7667 4444 | https://graphic-signs.co.uk
+- Integrated Designs Birmingham (West Midlands) - bham@integratedesigns.co.uk | 0121 358 2233 | https://www.integratedesigns.co.uk/
+- Lavastar Signs Midlands (West Midlands) - midlands@lavastar.co.uk | 0121 550 5151 | https://www.lavastar.co.uk/
+- Modulex Midlands (West Midlands) - midlands@modulex.com | 0121 314 3210 | https://modulex.com
+- Mödel Signage Ltd (West Midlands) - info@modelsignage.co.uk | 08000 24 24 81 | https://www.modelsignage.co.uk/
+- Sign Park Ltd (West Midlands) - info@signpark.co.uk | 0121 517 0844 | https://signpark.co.uk
+- Signed Ltd (West Midlands) - info@signedltd.co.uk | 0121 448 0048 | https://www.signedltd.co.uk/
+- Sure Signs (West Midlands) - sales@suresigns.co.uk | 01384 292 200 | https://www.suresigns.co.uk/
+- The Sign Company (West Midlands) - info@thesigncompany.co.uk | 0121 247 1882 | http://thesigncompany.co.uk
+- Image Technique (Worcestershire) - info@imagetechnique.co.uk | 01527 578 822 | https://www.imagetechnique.co.uk/
+- Signtech (Midlands) Ltd (Worcestershire) - sales@signtech.co.uk | 01299 827 751 | https://signtech.co.uk
+- Widnes Signs (Cheshire) - info@widnessigns.co.uk | 0151 444555 | http://widnessigns.co.uk
+- Raven Graphics (Cumbria) - info@raven-graphics.co.uk | 015396 23463 | http://raven-graphics.co.uk
+- Ainsley Signs (Greater Manchester) - info@signsmanchester.com | 0161 653 3550 | https://signsmanchester.com
+- Brock Signs & Graphics Ltd (Greater Manchester) - info@brocksigns.co.uk | 0161 872 7212 | https://brocksigns.co.uk
+- Budget Print & Sign (Greater Manchester) - info@budgetprintstockport.co.uk | 0161 483 3333 | https://budgetprintandsign.co.uk/
+- DP Signprint (Greater Manchester) - info@dpsignprint.co.uk | 0161 877 7777 | https://www.dpsignprint.co.uk/
+- Design It: Sign & Print (Greater Manchester) - info@designitsigns.co.uk | 0161 682 2222 | https://www.designitsigns.co.uk/
+- Impression (Bolton) Ltd (Greater Manchester) - info@impressionltd.co.uk | 01204 382322 | https://www.impressionltd.co.uk/
+- Michael Doyle Signs (Greater Manchester) - info@signwritersmanchester.co.uk | 0161 682 7250 | https://www.signwritersmanchester.co.uk/
+- Name & No (Greater Manchester) - info@nameandno.com | 0161 236 3311 | https://nameandno.com
+- Signtech (Greater Manchester) - info@sign-tech.co.uk | 01204 382322 | https://sign-tech.co.uk
+- Stretford Studios Ltd (Greater Manchester) - info@stretfordstudios.co.uk | 0161 865 5555 | https://stretfordstudios.co.uk
+- Subak Signs (Greater Manchester) - info@subaksigns.co.uk | 0161 832 1111 | https://www.subaksigns.co.uk/
+- Trafford Signs (Greater Manchester) - info@traffordsigns.co.uk | 0161 872 0000 | https://traffordsigns.co.uk
+- Fylde Signs (Lancashire) - info@fyldesigns.co.uk | 01253 555666 | http://fyldesigns.co.uk
+- Chris Benson Signs Ltd (Merseyside) - info@chrisbensonsigns.co.uk | 0151 236 4444 | https://bensonsigns.com/
+- Cowen Signs (Merseyside) - info@cowensigns.com | 0151 647 3333 | https://www.cowensigns.com/
+- Lever Signs & Designs (Merseyside) - info@leversigns.com | 0151 236 2222 | http://leversigns.com
+- Liverpool Signs & Neon Ltd (Merseyside) - info@liverpoolsigns.co.uk | 0151 207 2222 | https://www.liverpoolsigns.co.uk/
+- Quick Signs (Merseyside) - info@quicksignsuk.com | 0151 933 1111 | https://www.quicksignsuk.com/
+- Sign Centre (Merseyside) - info@signcentreuk.co.uk | 0151 298 1111 | https://signcentreuk.co.uk
+- Signs 2 Go (Merseyside) - info@signs2go.co.uk | 0151 647 1111 | https://www.signs2go.co.uk/
+- Signs 3000 Ltd (Merseyside) - info@signs3000.co.uk | 0151 236 3000 | https://www.signs3000.co.uk/
+- The Sign Shop (Merseyside) - info@thesignshopliverpool.com | 0151 922 1111 | https://thesignshopliverpool.com
+- 4c Design (Scotland) - info@4cdesign.co.uk | 0141 353 5490 | https://www.4cdesign.co.uk/
+- Advanced Signs Systems Ltd (Scotland) - info@advancedsigns.co.uk | 01896 754000 | https://advancedsigns.co.uk
+- Arken Creative (Scotland) - hello@arkencreative.co.uk | 01786 447700 | https://www.arkencreative.co.uk/
+- DAS Signs Ltd (Scotland) - info@dassigns.co.uk | 01738 622223 | https://dassigns.co.uk
+- DH Design & Print (Scotland) - info@dhdesignandprint.co.uk | 01450 373333 | https://dhdesignandprint.co.uk
+- DSP | Design Sign Print (Scotland) - info@designsignprint.uk | 01786 445566 | https://www.designsignprint.uk/
+- Double Image (Scotland) - info@doubleimage.co.uk | 0141 952 0000 | https://doubleimage.co.uk
+- Duncan Signs (Scotland) - info@duncansigns.co.uk | 01382 833333 | https://duncansigns.co.uk
+- Firefly Design Agency (Scotland) - info@firefly-design.co.uk | 0131 225 3333 | https://firefly-design.co.uk
+- Four-by-Two (Scotland) - info@four-by-two.com | 0131 220 5422 | https://www.four-by-two.com/
+- Fraser Signs (Scotland) - info@frasersigns.co.uk | 01463 234111 | https://frasersigns.co.uk
+- Hi-Lite Signs (Scotland) - info@hi-litesigns.com | 01224 876400 | https://www.hi-litesigns.com/
+- Icon Signs Dundee (Scotland) - info@iconsignsdundee.co.uk | 01382 825121 | http://iconsignsdundee.co.uk
+- Invision Sign and Print (Scotland) - info@invisionsigns.co.uk | 01896 754040 | https://invisionsigns.co.uk
+- Ironside Farrar Ltd (Scotland) - mail@ironsidefarrar.com | 0131 550 6500 | https://ironsidefarrar.com
+- James Bros (Scotland) - info@jamesbros.co.uk | 0141 429 0292 | https://jamesbrosglasgow.co.uk/
+- Jammiro Sign Specialists (Scotland) - info@jammiro.com | 01224 212345 | https://jammiro.com
+- Mackinnon Slater (Scotland) - info@mackinnonslater.co.uk | 0131 556 9633 | https://www.mackinnonslater.co.uk/
+- Matic Media Services Ltd (Scotland) - sales@maticmedia.co.uk | 01698 711100 | https://maticmedia.co.uk
+- McBride Signs (Scotland) - info@mcbridesigns.co.uk | 01463 232121 | https://www.mcbridesigns.co.uk/
+- Mima Group (Scotland) - info@mimagroup.com | 0141 332 3332 | https://mimagroup.com
+- Mixit Signs & Visual (Scotland) - info@mixitsigns.co.uk | 01573 223333 | https://www.mixit-signs.co.uk/
+- Norsign Group (Scotland) - hello@norsign.co.uk | 01698 713399 | https://www.norsign.co.uk/
+- One Design Aberdeen (Scotland) - info@onedesignaberdeen.co.uk | 01224 586666 | https://www.onedesignaberdeen.co.uk/
+- Scotland's Bravest Manufacturing Company (Scotland) - info@scotlandsbravest.org.uk | 0141 814 4560 | https://scotlandsbravest.org.uk
+- Sign-it (Scotland) - info@sign-it.co.uk | 01750 22111 | https://www.sign-it.co.uk/
+- Significant Others (Scotland) - hello@significantothers.co.uk | 0131 554 2222 | https://significantothers.co.uk
+- Signs & Designs (Scotland) - info@signs-and-designs.co.uk | 01259 212223 | https://signs-and-designs.co.uk
+- Signs Express Aberdeen (Scotland) - aberdeen@signsexpress.co.uk | 01224 722254 | https://www.signsexpress.co.uk/
+- Solas Neon Sign Co. (Scotland) - hello@solassigns.co.uk | 0131 210 0230 | https://www.solassigns.co.uk/
+- Spaced-Out Grafix (Scotland) - info@spacedoutgrafix.com | 01324 666666 | https://www.spacedoutgrafix.com/
+- Specialized Signs (Scotland) - info@specializedsigns.co.uk | 0131 337 3355 | https://www.specializedsigns.co.uk/
+- Tangent (Scotland) - hello@tangentgraphic.co.uk | 0141 222 2040 | https://tangentgraphic.co.uk
+- The Sign Centre (Scotland) - info@signcentreinverness.co.uk | 01463 234551 | https://signcentreinverness.co.uk
+- Warriors Studio (Scotland) - hello@warriorsstudio.com | 07826 854206 | https://warriorsstudio.com
+- Wilson Signs (Scotland) - info@wilsonsigns.net | 01450 363835 | https://wilsonsigns.net
+- cca-signs (Scotland) - info@cca-signs.co.uk | 01721 723456 | https://www.cca-signs.co.uk/
+- Signtec Direct (Greater London) - info@signtecdirect.com | 020 3479 6036 | https://www.signtecdirect.com
+- Allspeed Signs & Graphics (Hampshire) - info@allspeedsigns.co.uk | 023 9255 3000 | https://www.allspeedsigns.co.uk/
+- Andean Signs (Hampshire) - sales@andeansigns.co.uk | 01489 577000 | https://www.andeansigns.co.uk/
+- M A C Signs UK Ltd (Hampshire) - sales@mac-signs.co.uk | 023 8063 3000 | https://mac-signs.co.uk
+- Magic Signs (Hampshire) - info@magicsigns.co.uk | 01252 333000 | https://www.magicsigns.co.uk/
+- Mint Signs & Graphics Ltd (Hampshire) - info@mintsigns.co.uk | 01962 711000 | https://mintsigns.co.uk
+- Re-Design UK Ltd (Hampshire) - info@re-design.co.uk | 01264 333000 | http://www.re-design.co.uk/
+- Top Notch Signs & Graphics Ltd (Hampshire) - sales@topnotchsigns.co.uk | 023 9255 1000 | https://www.topnotchsigns.co.uk/
+- Vision Signs (Hampshire) - sales@visionsigns.com | 023 9266 4444 | https://visionsigns.com
+- Zillwoods Signmasters (Hampshire) - info@zillwoods.co.uk | 023 8077 4444 | https://www.zillwoods.co.uk/
+- 3D Signs (Kent) - sales@3d-signs.co.uk | 01843 588111 | https://www.3d-signs.co.uk/
+- Anchor Sign Makers (Kent) - info@anchor-signmakers.co.uk | 01634 813073 | https://www.anchor-signmakers.co.uk/
+- Avenue Signs (Kent) - sales@avenuesigns.co.uk | 01634 841300 | https://www.avenuesigns.co.uk
+- Fruity Media Ltd (Kent) - info@fruitymedia.co.uk | 01732 368436 | https://fruitymedia.co.uk
+- Full FX Signs & Graphics (Kent) - info@fullfxsigns.co.uk | 07428 764641 | http://fullfxsigns.co.uk
+- Henwood Signs (Kent) - sales@henwoodsigns.co.uk | 01233 662992 | https://henwoodsigns.co.uk
+- Imageworx Group (Kent) - info@imageworxsigns.co.uk | 020 7870 5352 | https://www.imageworxsigns.co.uk
+- Legend Signs Ltd (Kent) - sales@legendsigns.co.uk | 01303 762280 | https://www.legendsigns.com/
+- Maidstone Signs Ltd (Kent) - sales@maidstonesigns.co.uk | 01622 716891 | https://www.maidstonesigns.co.uk/
+- Peach Design (Kent) - info@peachdesign.co.uk | 020 8663 3686 | https://www.peachdesign.co.uk/
+- Prime Signs UK Ltd (Kent) - enquiries@primesignsltd.co.uk | 0800 066 5085 | http://www.primesignsltd.co.uk
+- R & M Sign Makers (Kent) - sales@rmsigns.co.uk | 01474 568358 | http://rmsigns.co.uk
+- SignGen Ltd (Kent) - info@signgen.co.uk | 0808 304 7803 | https://www.signgen.co.uk/
+- Signpost Signs Ltd (Kent) - info@signpostsigns.co.uk | 020 8309 5556 | https://www.signpostsigns.co.uk/
+- Signs To Print Ltd (Kent) - info@signs2print.co.uk | 01689 827157 | https://www.signageandmedia.co.uk/
+- Steve Bronson Sign Writer (Kent) - steve@bronsonsigns.co.uk | 01732 358667 | https://bronsonsigns.co.uk
+- The Bespoke Sign House (Kent) - hello@thebespokesignhouse.com | 07395 081973 | https://thebespokesignhouse.com
+- Zyrer Sign (Kent) - info@zyrer.co.uk | 01474 550607 | https://zyrer.co.uk
+- A J Signs Ltd (Surrey) - sales@ajsigns.co.uk | 01483 300500 | https://www.ajsigns.co.uk/
+- Aristo Signs (Surrey) - sales@aristosigns.co.uk | 01342 832992 | https://www.aristosigns.co.uk/
+- Carousel Lights (Surrey) - info@carousellights.com | 07944 654349 | http://www.carousellights.com/
+- Darling Signs Ltd (Surrey) - andy.hone@darlingsigns.co.uk | 020 8898 5555 | https://www.darlingsigns.co.uk/
+- Design of Walton Ltd (Surrey) - info@designofwalton.co.uk | 01932 240376 | https://www.designofwalton.co.uk/
+- Epic Signs (Surrey) - info@epic-signs.co.uk | 07393 867782 | https://epic-signs.co.uk
+- Metamark (Surrey) - sales@metamark.co.uk | 01483 571111 | https://metamark.co.uk
+- Print Copy Sign Ltd (Surrey) - info@printcopysign.co.uk | 020 8640 9527 | https://www.printcopysign.co.uk/
+- See Signs Ltd (Surrey) - info@seesigns.co.uk | 07938 670671 | http://seesigns.co.uk
+- Capricorn Signs (Sussex) - sales@capricornsigns.co.uk | 01273 411444 | https://capricornsigns.co.uk
+- Equinox Designs (Sussex) - info@equinox-designs.co.uk | 01323 840612 | https://equinox-designs.co.uk
+- Hallmark Engraving & Signs Ltd (Sussex) - sales@hallmarksigns.co.uk | 01825 766512 | https://www.hallmarksigns.co.uk/
+- Mood Signs Ltd (Sussex) - info@moodsigns.co.uk | 01892 665335 | https://moodsigns.co.uk
+- Rocket Signs & Designs Ltd (Sussex) - sales@rocketsigns.co.uk | 01273 671000 | https://www.rocketsigns.co.uk/
+- Scotts Signs & Posters (Sussex) - sales@scotts-signs.co.uk | 01403 255255 | http://www.scottssignsandposters.co.uk/
+- South East Signage (Sussex) - info@southeastsignage.com | 01903 214000 | https://southeastsignage.com
+- The Sign Company (e G) Ltd (Sussex) - info@thesigncompany.org.uk | 01342 321000 | https://thesigncompany.org.uk
+- Worthing Sign Co (Sussex) - info@worthingsignco.com | 01903 241400 | http://sussexsignco.com/
+- Avonmouth Signs Ltd (Bristol) - info@avonmouthsigns.com | 0117 982 6666 | https://www.avonmouthsigns.com/
+- Capitol Signs (Bristol) - info@capitolsignsbristol.co.uk | 0117 951 6666 | https://capitolsignsbristol.co.uk
+- Catersigns Ltd (Bristol) - sales@catersigns.co.uk | 0117 333 6666 | https://www.catersigns.co.uk/
+- Create Signs (Bristol) - info@create-signs.co.uk | 01275 333456 | https://create-signs.co.uk
+- Fireworm (Bristol) - info@firewormsigns.co.uk | 0117 931 6677 | http://firewormsigns.co.uk
+- Fusion Graphics Ltd (Bristol) - info@fusiongraphicsltd.com | 0117 967 6666 | https://fusiongraphicsltd.com
+- Hello Blue Ltd (Bristol) - studio@helloblue.co.uk | 0117 922 6666 | https://helloblue.co.uk
+- Natural Signs (Bristol) - info@naturalsigns.co.uk | 01454 411666 | https://www.naturalsigns.co.uk/
+- Polysigns (Bristol) - info@polysigns.co.uk | 0117 942 6666 | https://polysigns.co.uk
+- Rockwell Signs (Bristol) - info@rockwellsigns.co.uk | 0117 955 5291 | https://rockwellsigns.co.uk
+- Voodoo Design (Bristol) - info@voodoodesign.com | 0117 935 3705 | https://voodoodesign.com
+- Harlequin Design (Cornwall) - info@harlequin-design.com | 01326 555666 | https://harlequin-design.com
+- Multesign Systems UK Ltd (Cornwall) - info@multesigns.co.uk | 01736 755666 | https://multesigns.co.uk
+- Signs of Good Taste (Cornwall) - info@signsofgoodtaste.com | 01326 250666 | http://www.signsofgoodtaste.co.uk/
+- Apollo Signs (Devon) - info@apollosigns.co.uk | 01803 555333 | https://www.apollosigns.co.uk/
+- Atlas Graphics South West Ltd (Devon) - sales@atlasgraphics.co.uk | 01752 260303 | https://www.atlasgraphics.co.uk/
+- Creative Solutions (Devon) - sales@creativesolutions.co.uk | 01297 630130 | https://www.creative-solutions-direct.co.uk/
+- D X Signs Ltd (Devon) - info@dxsigns.co.uk | 01271 322666 | https://dxsigns.co.uk
+- DW Signs Ltd (Devon) - info@dwsigns.co.uk | 01752 899444 | https://dwsigns.co.uk
+- Seymour Signs (Devon) - info@seymoursigns.co.uk | 01752 666333 | https://www.seymoursigns.co.uk/
+- Signs 4 U (Devon) - sales@signs4uplymouth.co.uk | 01752 662000 | https://www.signs4uplymouth.co.uk/
+- Stalite Signs Ltd (Devon) - info@stalite.co.uk | 01392 444111 | https://www.stalite.co.uk/
+- The Signmaker Net (Devon) - sales@sign-maker.net | 01769 561355 | https://www.sign-maker.net/
+- Clear Signs & Graphics (Dorset) - info@clearsignsandgraphics.co.uk | 01202 822666 | https://clearsignsandgraphics.co.uk
+- Indy Signs (Dorset) - info@indysigns.co.uk | 01202 672666 | https://www.indysigns.co.uk/
+- Jones Sign Co (Dorset) - info@jonessignco.com | 01202 511666 | https://www.jonessignco.com/
+- Lasting Impressions Signs Ltd (Dorset) - info@lastingimpressionsonline.co.uk | 01308 422666 | https://www.lastingimpressionsonline.co.uk/
+- 20 20 Signs (Gloucestershire) - info@2020signsltd.co.uk | 01452 711666 | https://www.2020signsltd.co.uk
+- C R Signs (Gloucestershire) - info@cr-signs.co.uk | 01453 755666 | https://www.cr-signs.co.uk/
+- Hanman S.P.L.I.T Ltd (Gloucestershire) - sales@hanmansplit.co.uk | 01452 722666 | https://www.hanman-split.co.uk/
+- Stroud Sign Centre (Gloucestershire) - info@stroudsigns.co.uk | 01453 766666 | https://www.stroudsigns.co.uk/
+- Vital Signs (Gloucestershire) - info@vitalsigns.co.uk | 01453 822666 | https://www.vitalsigns.co.uk/
+- Active Signs (Somerset) - info@activesignsminehead.co.uk | 01643 700666 | https://www.activesignsminehead.co.uk/
+- Freestyle Designs (Somerset) - info@freestyledesigns.co.uk | 01225 445666 | https://freestyledesigns.co.uk
+- Frenzy Designs (Somerset) - info@frenzydesigns.co.uk | 01761 477666 | https://frenzydesigns.co.uk
+- Mendip Signs (Somerset) - info@mendipsigns.co.uk | 01749 888666 | http://mendipsigns.co.uk
+- Naked Signs Ltd (Somerset) - info@nakedsigns.co.uk | 01934 733555 | https://www.nakedsigns.co.uk/
+- P J Signs (Somerset) - info@pjsigns.co.uk | 01823 333666 | https://pjsigns.co.uk
+- Parsigns (Somerset) - info@parsigns.co.uk | 01458 277666 | https://parsigns.co.uk
+- Quicksign (Somerset) - info@quick-sign.co.uk | 01278 788666 | https://quick-sign.co.uk
+- Vale Signs & Print (Somerset) - info@valesignsandprint.co.uk | 01963 355666 | https://valesignsandprint.co.uk
+- Aspire Signs & Graphics Ltd (Wiltshire) - info@aspiresigns.com | 01793 433666 | https://aspiresigns.com
+- Barefoot Signs Ltd (Wiltshire) - info@barefootsigns.co.uk | 01380 733666 | https://www.barefootsigns.com/
+- Kennet Sign & Display (Wiltshire) - info@kennetsignanddisplay.co.uk | 01380 722666 | https://www.kennetsignanddisplay.co.uk/
+- Mirage Signs (Wiltshire) - info@miragesigns.co.uk | 01985 211666 | https://www.miragesigns.co.uk
+- One Vision Signs Ltd (Wiltshire) - info@onevisionsigns.co.uk | 01793 611444 | https://onevisionsigns.co.uk
+- abc Signs & Designs (Wiltshire) - sales@abcsignsanddesigns.co.uk | 01793 611666 | https://www.abcsignsanddesigns.co.uk/
+- A P H Signs (Wales) - info@aphsigns.co.uk | 01978 854444 | https://www.aphsigns.co.uk/
+- A S A P Signs (Wales) - info@asap-signs.co.uk | 01978 351111 | https://www.asap-signs.co.uk/
+- A Sign 4 U Ltd (Wales) - info@signfactory.co.uk | 029 2088 1111 | https://www.asign4u.info/
+- Action Graffix (Wales) - info@action-graffix.co.uk | 01239 852222 | https://action-graffix.co.uk
+- Art Graphics Signs (Wales) - info@art-graphics.co.uk | 01244 831111 | https://art-graphics.co.uk
+- Autotop Ltd (Wales) - info@autotop.co.uk | 01492 871111 | https://autotop.co.uk
+- Chillipepper Signs (Wales) - info@chillipepper-signs.co.uk | 01600 711111 | https://chillipepper-signs.co.uk
+- Colourfast Graphics (Wales) - info@colourfastgraphics.co.uk | 01646 681111 | https://colourfastgraphics.co.uk
+- Conwy Signs (Wales) - info@conwysigns.co.uk | 01492 870000 | https://www.conwysigns.co.uk/
+- Creative Signs Wales UK (Wales) - info@creativesignswales.co.uk | 01685 383333 | http://creativesignswales.co.uk
+- D'Sign Studio (Wales) - info@d-signstudio.com | 01646 690000 | https://d-signstudio.com
+- Decor Signs (Wales) - info@decorsigns.co.uk | 01633 483333 | https://www.decorsigns.co.uk/
+- Designer Signs North Wales Ltd (Wales) - info@designersignsnorthwales.com | 01286 882222 | https://www.designersignsnorthwales.com/
+- Designs 4 Signs (Wales) - info@designs4signs.com | 01352 751111 | http://designs4signs.com
+- Elite Signs & Graphics Ltd (Wales) - info@elitesigns.biz | 01656 721111 | https://elitesigns.biz
+- Emerge Sign & Print (Wales) - info@emergesp.com | 029 2066 1111 | https://emergesp.com
+- Excel Signs Ltd (Wales) - info@excelsignsltd.co.uk | 01978 661111 | https://www.excelsignsltd.co.uk/
+- Glam Signs (Wales) - info@glamsigns.co.uk | 01639 636300 | https://glamorgansigns.co.uk/
+- Global Signs Co. (Wales) - info@globalsignsco.co.uk | 029 2048 2000 | https://globalsignsco.co.uk
+- Graphichub (Wales) - hello@graphichub.co.uk | 01633 254444 | https://graphichub.co.uk
+- Griffin Signs (Wales) - info@griffinsigns.co.uk | 01639 631111 | https://www.griffinsigns.co.uk
+- Harris Signs & Graphics Ltd (Wales) - info@harrissigns.co.uk | 01792 461111 | https://harrissigns.co.uk
+- Holywell Signs Ltd (Wales) - info@holywellsigns.com | 01352 715555 | https://holywellsigns.com
+- Insight Design (Wales) - info@swissvalleyprint.com | 01554 774444 | https://swissvalleyprint.com
+- KM Signs (Wales) - info@kmsigns.co.uk | 01633 872223 | https://kmsigns.co.uk
+- Lloyd Sign Solutions (Wales) - info@lloydsignsolutions.co.uk | 01244 811111 | https://www.lloydsignsolutions.co.uk/
+- ML Signs (Wales) - sales@mlsigns.net | 029 2048 5123 | https://www.mlsigns.net/
+- Martin Hopkins (Wales) - hello@martinhopkins.co.uk | 029 2046 1111 | https://www.martinhopkins.co.uk/
+- Now Group (Wales) - info@nowsigns.co.uk | 01978 664444 | https://www.nowgroup.co.uk/
+- Ocean Signs UK (Wales) - info@oceansignsuk.co.uk | 01656 741111 | http://oceansignsuk.co.uk
+- Oner Signs (Wales) - info@onersigns.co.uk | 029 2034 1111 | http://onersigns.co.uk
+- Palm Signs (Wales) - info@palmsigns.co.uk | 01352 711111 | https://palmsigns.co.uk
+- Positive Signs Ltd (Wales) - sales@positive-signs.co.uk | 01443 816666 | https://www.positive-signs.co.uk/
+- Print Sauce (Wales) - hello@printsauce.co.uk | 029 2086 1111 | https://printsauce.co.uk
+- Red Rock Grafix (Wales) - info@redrockgrafix.co.uk | 01407 741111 | https://summitprinting.uk/
+- Rose-Innes Design + Insight (Wales) - hello@roseinnesdesigns.com | 029 2000 1111 | https://roseinnesdesigns.com
+- Select Signs Ltd (Wales) - info@selectsignsltd.co.uk | 01639 822555 | https://www.selectsignsltd.co.uk/
+- Shopsigns (Wales) - info@shop-signs.com | 01239 851111 | https://www.shop-signs.com/
+- Sign Projects Ltd (Wales) - info@sign-projects.co.uk | 029 2066 6666 | https://sign-projects.co.uk
+- Sign Services Wales Ltd (Wales) - sales@sswales.com | 029 2064 5330 | https://sswales.com
+- Sign World (Wales) - info@signworldgroup.com | 01244 811111 | https://signworldgroup.com
+- Signature (Wales) - hello@signature.wales | 01639 814444 | https://www.signature.wales
+- Signsbypost (Wales) - sales@signsbypost.shop | 029 2081 1111 | https://www.signsbypost.shop/
+- Signwise (Wales) - sales@signwisewales.co.uk | 01633 212121 | https://signwisewales.co.uk
+- Silvercloud Signs & Display (Wales) - info@silvercloudsigns.co.uk | 01495 231111 | https://www.silvercloudsigns.co.uk/
+- Tint Wizard Wales (Wales) - info@tintwizard.co.uk | 01639 641111 | https://www.tintwizard.co.uk/
+- Vision Signs & Graphics (Wales) - info@vision-signs.uk | 01792 899999 | https://vision-signs.uk
+- Wall Signs Ltd (Wales) - info@wallsigns.co.uk | 01352 733333 | https://wallsigns.co.uk
+- Newton Press (County Durham) - sales@newtonpress.net | 01325 300212 | https://www.newtonpress.org/
+- Allsigns The Signmakers (East Riding of Yorkshire) - info@allsignsthesignmakers.co.uk | 01482 633111 | https://allsignsthesignmakers.co.uk
+- Greens the Signmakers (East Riding of Yorkshire) - sales@greens-signmakers.co.uk | 01482 327371 | https://greens-signmakers.co.uk
+- Andrews Signs & Engravers Ltd (North Yorkshire) - sales@andrewssigns.co.uk | 01904 696969 | https://www.andrewssigns.co.uk/
+- Atam Signs Ltd (North Yorkshire) - sales@arc-sign.co.uk | 01757 706240 | https://atamsigns.co.uk/
+- JS Graphixx (North Yorkshire) - info@jsgraphixx.com | 01653 696969 | https://jsgraphixx.com
+- Nichols Signs Ltd (South Yorkshire) - info@nicholssigns.net | 01709 377114 | https://www.nicholssigns.net/
+- JMF Group (Tyne and Wear) - sales@jmf-group.co.uk | 0191 477 2200 | https://jmf-group.co.uk
+- Butterfield Signs Ltd (West Yorkshire) - sales@butterfieldsigns.co.uk | 01274 722244 | http://butterfieldsigns.com/
+- C V Graphics (West Yorkshire) - info@cvgraphics.co.uk | 01484 606060 | https://cvgraphics.co.uk
+- Commercial Nameplate Manufacturing Co (West Yorkshire) - sales@commercialnameplate.co.uk | 01924 494949 | https://commercialnameplate.co.uk
+- Eltrix Ltd (West Yorkshire) - sales@eltrix.co.uk | 01422 345678 | https://www.eltrix.co.uk/
+- Omega Signs Ltd (West Yorkshire) - sales@omega-signs.co.uk | 0113 240 3000 | https://omega-signs.co.uk
+- Signs Direct (Bradford) (West Yorkshire) - sales@signsdirect.co.uk | 01274 611611 | https://www.signsdirect.co.uk/
+
+## Validation
+- JSON parse: passed on 2026-06-12.
+- Duplicate gate: company, website and email checked before append.
+- Evidence gate: direct email-domain website resolved and contained signage-related wording.
+- Safety gate: no GitHub push performed.
