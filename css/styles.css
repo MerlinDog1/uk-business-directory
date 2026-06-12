@@ -351,18 +351,6 @@ body {
 .category-engraving { background: #fef3c7; color: #92400e; }
 .category-trophies { background: #fce7f3; color: #9d174d; }
 
-.wayfinding-flag {
-    display: inline-block;
-    margin-left: 8px;
-    padding: 3px 8px;
-    font-size: 0.7rem;
-    font-weight: 700;
-    border-radius: 999px;
-    background: #ecfeff;
-    color: #155e75;
-    border: 1px solid #a5f3fc;
-}
-
 .card-county {
     display: inline-block;
     padding: 4px 10px;

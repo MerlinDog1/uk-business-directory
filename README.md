@@ -1,6 +1,6 @@
 # UK Business Directory
 
-A searchable, filterable directory of 1,200+ UK businesses across 48 counties. Find sign companies, architects, engravers, and trophy suppliers.
+A searchable, filterable directory of 1,263 UK businesses across the UK. Find sign companies, architects, engravers, and trophy suppliers.
 
 ## Features
 
@@ -14,7 +14,7 @@ A searchable, filterable directory of 1,200+ UK businesses across 48 counties. F
 
 ## Data Coverage
 
-- **1,211 businesses** total
+- **1,263 businesses** total
 - **48 counties** across England, Wales, and Northern Ireland
 - **4 categories** per county
 
