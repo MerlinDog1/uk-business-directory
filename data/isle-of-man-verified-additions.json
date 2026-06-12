@@ -1,0 +1,53 @@
+[
+  {
+    "county": "Isle of Man",
+    "category": "Signage",
+    "company": "Signrite Isle of Man Ltd",
+    "website": "https://www.signrite-iom.com/contact.html",
+    "email": "sales@signrite-iom.com",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "phone": "+44 (0) 1624 612244",
+    "address": "Unit 2, Isle of Man Business Park, Cooil Road, Braddan, Isle of Man, IM2 2QY",
+    "quality": 0,
+    "sellsPlaques": false,
+    "_sourceFile": "web:signrite-iom.com/contact.html",
+    "_evidence": "Direct contact page lists exterior signage, interior signage, window graphics, address, phone and sales@signrite-iom.com.",
+    "id": 1939
+  },
+  {
+    "county": "Isle of Man",
+    "category": "Signage",
+    "company": "The Copyshop",
+    "website": "https://www.thecopyshop.im/signage-displays/",
+    "email": "enquiries@thecopyshop.im",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "phone": "01624 622697",
+    "address": "Unit B1, Eden Business Park, Braddan, Isle of Man, IM4 2AY",
+    "quality": 0,
+    "sellsPlaques": false,
+    "_sourceFile": "web:thecopyshop.im/signage-displays/",
+    "_evidence": "Direct signage/displays page lists shop signage, vehicle graphics, displays, address, phone and enquiries@thecopyshop.im.",
+    "id": 1940
+  },
+  {
+    "county": "Isle of Man",
+    "category": "Signage",
+    "company": "Gellings Isle of Man",
+    "website": "https://www.gellings.im/prod_cat/C_signs--display-_303.asp",
+    "email": "info@gellings.im",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "phone": "01624 671200",
+    "address": "Unit 4 Kirby Farm Industrial Estate, Vicarage Road, Braddan, Isle of Man, IM4 4LA",
+    "quality": 0,
+    "sellsPlaques": false,
+    "_sourceFile": "web:gellings.im/prod_cat/C_signs--display-_303.asp",
+    "_evidence": "Direct signs/display page lists signs and display products, address, phone and info@gellings.im.",
+    "id": 1941
+  }
+]

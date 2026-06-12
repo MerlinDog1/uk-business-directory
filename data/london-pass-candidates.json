@@ -1,0 +1,458 @@
+[
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "E U Signs Ltd",
+    "website": null,
+    "email": "info@eusigns.co.uk",
+    "phone": "020 3375 2100",
+    "address": "Unit 6 Stirling Industrial Centre, Stirling Way, Borehamwood, WD6 2BT",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signs Now Ealing",
+    "website": null,
+    "email": "ealing@signsnow.co.uk",
+    "phone": "020 8945 3173",
+    "address": "The Grove, London, W5 5DX",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Significant Signs",
+    "website": null,
+    "email": "sales@significantsigns.co.uk",
+    "phone": "020 7924 9343",
+    "address": "Unit 17, Stone Trading Est, Milkwood Rd, London, SE24 0JU",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signs Now Wembley",
+    "website": null,
+    "email": "wembley@signsnow.co.uk",
+    "phone": "020 8419 8662",
+    "address": "Chaplin Rd, Wembley, HA0 4UZ",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signs Now Enfield",
+    "website": null,
+    "email": "enfield@signsnow.co.uk",
+    "phone": "020 8226 6403",
+    "address": "Little Park Gardens, Enfield, EN2 6PD",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signs Now Harrow",
+    "website": null,
+    "email": "harrow@signsnow.co.uk",
+    "phone": "020 8226 5606",
+    "address": "College Rd, Harrow, HA1 1RA",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signs Now Hornsey",
+    "website": null,
+    "email": "hornsey@signsnow.co.uk",
+    "phone": "020 8226 4758",
+    "address": "Middle Lane, London, N8 7LA",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signs Now Finchley",
+    "website": null,
+    "email": "finchley@signsnow.co.uk",
+    "phone": "020 8226 5003",
+    "address": "Victoria Avenue, London, N3 1BD",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signs Now Islington",
+    "website": null,
+    "email": "islington@signsnow.co.uk",
+    "phone": "020 7205 4053",
+    "address": "405 Liverpool Rd, London, N7 8PR",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signs Now Uxbridge",
+    "website": null,
+    "email": "uxbridge@signsnow.co.uk",
+    "phone": "01895 659291",
+    "address": "Belmont Rd, Uxbridge, UB8 1DP",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signs Now Camden Town",
+    "website": null,
+    "email": "camden@signsnow.co.uk",
+    "phone": "020 7205 2261",
+    "address": "Camden St, London, NW1 0JA",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signs Now Willesden",
+    "website": null,
+    "email": "willesden@signsnow.co.uk",
+    "phone": "020 8945 7665",
+    "address": "High Rd, London, NW10 2SW",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signs Now Westminster",
+    "website": null,
+    "email": "westminster@signsnow.co.uk",
+    "phone": "020 7205 2198",
+    "address": "Caxton St, London, SW1H 0PY",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signs Now Hounslow",
+    "website": null,
+    "email": "hounslow@signsnow.co.uk",
+    "phone": "020 8226 5165",
+    "address": "Bell Rd, Hounslow, TW3 3NX",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signs Now Barnet",
+    "website": null,
+    "email": "barnet@signsnow.co.uk",
+    "phone": "020 8226 6263",
+    "address": "Mays Lane, Barnet, EN5 2LZ",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signs Now Wimbledon",
+    "website": null,
+    "email": "wimbledon@signsnow.co.uk",
+    "phone": "020 8226 4672",
+    "address": "53 Parkside, London, SW195NX",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signs Now Hammersmith",
+    "website": null,
+    "email": "hammersmith@signsnow.co.uk",
+    "phone": "020 8945 7992",
+    "address": "Crisp Rd, London, W6 9RL",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signs Now Tottenham",
+    "website": null,
+    "email": "tottenham@signsnow.co.uk",
+    "phone": "020 8226 5752",
+    "address": "Tenterden Rd, London, N17 8BW",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Sign Architects",
+    "website": null,
+    "email": "info@signarchitects.co.uk",
+    "phone": "020 8507 3395",
+    "address": "London, IG11 0HE",
+    "linkedin": null,
+    "instagram": "https://www.instagram.com/signarchitects",
+    "facebook": "https://www.facebook.com/signarchitects",
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Bellenden Signs Ltd",
+    "website": null,
+    "email": "info@bellendensigns.com",
+    "phone": "020 3654 7973",
+    "address": "83 Bellenden Rd, London, SE15 4QZ",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Lumen Signs Ltd",
+    "website": null,
+    "email": "info@lumensigns.co.uk",
+    "phone": "020 3375 2100",
+    "address": "London, E14 9RP",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Genesis Signs & Print",
+    "website": null,
+    "email": "info@genesissigns.co.uk",
+    "phone": "020 7207 3299",
+    "address": "London, SE5 0AF",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Signtec Direct",
+    "website": null,
+    "email": "info@signtecdirect.com",
+    "phone": "020 3479 6036",
+    "address": "19-21 Fowler Rd, Hainault Business Park, Ilford, IG6 3UT",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "Greater London row from south east sign companies CSV"
+    }
+  },
+  {
+    "county": "Greater London",
+    "category": "Signage",
+    "company": "Links Signs",
+    "website": null,
+    "email": "info@linkssigns.co.uk",
+    "phone": "01424 424344",
+    "address": "London/Hastings",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "sellsPlaques": false,
+    "evidence": {
+      "source": "local csv",
+      "sourceFile": "south_east_sign_companies.csv",
+      "checkedUrl": null,
+      "notes": "CSV lists Greater London but phone is 01424 (Hastings) and address says London/Hastings. Weak London relevance - verify before inclusion."
+    }
+  }
+]

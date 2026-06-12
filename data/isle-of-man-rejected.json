@@ -1,0 +1,22 @@
+[
+  {
+    "company": "Edwin Dennis Signs",
+    "reason": "Direct site returned 502 and no email was found; kept out pending stronger evidence.",
+    "website": "https://www.edwindennis.com/"
+  },
+  {
+    "company": "Isle of Wraps",
+    "reason": "Site connection failed and no direct email was found; kept out pending stronger evidence.",
+    "website": "https://isleofwraps.co.uk/"
+  },
+  {
+    "company": "Sign Sense Ltd",
+    "reason": "Third-party listing only; no direct website/email evidence found.",
+    "website": null
+  },
+  {
+    "company": "Ballasalla Signs",
+    "reason": "Third-party listing only; no direct website/email evidence found.",
+    "website": null
+  }
+]
