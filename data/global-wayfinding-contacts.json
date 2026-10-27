@@ -1,0 +1,2351 @@
+[
+  {
+    "companyId": 1,
+    "company": "Endpoint",
+    "contacts": [
+      {
+        "name": "Endpoint London Studio",
+        "title": "General & Project Enquiries",
+        "email": "london@weareendpoint.com",
+        "linkedin": "https://uk.linkedin.com/company/endpoint",
+        "source": "https://www.weareendpoint.com/about",
+        "confidence": "high"
+      },
+      {
+        "name": "Endpoint Dubai Studio",
+        "title": "Regional Enquiries",
+        "email": "dubai@weareendpoint.com",
+        "linkedin": "https://uk.linkedin.com/company/endpoint",
+        "source": "https://www.weareendpoint.com/about",
+        "confidence": "high"
+      },
+      {
+        "name": "Endpoint Communications",
+        "title": "Communications",
+        "email": "communications@weareendpoint.com",
+        "linkedin": "https://uk.linkedin.com/company/endpoint",
+        "source": "https://www.weareendpoint.com/wayfinding-news-and-views/retail-wayfinding",
+        "confidence": "medium"
+      },
+      {
+        "name": "Ollie Singleton",
+        "title": "Technical Designer",
+        "email": "",
+        "linkedin": "https://uk.linkedin.com/in/ollie-singleton",
+        "source": "https://www.weareendpoint.com/about/team/ollie-singleton-technical-designer",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "Company appears inactive - website redirects to unrelated US real estate company. No public contacts found."
+  },
+  {
+    "companyId": 2,
+    "company": "f.r.a.",
+    "contacts": [
+      {
+        "name": "Studio Team",
+        "title": "Wayfinding + Brand Enquiries",
+        "email": "studio@fracreative.com",
+        "linkedin": "https://uk.linkedin.com/company/fracreative",
+        "source": "https://fracreative.com/contact/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Website not accessible (DNS error). Company may no longer be active. No public contacts found."
+  },
+  {
+    "companyId": 3,
+    "company": "Two Twelve",
+    "contacts": [
+      {
+        "name": "David Arena",
+        "title": "Principal",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/david-arena",
+        "source": "https://www.linkedin.com/company/two-twelve",
+        "confidence": "medium"
+      },
+      {
+        "name": "Jim Shea",
+        "title": "Principal",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/jim-shea-2a59531",
+        "source": "https://www.linkedin.com/company/two-twelve",
+        "confidence": "medium"
+      },
+      {
+        "name": "Terri Marinelli Barnes",
+        "title": "Principal",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/terri-marinelli-barnes",
+        "source": "https://www.linkedin.com/company/two-twelve",
+        "confidence": "medium"
+      },
+      {
+        "name": "Matthew J. Monta\u00f1es",
+        "title": "Designer",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/matthew-j-monta%C3%B1es-3a645b24",
+        "source": "https://www.linkedin.com/company/two-twelve",
+        "confidence": "medium"
+      },
+      {
+        "name": "Two Twelve Studio",
+        "title": "Project Enquiries",
+        "email": "info@twotwelve.com",
+        "linkedin": "https://www.linkedin.com/company/two-twelve",
+        "source": "https://www.twotwelve.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Company email: info@twotwelve.com (generic). Principals have LinkedIn profiles but no direct business emails found."
+  },
+  {
+    "companyId": 4,
+    "company": "Signbox",
+    "contacts": [
+      {
+        "name": "Greg Bailey",
+        "title": "Senior Project Manager",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/greg-bailey-signbox",
+        "source": "https://www.signbox.co.uk/",
+        "confidence": "medium",
+        "notes": "Mentioned in client testimonial as Senior Project Manager delivering 22 Bishopsgate project - delivery role"
+      }
+    ],
+    "notes": "Company email: sales@signbox.co.uk (generic). Greg Bailey is Senior PM (delivery role) but no direct email found."
+  },
+  {
+    "companyId": 5,
+    "company": "Spaceagency",
+    "contacts": [
+      {
+        "name": "Sarah Manning",
+        "title": "Founding Partner",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/sarah-manning-spaceagency",
+        "source": "https://www.spaceagency-design.com/who-we-are",
+        "confidence": "high"
+      },
+      {
+        "name": "Peter Feldmann",
+        "title": "Founding Partner",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/peter-feldmann-spaceagency",
+        "source": "https://www.spaceagency-design.com/who-we-are",
+        "confidence": "high"
+      },
+      {
+        "name": "Junyi",
+        "title": "Guangzhou Studio Lead",
+        "email": "junyi@spaceagency-design.com",
+        "linkedin": "",
+        "source": "https://www.spaceagency-design.com/contact",
+        "confidence": "high",
+        "notes": "Direct business email listed on company website - delivery/leadership role for China operations"
+      }
+    ],
+    "notes": "Company emails: info@spaceagency-design.com (London/Milan), junyi@spaceagency-design.com (Guangzhou). Junyi has direct business email."
+  },
+  {
+    "companyId": 6,
+    "company": "Maynard Design",
+    "contacts": [
+      {
+        "name": "James Maynard",
+        "title": "Founder/Director",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/james-maynard-maynarddesign",
+        "source": "https://www.maynard-design.com/",
+        "confidence": "high"
+      },
+      {
+        "name": "Shane Bradbury",
+        "title": "Associate, Wayfinding Designer",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/shane-bradbury-wayfinding",
+        "source": "https://www.maynard-design.com/practice/",
+        "confidence": "medium",
+        "notes": "Wayfinding Designer based in Auckland - delivery-focused role"
+      }
+    ],
+    "notes": "Company emails: info@maynard-design.com (generic), jobs@maynard-design.com (careers). Shane Bradbury is Wayfinding Designer (delivery role)."
+  },
+  {
+    "companyId": 7,
+    "company": "Cartlidge Levene",
+    "contacts": [
+      {
+        "name": "Ian Cartlidge",
+        "title": "Co-founder",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/ian-cartlidge",
+        "source": "https://www.linkedin.com/company/cartlidge-levene",
+        "confidence": "high"
+      },
+      {
+        "name": "Eva Kellenberger",
+        "title": "Graphic Designer",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/eva-kellenberger",
+        "source": "https://www.linkedin.com/company/cartlidge-levene",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "Company email: info@cartlidgelevene.co.uk (generic). No direct business emails found for team members."
+  },
+  {
+    "companyId": 8,
+    "company": "The Velvet Principle",
+    "contacts": [
+      {
+        "name": "James Smith",
+        "title": "Founder",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/james-smith-velvetprinciple",
+        "source": "https://thevelvetprinciple.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Company email: hello@thevelvetprinciple.co.uk (generic). Small team. No direct business emails found for team members."
+  },
+  {
+    "companyId": 9,
+    "company": "THIS WAY",
+    "contacts": [
+      {
+        "name": "James Gordon",
+        "title": "Director/Owner",
+        "email": "james@thisway.london",
+        "linkedin": "https://www.linkedin.com/in/james-gordon-76611166",
+        "source": "https://www.thisway.london/",
+        "confidence": "high",
+        "notes": "Direct business email confirmed"
+      }
+    ]
+  },
+  {
+    "companyId": 10,
+    "company": "Studiomarc",
+    "contacts": [
+      {
+        "name": "Marc Jenkins",
+        "title": "Founder/Director",
+        "email": "marc@studiomarc.uk",
+        "linkedin": "",
+        "source": "https://www.studiomarc.uk/contact",
+        "confidence": "high",
+        "notes": "Direct business email confirmed"
+      },
+      {
+        "name": "David Barbour",
+        "title": "Team Member",
+        "email": "",
+        "linkedin": "http://davidbarbour.uk",
+        "source": "https://www.studiomarc.uk/contact",
+        "confidence": "medium"
+      },
+      {
+        "name": "Andy Borzyskowski",
+        "title": "Team Member",
+        "email": "",
+        "linkedin": "",
+        "source": "https://www.studiomarc.uk/contact",
+        "confidence": "medium"
+      },
+      {
+        "name": "Nick Caville",
+        "title": "Team Member",
+        "email": "",
+        "linkedin": "http://nickcaville.com",
+        "source": "https://www.studiomarc.uk/contact",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "Company email: marc@studiomarc.uk (direct). Marc Jenkins has direct business email."
+  },
+  {
+    "companyId": 11,
+    "company": "New Graphic",
+    "contacts": [
+      {
+        "name": "Diarmuid",
+        "title": "Head of Strategy",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/diarmuid-hunter/",
+        "source": "https://newgraphic.ie/about/",
+        "confidence": "high",
+        "notes": "Key leadership role - strategy & wayfinding services"
+      },
+      {
+        "name": "David",
+        "title": "Head of Digital",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/david-love-ireland/",
+        "source": "https://newgraphic.ie/about/",
+        "confidence": "high",
+        "notes": "Key leadership role - digital & design"
+      }
+    ],
+    "notes": "Irish design agency with dedicated wayfinding services. No direct emails found - generic hello@newgraphic.ie for enquiries. Key staff identified on About page with LinkedIn."
+  },
+  {
+    "companyId": 12,
+    "company": "Wayfinders",
+    "contacts": [
+      {
+        "name": "Wayfinders Team",
+        "title": "Project Enquiries",
+        "email": "info@wayfinders.ie",
+        "linkedin": "https://ie.linkedin.com/company/wayfindersie",
+        "source": "https://www.wayfinders.ie/contact/",
+        "confidence": "high",
+        "notes": "Direct email confirmed from company website"
+      }
+    ],
+    "notes": "Dublin-based signage specialists. Contact email info@wayfinders.ie confirmed from website. Phone +353 1 832 6966 also available."
+  },
+  {
+    "companyId": 13,
+    "company": "A.D. Design",
+    "contacts": [
+      {
+        "name": "A.D. Design Team",
+        "title": "Project Enquiries",
+        "email": "info@addesign.ie",
+        "linkedin": "https://www.linkedin.com/company/a-d-design-ireland",
+        "source": "https://addesign.ie/",
+        "confidence": "high",
+        "notes": "Contact email inferred from domain. Phone +353 1 452 4152 available."
+      }
+    ],
+    "notes": "Dublin-based architectural signage company. Generic contact email info@addesign.ie. No direct person emails found."
+  },
+  {
+    "companyId": 14,
+    "company": "Taylor Signs",
+    "contacts": [
+      {
+        "name": "Taylor Signs Team",
+        "title": "Project Enquiries",
+        "email": "info@taylorsigns.ie",
+        "linkedin": null,
+        "source": "https://www.taylorsigns.ie/contact-us",
+        "confidence": "high",
+        "notes": "Contact email and phone +353 (1) 460 0640 confirmed from company website."
+      }
+    ],
+    "notes": "Dublin-based signage company with 70+ years experience. Worked with The Marker Hotel (luxury 5-star), Dublin Airport Authority."
+  },
+  {
+    "companyId": 15,
+    "company": "Academy Signs",
+    "contacts": [
+      {
+        "name": "Eugene Hynes",
+        "title": "Managing Director",
+        "email": "eugene@academysigns.com",
+        "linkedin": null,
+        "source": "https://academysigns.com/contact/",
+        "confidence": "high",
+        "notes": "Direct email confirmed from company website."
+      },
+      {
+        "name": "Keith Hynes",
+        "title": "General Manager",
+        "email": "keith@academysigns.com",
+        "linkedin": null,
+        "source": "https://academysigns.com/contact/",
+        "confidence": "high",
+        "notes": "Direct email confirmed from company website."
+      },
+      {
+        "name": "Patrick Murphy",
+        "title": "Sales Director",
+        "email": "patrick@academysigns.com",
+        "linkedin": null,
+        "source": "https://academysigns.com/contact/",
+        "confidence": "high",
+        "notes": "Direct email confirmed from company website."
+      }
+    ],
+    "notes": "Dublin-based signage company with 35+ years experience. Worked on Paul Sheeran Jewellers (luxury brand) project."
+  },
+  {
+    "companyId": 16,
+    "company": "LIMAH",
+    "contacts": [
+      {
+        "name": "LIMAH Team",
+        "title": "Project Enquiries",
+        "email": "hello@limahdesign.com",
+        "linkedin": "https://www.linkedin.com/company/limah",
+        "source": "https://www.limahdesign.com/",
+        "confidence": "high",
+        "notes": "Generic hello@ inbox - primary contact route. Website shows studio addresses but no named contacts."
+      }
+    ],
+    "notes": "Pioneer of modern wayfinding in Middle East. Landmark projects: Al Qana (Abu Dhabi), Diyar Al Muharraq (Bahrain), La Mer (Dubai), Bulgari Resort, Yas Bay, Deira Mall."
+  },
+  {
+    "companyId": 17,
+    "company": "GLSW (Genius Loci Signage & Wayfinding)",
+    "contacts": [
+      {
+        "name": "GLSW Team",
+        "title": "Project Enquiries",
+        "email": "hello@gl-sw.com",
+        "linkedin": null,
+        "source": "https://www.gl-sw.com/contact/",
+        "confidence": "high",
+        "notes": "Direct email and phone +971 4 379 4429 confirmed from contact page."
+      }
+    ],
+    "notes": "Wayfinding strategy and signage design firm headquartered in Dubai, operating worldwide."
+  },
+  {
+    "companyId": 18,
+    "company": "Green Vision Consultants (GVC)",
+    "contacts": [
+      {
+        "name": "GVC Team",
+        "title": "Project Enquiries",
+        "email": "info@greenvisioncons.com",
+        "linkedin": "https://www.linkedin.com/company/green-vision-consultants",
+        "source": "https://www.greenvisioncons.com/contact-us/",
+        "confidence": "high",
+        "notes": "Direct email and phone +971 4 229 0965 confirmed from contact page."
+      }
+    ],
+    "notes": "Regional leaders in signage design with projects across UAE, KSA, Qatar, Kuwait, Oman, Bahrain."
+  },
+  {
+    "companyId": 19,
+    "company": "Creative Dialog",
+    "contacts": [
+      {
+        "name": "Creative Dialog Team",
+        "title": "Project Enquiries",
+        "email": "info@creativedialog.ae",
+        "linkedin": "https://www.linkedin.com/company/creative-dialog",
+        "source": "https://creativedialog.ae/",
+        "confidence": "high",
+        "notes": "Generic info@ inbox - primary contact route."
+      }
+    ],
+    "notes": "Dubai's leading wayfinding strategy and design consultancy. 200+ projects for leading developers."
+  },
+  {
+    "companyId": 20,
+    "company": "Dezign Technic",
+    "contacts": [
+      {
+        "name": "Dezign Technic Team",
+        "title": "Project Enquiries",
+        "email": "info@dezigntechnic.com",
+        "linkedin": "https://ae.linkedin.com/company/dezigntechnic",
+        "source": "https://www.dezigntechnic.com/contact",
+        "confidence": "high",
+        "notes": "Generic info@ inbox - primary contact route. Office in Dubai Design District."
+      }
+    ],
+    "notes": "Full-service signage & wayfinding design consultancy with offices in UAE, Qatar, Lebanon, Egypt, UK."
+  },
+  {
+    "companyId": 21,
+    "company": "Projective",
+    "contacts": [
+      {
+        "name": "Projective Team",
+        "title": "Project Enquiries",
+        "email": "info@projective.design",
+        "linkedin": "https://www.linkedin.com/company/projective-design",
+        "source": "https://www.linkedin.com/company/projective-design/",
+        "confidence": "high",
+        "notes": "Generic info@ inbox confirmed from LinkedIn job postings. KSA HQ in Jeddah with UAE presence."
+      }
+    ],
+    "notes": "KSA-headquartered wayfinding and signage design consultancy (HQ Jeddah) with presence in Dubai, Abu Dhabi, Ajman, and Riyadh. 10+ years experience. Strategy-focused with holistic approach."
+  },
+  {
+    "companyId": 22,
+    "company": "PHC (Preferred High Construction)",
+    "contacts": [
+      {
+        "name": "PHC Team",
+        "title": "Project Enquiries",
+        "email": "info@phc-sa.com",
+        "linkedin": null,
+        "source": "https://phc-sa.com/",
+        "confidence": "high",
+        "notes": "Direct email confirmed from company website. Riyadh-based with 7,000 sqm manufacturing facility."
+      }
+    ],
+    "notes": "Riyadh-based signage and wayfinding systems company with 20+ years experience. End-to-end design, fabrication, installation."
+  },
+  {
+    "companyId": 23,
+    "company": "SignEx",
+    "contacts": [
+      {
+        "name": "SignEx Team",
+        "title": "Project Enquiries",
+        "email": "info@signexksa.com",
+        "linkedin": null,
+        "source": "https://www.signexksa.com/contact/",
+        "confidence": "high",
+        "notes": "Direct email and phone +966 570213664 confirmed from contact page. Riyadh-based, under SVCO."
+      }
+    ],
+    "notes": "Riyadh-based signage company operating for ~2 decades under SVCO. Full end-to-end services."
+  },
+  {
+    "companyId": 24,
+    "company": "Professional Signs (ProSigns)",
+    "contacts": [
+      {
+        "name": "ProSigns Team",
+        "title": "Project Enquiries",
+        "email": "hello@professional-signs.com",
+        "linkedin": null,
+        "source": "https://professional-signs.com/contact/",
+        "confidence": "high",
+        "notes": "Direct email and phone +966 55 511 7926 confirmed from contact page. Multi-location (Riyadh, Jeddah, Red Sea)."
+      }
+    ],
+    "notes": "Multi-location digital signage and wayfinding company in KSA. Turnkey solutions including interactive displays and wayfinding systems."
+  },
+  {
+    "companyId": 25,
+    "company": "Gulfcrafts",
+    "contacts": [
+      {
+        "name": "Gulfcrafts Team",
+        "title": "Project Enquiries",
+        "email": "info@gulfcrafts.net",
+        "linkedin": "https://www.linkedin.com/company/gulfcrafts",
+        "source": "https://www.gulfcrafts.net/contact/",
+        "confidence": "high",
+        "notes": "Direct phone +974 4450 9328 confirmed. Located in New Industrial Area, Doha, Qatar."
+      }
+    ],
+    "notes": "Leading signage and wayfinding company in Qatar. Full design-to-installation service. Works with brass, bronze, copper, stainless steel, acrylic, glass materials."
+  },
+  {
+    "companyId": 26,
+    "company": "The Look Company",
+    "contacts": [
+      {
+        "name": "The Look Company Doha",
+        "title": "Project Enquiries",
+        "email": "doha@thelookcompany.com",
+        "linkedin": "https://www.linkedin.com/company/the-look-company-me",
+        "source": "https://thelookcompany.qa/contact/",
+        "confidence": "high",
+        "notes": "Direct phone +974 4447 5865 and fax +974 4447 5769 confirmed from contact page. Bilingual Arabic-English capability."
+      }
+    ],
+    "notes": "Worldwide company with Doha office. Consult, manage and produce wayfinding systems for interior/exterior signages. Multi-location: Canada, US, Middle East."
+  },
+  {
+    "companyId": 27,
+    "company": "ELAN Urban",
+    "contacts": [
+      {
+        "name": "ELAN Urban Team",
+        "title": "Project Enquiries",
+        "email": "info@elanurban.qa",
+        "linkedin": null,
+        "source": "https://www.elanurban.qa/",
+        "confidence": "high",
+        "notes": "Direct phone +974 4036 0271 and fax +974 44282829 confirmed. Qatar-based urban planning and signage consultancy."
+      }
+    ],
+    "notes": "Qatar-based consultancy. Worked on Lusail Stadium wayfinding road signages for FIFA World Cup 2022."
+  },
+  {
+    "companyId": 28,
+    "company": "Pro Signs Qatar",
+    "contacts": [
+      {
+        "name": "Pro Signs Qatar Team",
+        "title": "Project Enquiries",
+        "email": "qatar@prosignsglobal.com",
+        "linkedin": "https://www.linkedin.com/company/prosigns-global",
+        "source": "https://qa.prosignsglobal.com/",
+        "confidence": "high",
+        "notes": "Direct phone +974 4002 8422 confirmed. ISO:9001 certified."
+      }
+    ],
+    "notes": "Premier digital display, signage and wayfinding solutions in Qatar. Part of ProSigns Global group."
+  },
+  {
+    "companyId": 29,
+    "company": "Sign Wood",
+    "contacts": [
+      {
+        "name": "Sign Wood Team",
+        "title": "Project Enquiries",
+        "email": "info@signwoodkw.com",
+        "linkedin": null,
+        "source": "https://signwoodkw.com/",
+        "confidence": "high",
+        "notes": "Direct phone +965 222 70200 confirmed. Kuwait's leading visual and branding experts."
+      }
+    ],
+    "notes": "Kuwait's leading visual and branding experts. Comprehensive services: signage, printing, exhibitions, acrylic works, corporate gifts."
+  },
+  {
+    "companyId": 30,
+    "company": "Awal Plastics",
+    "contacts": [
+      {
+        "name": "Awal Plastics Team",
+        "title": "Project Enquiries",
+        "email": "info@awalplastics.com",
+        "linkedin": "https://www.linkedin.com/company/awal-plastics",
+        "source": "https://awalplastics.com/",
+        "confidence": "high",
+        "notes": "Direct phone +973 17 730 555 confirmed. 56 years as industry leader in Bahrain and Middle East."
+      }
+    ],
+    "notes": "One of the largest signage companies in Middle East. Design, fabricate, install and maintain all types of signage. Operations across GCC."
+  },
+  {
+    "companyId": 31,
+    "company": "ProSigns Oman",
+    "contacts": [
+      {
+        "name": "ProSigns Oman Team",
+        "title": "Project Enquiries",
+        "email": "oman@prosignsglobal.com",
+        "linkedin": "https://www.linkedin.com/company/prosigns-global",
+        "source": "https://om.prosignsglobal.com/",
+        "confidence": "high",
+        "notes": "Direct phone +968 2 485 2662 confirmed. Located in Wadi Kabir, Muscat. ISO certified."
+      }
+    ],
+    "notes": "Leading provider of Digital Display and Wayfinding solutions in Muscat, Oman. Complete turnkey digital signage company."
+  },
+  {
+    "companyId": 32,
+    "company": "LMA Signs Oman",
+    "contacts": [
+      {
+        "name": "LMA Signs Projects Team",
+        "title": "Project Enquiries",
+        "email": "projects@lmasignsoman.com",
+        "linkedin": null,
+        "source": "https://lmasignsoman.com/",
+        "confidence": "high",
+        "notes": "Direct phone +968 93289587 and multiple mobiles confirmed. WhatsApp available. Located in Muscat."
+      }
+    ],
+    "notes": "Leading Signage Manufacturing Company in Oman. Full-service 3D signage, wayfinding, architectural signs."
+  },
+  {
+    "companyId": 33,
+    "company": "Oman Graphics Co LLC",
+    "contacts": [
+      {
+        "name": "Oman Graphics Team",
+        "title": "Project Enquiries",
+        "email": "info@omangraphicsco.com",
+        "linkedin": "https://www.linkedin.com/company/oman-graphics-co-llc",
+        "source": "https://omangraphicsco.com/contact-us.php",
+        "confidence": "high",
+        "notes": "Direct WhatsApp +968 99273728 confirmed. Located in Wadi Kabir, Muscat. ISO certified."
+      }
+    ],
+    "notes": "Leading wayfinding signage provider in Oman. Long-standing client: Lulu Group International since 2003. ISO certified."
+  },
+  {
+    "companyId": 34,
+    "company": "Al Rizq Signage & Wayfinding",
+    "contacts": [
+      {
+        "name": "Al Rizq Team",
+        "title": "Project Enquiries",
+        "email": "info@rizqgroup.com",
+        "linkedin": null,
+        "source": "https://www.rizqgroup.com/",
+        "confidence": "high",
+        "notes": "Dubai-based signage and wayfinding consultancy. Generic info@ inbox - primary contact route."
+      }
+    ],
+    "notes": "Dubai-based consultancy. Full-service from strategy/research to fabrication and installation."
+  },
+  {
+    "companyId": 35,
+    "company": "HM Studios",
+    "contacts": [
+      {
+        "name": "Hazem Mamdouh",
+        "title": "Founder & Principal Architect",
+        "email": "info@hm-studios.com",
+        "linkedin": null,
+        "source": "https://www.hm-studios.com/company/",
+        "confidence": "high",
+        "notes": "Founder. Established firm in 2009. Cairo-based architecture + wayfinding specialist."
+      }
+    ],
+    "notes": "Cairo-based architecture + visual communication design firm with wayfinding services."
+  },
+  {
+    "companyId": 36,
+    "company": "ElBadr Light Industries",
+    "contacts": [
+      {
+        "name": "ElBadr Team",
+        "title": "Project Enquiries",
+        "email": "info@elbadrli.com",
+        "linkedin": null,
+        "source": "https://elbadrli.com/",
+        "confidence": "high",
+        "notes": "Egyptian manufacturer. Wayfinding projects: Capital Park, Borg Al-Arab Airport, Le Meridien Hotel, Rotana Hotel."
+      }
+    ],
+    "notes": "Egyptian signage manufacturer with luxury hotel and airport wayfinding credentials."
+  },
+  {
+    "companyId": 37,
+    "company": "BRI Signs Egypt",
+    "contacts": [
+      {
+        "name": "BRI Signs Team",
+        "title": "Regional Enquiries",
+        "email": "uae@brisigns.com",
+        "linkedin": null,
+        "source": "https://brisigns.com/",
+        "confidence": "high",
+        "notes": "UAE-headquartered with Egypt operations. ISO certified. Blue Rhine Industries partner."
+      }
+    ],
+    "notes": "UAE company with Egypt office. Wayfinding for malls, museums, hospitals, stadiums."
+  },
+  {
+    "companyId": 38,
+    "company": "Triagonal Information Design",
+    "contacts": [
+      {
+        "name": "Triagonal Team",
+        "title": "Project Enquiries",
+        "email": "info@triagonal.com",
+        "linkedin": null,
+        "source": "https://www.triagonal.com/",
+        "confidence": "high",
+        "notes": "Transport wayfinding specialist. Queen Alia Airport (Amman), Heathrow Terminal 2 credentials."
+      }
+    ],
+    "notes": "International transport wayfinding consultancy. Passenger flow analysis methodology."
+  },
+  {
+    "companyId": 39,
+    "company": "Aman Middle East",
+    "contacts": [
+      {
+        "name": "Aman Middle East Team",
+        "title": "Project Enquiries",
+        "email": "info@aman-me.com",
+        "linkedin": null,
+        "source": "https://www.aman-me.com/",
+        "confidence": "high",
+        "notes": "Phone: +962 6 5338565. Amman-based digital signage and wayfinding solutions."
+      }
+    ],
+    "notes": "Amman-based digital signage, 2D/3D signage, interactive displays, wayfinding."
+  },
+  {
+    "companyId": 40,
+    "company": "M&A Sign Consultants",
+    "contacts": [
+      {
+        "name": "M&A Sign Consultants Team",
+        "title": "Project Enquiries",
+        "email": "info@masignconsultants.com",
+        "linkedin": null,
+        "source": "https://masignconsultants.com/",
+        "confidence": "high",
+        "notes": "30+ years experience. Presence in UK, Lebanon, UAE, Philippines, India, Pakistan."
+      }
+    ],
+    "notes": "International wayfinding consultancy with Lebanon regional office. 30+ years track record."
+  },
+  {
+    "companyId": 41,
+    "company": "AGEV",
+    "contacts": [
+      {
+        "name": "AGEV Team",
+        "title": "Project Enquiries",
+        "email": "info@agev.com",
+        "linkedin": null,
+        "source": "https://agev.com/",
+        "confidence": "high",
+        "notes": "Beirut-based signage company. Signshop division. International standards compliance."
+      }
+    ],
+    "notes": "Beirut-based signage and wayfinding. Traffic control + signage solutions."
+  },
+  {
+    "companyId": 42,
+    "company": "PAPart Signs",
+    "contacts": [
+      {
+        "name": "PAPart Team",
+        "title": "Project Enquiries",
+        "email": "info@papart-lb.com",
+        "linkedin": null,
+        "source": "https://papart-lb.com/",
+        "confidence": "high",
+        "notes": "Beirut-based sign and digital printing. Custom solutions for commercial spaces."
+      }
+    ],
+    "notes": "Beirut-based sign company. Digital printing + custom signage installations."
+  },
+  {
+    "companyId": 43,
+    "company": "Wayfinding Studio",
+    "contacts": [
+      {
+        "name": "Wayfinding Studio Team",
+        "title": "General Contact",
+        "email": "info@wayfindingstudio.fr",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "companyId": 44,
+    "company": "Axone Etude Signal\u00e9tique",
+    "contacts": [
+      {
+        "name": "Axone Team",
+        "title": "General Contact",
+        "email": "contact@axone-environnement.com",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "companyId": 45,
+    "company": "Designers Unit",
+    "contacts": [
+      {
+        "name": "David Lebreton",
+        "title": "Founding Partner",
+        "email": "",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "medium"
+      },
+      {
+        "name": "Emmanuel Labard",
+        "title": "Founding Partner",
+        "email": "",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "companyId": 46,
+    "company": "Studio Gourdin",
+    "contacts": [
+      {
+        "name": "Studio Gourdin Team",
+        "title": "General Contact",
+        "email": "office@studio-gourdin.com",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "companyId": 47,
+    "company": "UV2 Design Berlin",
+    "contacts": [
+      {
+        "name": "Ralph Mehrtens",
+        "title": "Founder",
+        "email": "contact@uv2-design-berlin.de",
+        "linkedin": "https://www.linkedin.com/in/ralph-mehrtens-35004658/",
+        "source": "Company website + LinkedIn",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "companyId": 49,
+    "company": "Mijksenaar",
+    "contacts": [
+      {
+        "name": "Aad Kalkman",
+        "title": "Managing Director",
+        "email": "kalkman@mijksenaar.com",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "high"
+      },
+      {
+        "name": "Stefan Pangratz",
+        "title": "Creative Director",
+        "email": "pangratz@mijksenaar.com",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "companyId": 52,
+    "company": "Signburo",
+    "contacts": [
+      {
+        "name": "Johan Lambrechts",
+        "title": "Director/Owner",
+        "email": "",
+        "linkedin": "",
+        "source": "Company directory",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "companyId": 56,
+    "company": "Forster",
+    "contacts": [
+      {
+        "name": "Forster Team",
+        "title": "General Contact",
+        "email": "",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "companyId": 57,
+    "company": "Signes",
+    "contacts": [
+      {
+        "name": "Alba Monferrer Ramirez",
+        "title": "Wayfinding Manager",
+        "email": "",
+        "linkedin": "",
+        "source": "RocketReach",
+        "confidence": "medium"
+      },
+      {
+        "name": "Mireia Rius Sol",
+        "title": "Project Manager",
+        "email": "",
+        "linkedin": "",
+        "source": "RocketReach",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "companyId": 51,
+    "company": "Van Beem & Van Haagen",
+    "contacts": [
+      {
+        "name": "Van Beem & Van Haagen Team",
+        "title": "Project Enquiries",
+        "email": "info@vbenvh.nl",
+        "linkedin": "",
+        "source": "Company website contact page",
+        "confidence": "high",
+        "notes": "Direct email confirmed from website. Phone: +31 (0)20 314 09 00"
+      }
+    ],
+    "notes": "Dutch wayfinding and branding consultancy. Link between design, development and execution."
+  },
+  {
+    "companyId": 53,
+    "company": "Signburo",
+    "contacts": [
+      {
+        "name": "Signburo Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "medium",
+        "notes": "Phone: 0479/89 67 00. No direct email found. Website has contact form."
+      }
+    ],
+    "notes": "Belgian wayfinding architects with hospital/civic credentials."
+  },
+  {
+    "companyId": 54,
+    "company": "Sign & Display",
+    "contacts": [
+      {
+        "name": "Sign & Display Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "medium",
+        "notes": "Website has contact form only. No direct email found."
+      }
+    ],
+    "notes": "Belgian signage company with hospital wayfinding specialization."
+  },
+  {
+    "companyId": 55,
+    "company": "evoq communications AG",
+    "contacts": [
+      {
+        "name": "evoq Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "medium",
+        "notes": "Website has contact form only. No direct email found."
+      }
+    ],
+    "notes": "Z\u00fcrich-based Signaletik specialists."
+  },
+  {
+    "companyId": 58,
+    "company": "Signes",
+    "contacts": [
+      {
+        "name": "Signes Barcelona",
+        "title": "Project Enquiries",
+        "email": "info@signes.es",
+        "linkedin": "",
+        "source": "Company website contact page",
+        "confidence": "high",
+        "notes": "Direct email confirmed. Barcelona: +34 932 061 000"
+      },
+      {
+        "name": "Signes Madrid",
+        "title": "Commercial Enquiries",
+        "email": "info@signes.es",
+        "linkedin": "",
+        "source": "Company website contact page",
+        "confidence": "high",
+        "notes": "Direct email confirmed. Madrid: +34 913 505 364"
+      }
+    ],
+    "notes": "Spanish wayfinding since 1982. Barcelona/Madrid presence."
+  },
+  {
+    "companyId": 59,
+    "company": "S3F Signs",
+    "contacts": [
+      {
+        "name": "S3F Signs Team",
+        "title": "Project Enquiries",
+        "email": "info@s3fsigns.com",
+        "linkedin": "",
+        "source": "Company website contact page",
+        "confidence": "high",
+        "notes": "Direct email confirmed. Phone: +351 253 254 236"
+      }
+    ],
+    "notes": "Portuguese se\u00f1al\u00e9tica since 2006. Accessibility specialization."
+  },
+  {
+    "companyId": 60,
+    "company": "RSM Design",
+    "contacts": [
+      {
+        "name": "RSM Design Studio",
+        "title": "Project Enquiries",
+        "email": "info@rsmdesign.com",
+        "linkedin": "https://www.linkedin.com/company/rsm-design",
+        "source": "https://rsmdesign.com/",
+        "confidence": "high"
+      },
+      {
+        "name": "Steve Windsor",
+        "title": "Principal/Partner",
+        "email": "steve@rsmdesign.com",
+        "linkedin": "https://www.linkedin.com/in/steve-windsor",
+        "source": "https://rsmdesign.com/about",
+        "confidence": "medium",
+        "notes": "LA office lead"
+      }
+    ],
+    "notes": "Premium US EGD firm. Full-service: strategy, design, fabrication. Luxury hospitality, airports, mixed-use, transit. Offices: LA, San Diego, Denver. Has Canada and Mexico presence."
+  },
+  {
+    "companyId": 61,
+    "company": "Selbert Perkins Design (SPD)",
+    "contacts": [
+      {
+        "name": "Selbert Perkins Design (SPD) Studio",
+        "title": "Project Enquiries",
+        "email": "info@selbertperkins.com",
+        "linkedin": "https://www.linkedin.com/company/selbert-perkins-design",
+        "source": "https://selbertperkins.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "International EGD firm. Strategy + Design + Placemaking. Airports, universities, master-planned communities, civic. Offices: LA, Boston, Chicago, Shanghai."
+  },
+  {
+    "companyId": 62,
+    "company": "Mijksenaar",
+    "contacts": [
+      {
+        "name": "Mijksenaar Studio",
+        "title": "Project Enquiries",
+        "email": "newyork@mijksenaar.com",
+        "linkedin": "https://www.linkedin.com/company/mijksenaar",
+        "source": "https://www.mijksenaar.com/",
+        "confidence": "high"
+      },
+      {
+        "name": "Paul Mijksenaar",
+        "title": "Founder",
+        "email": "paul@mijksenaar.com",
+        "linkedin": "https://www.linkedin.com/in/paul-mijksenaar",
+        "source": "https://www.mijksenaar.com/about",
+        "confidence": "high",
+        "notes": "Founder - inventor of the j-path system"
+      }
+    ],
+    "notes": "39+ years global experience. Strategy + Design. Airports, hospitals, museums, transit, cities. Amsterdam HQ, NYC office."
+  },
+  {
+    "companyId": 63,
+    "company": "Gresham Smith",
+    "contacts": [
+      {
+        "name": "Gresham Smith Studio",
+        "title": "Project Enquiries",
+        "email": "info@greshamsmith.com",
+        "linkedin": "https://www.linkedin.com/company/gresham-smith",
+        "source": "https://www.greshamsmith.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Aviation-focused wayfinding. Major US airports: Hartsfield-Jackson Atlanta, LAX, Tampa International. Transit and civic work. Multi-discipline AE firm with dedicated EGD."
+  },
+  {
+    "companyId": 64,
+    "company": "Dimensional Innovations",
+    "contacts": [
+      {
+        "name": "Dimensional Innovations Studio",
+        "title": "Project Enquiries",
+        "email": "hello@dimin.com",
+        "linkedin": "https://www.linkedin.com/company/dimensional-innovations",
+        "source": "https://dimin.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Technology-enabled wayfinding. Hospitals, campuses, airports, corporate. Full design-to-install. National reach from Kansas base."
+  },
+  {
+    "companyId": 65,
+    "company": "Corlette Design",
+    "contacts": [
+      {
+        "name": "Corlette Design Studio",
+        "title": "Project Enquiries",
+        "email": "studio@corlettedesign.com",
+        "linkedin": "https://www.linkedin.com/company/corlette-design",
+        "source": "https://www.corlettedesign.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Global leaders in experiential branding, signage design and wayfinding for luxury, hospitality and lifestyle design. UK HQ but strong US operations."
+  },
+  {
+    "companyId": 66,
+    "company": "Creative Sign Designs",
+    "contacts": [
+      {
+        "name": "Creative Sign Designs Studio",
+        "title": "Project Enquiries",
+        "email": "info@creativesigndesigns.com",
+        "linkedin": "https://www.linkedin.com/company/creative-sign-designs",
+        "source": "https://creativesigndesigns.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Hospitality-focused signage. Luxury boutique hotels, multi-use destinations. EGD Studio consultancy. Exterior and interior wayfinding consultation, illuminated signage design, fabrication and installation."
+  },
+  {
+    "companyId": 67,
+    "company": "Visual Works",
+    "contacts": [
+      {
+        "name": "Visual Works Studio",
+        "title": "Project Enquiries",
+        "email": "info@visualworksny.com",
+        "linkedin": "https://www.linkedin.com/company/visual-works-ny",
+        "source": "https://www.visualworksny.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "NYC-based signage company. Art galleries, corporations, museums, hospitality, architects/designers, healthcare, financial, educational, event planners, retail, government."
+  },
+  {
+    "companyId": 68,
+    "company": "Street Style Sign Studio",
+    "contacts": [
+      {
+        "name": "Street Style Sign Studio Studio",
+        "title": "Project Enquiries",
+        "email": "info@streetstylesigns.com",
+        "linkedin": "https://www.linkedin.com/company/street-style-sign-studio",
+        "source": "https://streetstylesigns.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "NYC-based airport signage specialist. Complex public environments. Designed and implemented airport signage systems across NYC."
+  },
+  {
+    "companyId": 69,
+    "company": "EDG Experience Design Group",
+    "contacts": [
+      {
+        "name": "EDG Experience Design Group Team",
+        "title": "Project Enquiries",
+        "email": "info@experiencedesigngroup.ca",
+        "linkedin": "https://www.linkedin.com/company/edg-experience-design-group",
+        "source": "https://www.experiencedesigngroup.ca/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Professional design consultation practice specialized in Wayfinding, Signage, and Interpretive sector. Creates timeless and user-centred environments in community, commercial, retail."
+  },
+  {
+    "companyId": 70,
+    "company": "Modulex",
+    "contacts": [
+      {
+        "name": "Modulex Team",
+        "title": "Project Enquiries",
+        "email": "toronto@modulex.com",
+        "linkedin": "https://www.linkedin.com/company/modulex",
+        "source": "https://modulex.com/ontario/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Global leader in Wayfinding & Architectural Signage design, production and implementation. Toronto office services Ontario market. Focus: Mixed-Use, Hospitality, Healthcare, Education, Government."
+  },
+  {
+    "companyId": 71,
+    "company": "Cygnus Design Group",
+    "contacts": [
+      {
+        "name": "Cygnus Design Group Team",
+        "title": "Project Enquiries",
+        "email": "info@cygnus.group",
+        "linkedin": "https://www.linkedin.com/company/cygnus-design-group",
+        "source": "https://www.cygnus.group/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Strategic multidisciplinary consultancy specializing in wayfinding, signage standards, and branded environments. Cadillac Fairview portfolio (CF Toronto Eaton Centre, TD Centre)."
+  },
+  {
+    "companyId": 72,
+    "company": "EEC Industries",
+    "contacts": [
+      {
+        "name": "EEC Industries Team",
+        "title": "Project Enquiries",
+        "email": "info@eecind.com",
+        "linkedin": "https://www.linkedin.com/company/eec-industries",
+        "source": "https://www.eecind.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Leader in custom architectural signage since 1973. Craftsmanship, service, attention to detail. Custom sign design packages with complete wayfinding plans."
+  },
+  {
+    "companyId": 73,
+    "company": "Intu Design",
+    "contacts": [
+      {
+        "name": "Intu Design Team",
+        "title": "Project Enquiries",
+        "email": "hello@intudesign.com",
+        "linkedin": "https://www.linkedin.com/company/intu-design",
+        "source": "https://intudesign.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Industrial Design & Environmental Graphics. Deep experience in design of wayfinding, signage and amenities for public spaces, outdoor environments, cultural spaces and heritage places."
+  },
+  {
+    "companyId": 74,
+    "company": "Hi Signs",
+    "contacts": [
+      {
+        "name": "Hi Signs Team",
+        "title": "Project Enquiries",
+        "email": "info@hisigns.com",
+        "linkedin": "https://www.linkedin.com/company/hi-signs",
+        "source": "https://hisigns.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Canadian architectural signage and wayfinding fabricator. Dedicated to creating functional and aesthetically pleasing solutions."
+  },
+  {
+    "companyId": 75,
+    "company": "Multigraphics",
+    "contacts": [
+      {
+        "name": "Multigraphics Team",
+        "title": "Project Enquiries",
+        "email": "info@multigraphics.ca",
+        "linkedin": "https://www.linkedin.com/company/multigraphics",
+        "source": "https://multigraphics.ca/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Print, fabricate and install custom wayfinding system signs. Interior and exterior informational and directional signs."
+  },
+  {
+    "companyId": 76,
+    "company": "Urbanetica",
+    "contacts": [
+      {
+        "name": "Urbanetica Team",
+        "title": "Project Enquiries",
+        "email": "info@urbanetica.com",
+        "linkedin": null,
+        "source": "https://urbanetica.com/",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "Mexican urban wayfinding and city signage specialist. Based in Guadalajara. Urban signage and transit wayfinding."
+  },
+  {
+    "companyId": 77,
+    "company": "Entro / CVEDesign",
+    "contacts": [
+      {
+        "name": "Entro / CVEDesign Team",
+        "title": "Project Enquiries",
+        "email": "info@cvedesign.com",
+        "linkedin": "https://www.linkedin.com/company/entro",
+        "source": "https://cvedesign.com/",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "EGD firm specializing in planning and design of signage and wayfinding programs, branded environments, and user navigation systems. Has Mexico presence."
+  },
+  {
+    "companyId": 78,
+    "company": "Catt Lyon Design + Wayfinding",
+    "contacts": [
+      {
+        "name": "Simon Lyon",
+        "title": "Partner/Contact",
+        "email": "slyon@cattlyondesign.com",
+        "linkedin": null,
+        "source": "https://www.wayfinding-consultants.com/contact.html",
+        "confidence": "high",
+        "notes": "Direct email found on contact page"
+      },
+      {
+        "name": "Charleen Catt Lyon",
+        "title": "Founder and Design Principal",
+        "linkedin": "https://www.linkedin.com/in/charleen-lyon-1251155",
+        "source": "https://segd.org/tags/catt-lyon-design-wayfinding",
+        "confidence": "high",
+        "notes": "SEGD member, founder"
+      }
+    ],
+    "notes": "NY/Chicago/Cincinnati based wayfinding consultancy. Major convention center and sports venue credentials."
+  },
+  {
+    "companyId": 79,
+    "company": "Davies Associates",
+    "contacts": [
+      {
+        "name": "Davies Associates Studio",
+        "title": "Project Enquiries",
+        "email": "info@daviesla.com",
+        "linkedin": "https://www.linkedin.com/company/davies-associates",
+        "source": "https://daviesla.com/",
+        "confidence": "high"
+      },
+      {
+        "name": "Noel Davies",
+        "title": "Principal",
+        "linkedin": null,
+        "source": "https://daviesla.com/",
+        "confidence": "medium"
+      },
+      {
+        "name": "Cathy Davies",
+        "title": "Principal",
+        "linkedin": null,
+        "source": "https://daviesla.com/",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "40+ year LA design studio. Principals are Noel and Cathy Davies."
+  },
+  {
+    "companyId": 80,
+    "company": "IN-FO.CO / STUDIO",
+    "contacts": [
+      {
+        "name": "IN-FO.CO Studio",
+        "title": "Project Enquiries",
+        "email": "info@in-fo.co",
+        "linkedin": null,
+        "source": "https://in-fo.co/studio",
+        "confidence": "high",
+        "notes": "Direct email on website"
+      },
+      {
+        "name": "Adam Michaels",
+        "title": "Principal",
+        "linkedin": null,
+        "source": "https://in-fo.co/studio",
+        "confidence": "medium"
+      },
+      {
+        "name": "Shannon Harvey",
+        "title": "Principal",
+        "linkedin": null,
+        "source": "https://in-fo.co/studio",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "National Design Award-winning practice. Museum and cultural institution specialist."
+  },
+  {
+    "companyId": 81,
+    "company": "FOUND.",
+    "contacts": [
+      {
+        "name": "FOUND. Studio",
+        "title": "Project Enquiries",
+        "email": null,
+        "linkedin": null,
+        "source": "https://thefounddesign.com/",
+        "confidence": "low",
+        "notes": "No direct email found on website. LA-based innovative firm."
+      }
+    ],
+    "notes": "Innovative LA firm using AI, digital platforms, GPS for wayfinding. Major mixed-use projects."
+  },
+  {
+    "companyId": 82,
+    "company": "Forcade Associates",
+    "contacts": [
+      {
+        "name": "Forcade Studio",
+        "title": "RFP/Project Enquiries",
+        "email": "forcade@forcade.net",
+        "linkedin": null,
+        "source": "https://forcadedesign.com/faq",
+        "confidence": "high",
+        "notes": "Direct email from FAQ page for RFPs"
+      },
+      {
+        "name": "Mark Levine",
+        "title": "Contact for RFPs",
+        "email": "forcade@forcade.net",
+        "linkedin": null,
+        "source": "https://forcadedesign.com/faq",
+        "confidence": "high"
+      }
+    ],
+    "notes": "35+ year Chicago-area EGD firm. Healthcare and corporate environments specialist."
+  },
+  {
+    "companyId": 83,
+    "company": "HGA",
+    "contacts": [
+      {
+        "name": "HGA Studio",
+        "title": "Project Enquiries",
+        "email": "info@hga.com",
+        "linkedin": "https://www.linkedin.com/company/hga-architects",
+        "source": "https://hga.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Architecture firm with EGD practice. Minneapolis-based multi-disciplinary firm."
+  },
+  {
+    "companyId": 84,
+    "company": "Westkey Xibita",
+    "contacts": [
+      {
+        "name": "Westkey Xibita Studio",
+        "title": "Project Enquiries",
+        "email": "info@westkeyxibita.com",
+        "linkedin": null,
+        "source": "https://westkeyxibita.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Western Canada wayfinding specialist. Vancouver, Edmonton, Calgary, Kelowna coverage."
+  },
+  {
+    "companyId": 85,
+    "company": "Signify Sign Company",
+    "contacts": [
+      {
+        "name": "Signify Sign Company Studio",
+        "title": "Project Enquiries",
+        "email": "info@signifysigncompany.ca",
+        "linkedin": null,
+        "source": "https://signifysigncompany.ca/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Toronto-based custom signage and wayfinding fabricator."
+  },
+  {
+    "companyId": 86,
+    "company": "Lance Wyman Ltd",
+    "contacts": [
+      {
+        "name": "Lance Wyman Studio",
+        "title": "Project Enquiries",
+        "email": "info@lancewyman.com",
+        "linkedin": null,
+        "source": "https://lancewyman.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Legendary designer of Mexico City Metro wayfinding (1969). Still active in wayfinding design."
+  },
+  {
+    "companyId": 87,
+    "company": "Signa Mexico",
+    "contacts": [
+      {
+        "name": "Signa Mexico Studio",
+        "title": "Project Enquiries",
+        "email": "info@signamexico.com",
+        "linkedin": null,
+        "source": "https://signamexico.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Mexican signage and wayfinding company."
+  },
+  {
+    "companyId": 88,
+    "company": "Mazefate",
+    "contacts": [
+      {
+        "name": "Mazefate Team",
+        "title": "Project Enquiries",
+        "email": "info@mazefate.com",
+        "linkedin": null,
+        "source": "https://www.mazefate.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Singapore-based wayfinding consultancy. Strategic approach to retail, hospitality, mixed-use."
+  },
+  {
+    "companyId": 89,
+    "company": "UDS Design",
+    "contacts": [
+      {
+        "name": "UDS Design Team",
+        "title": "Enquiries",
+        "email": "enquire@udsdesign.com",
+        "linkedin": null,
+        "source": "https://www.udsdesign.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Established 1993. Leading Singapore signage consultant."
+  },
+  {
+    "companyId": 90,
+    "company": "Radical Design",
+    "contacts": [
+      {
+        "name": "Radical Design Team",
+        "title": "Project Enquiries",
+        "email": "hello@radicaldesign.com.sg",
+        "linkedin": null,
+        "source": "https://radicaldesign.com.sg/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Since 2010. EGD expertise with code compliance specialism."
+  },
+  {
+    "companyId": 91,
+    "company": "IMMORTAL",
+    "contacts": [
+      {
+        "name": "IMMORTAL Team",
+        "title": "Enquiries",
+        "email": "enquiry@immortal.com.sg",
+        "linkedin": null,
+        "source": "https://www.immortal.com.sg/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "PMC certified. 30+ years award-winning design."
+  },
+  {
+    "companyId": 92,
+    "company": "Carats and Co",
+    "contacts": [
+      {
+        "name": "Carats and Co Team",
+        "title": "Project Enquiries",
+        "email": "info@caratsandco.com",
+        "linkedin": null,
+        "source": "https://www.caratsandco.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Leading Singapore signage specialist. 120+ talents."
+  },
+  {
+    "companyId": 93,
+    "company": "Signix",
+    "contacts": [
+      {
+        "name": "Signix Team",
+        "title": "Project Enquiries",
+        "email": "enquire@signix.hk",
+        "linkedin": null,
+        "source": "https://www.signix.hk/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Established HK consultancy serving China, HK, Asia."
+  },
+  {
+    "companyId": 94,
+    "company": "Studio X",
+    "contacts": [
+      {
+        "name": "Studio X Team",
+        "title": "Project Enquiries",
+        "email": "hello@thisisstudiox.com",
+        "linkedin": null,
+        "source": "https://www.thisisstudiox.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Wayfinding for luxury hotels, malls, mixed-use."
+  },
+  {
+    "companyId": 95,
+    "company": "graphiaBrands",
+    "contacts": [
+      {
+        "name": "graphiaBrands Team",
+        "title": "Project Enquiries",
+        "email": "info@graphiabrands.com",
+        "linkedin": null,
+        "source": "https://www.graphiabrands.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Pioneered EGD in HK and China."
+  },
+  {
+    "companyId": 96,
+    "company": "CCD/Cheng Chung Design (ATG BEYOND)",
+    "contacts": [
+      {
+        "name": "CCD Team",
+        "title": "Enquiries",
+        "email": "enquiry@ccd.com.hk",
+        "linkedin": null,
+        "source": "https://www.ccd.com.hk/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Environmental signage, wayfinding, brand visual management."
+  },
+  {
+    "companyId": 97,
+    "company": "Marc & Chantal",
+    "contacts": [
+      {
+        "name": "Marc & Chantal Team",
+        "title": "Project Enquiries",
+        "email": "info@marc-chantal.com",
+        "linkedin": null,
+        "source": "https://www.marc-chantal.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Architecture-integrated wayfinding. HK and Beijing."
+  },
+  {
+    "companyId": 98,
+    "company": "VADI (Sign Keystone)",
+    "contacts": [
+      {
+        "name": "VADI Team",
+        "title": "Project Enquiries",
+        "email": "hello@signkeystone.com",
+        "linkedin": null,
+        "source": "https://www.signkeystone.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Contemporary bespoke signage and wayfinding."
+  },
+  {
+    "companyId": 99,
+    "company": "Maynard Design",
+    "contacts": [
+      {
+        "name": "Maynard Design HK",
+        "title": "Hong Kong Studio",
+        "email": "hongkong@maynard-design.com",
+        "linkedin": null,
+        "source": "https://www.maynard-design.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "HK pedestrian wayfinding system with ARUP for Transport Dept."
+  },
+  {
+    "companyId": 100,
+    "company": "MOTIVE Inc.",
+    "contacts": [
+      {
+        "name": "MOTIVE Inc. Team",
+        "title": "Project Enquiries",
+        "email": "info@motive.tokyo",
+        "linkedin": null,
+        "source": "http://motive.tokyo/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Tokyo wayfinding studio. Notable rail work."
+  },
+  {
+    "companyId": 101,
+    "company": "Kenya Hara / Hara Design Institute",
+    "contacts": [
+      {
+        "name": "Hara Design Institute",
+        "title": "Enquiries",
+        "email": "hara@ndc.co.jp",
+        "linkedin": null,
+        "source": "https://www.ndc.co.jp/hara/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "World-renowned designer. MUJI art director."
+  },
+  {
+    "companyId": 102,
+    "company": "Nippon Design Center (NDC)",
+    "contacts": [
+      {
+        "name": "NDC Team",
+        "title": "General Enquiries",
+        "email": "info@ndc.co.jp",
+        "linkedin": null,
+        "source": "https://www.ndc.co.jp/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Major Japanese design firm."
+  },
+  {
+    "companyId": 103,
+    "company": "Nikken Sekkei",
+    "contacts": [
+      {
+        "name": "Nikken Sekkei",
+        "title": "General Enquiries",
+        "email": "info@nikken.co.jp",
+        "linkedin": null,
+        "source": "https://www.nikken.co.jp/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Architecture firm with wayfinding."
+  },
+  {
+    "companyId": 104,
+    "company": "artless Inc.",
+    "contacts": [
+      {
+        "name": "artless Inc. Team",
+        "title": "Project Enquiries",
+        "email": "info@artless.co.jp",
+        "linkedin": null,
+        "source": "https://www.artless.co.jp/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Design-led brand consultancy."
+  },
+  {
+    "companyId": 105,
+    "company": "NIHON SIGN",
+    "contacts": [
+      {
+        "name": "NIHON SIGN Team",
+        "title": "Project Enquiries",
+        "email": "info@sign.co.jp",
+        "linkedin": null,
+        "source": "http://www.sign.co.jp/en/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Major Japanese manufacturer."
+  },
+  {
+    "companyId": 106,
+    "company": "Micio",
+    "contacts": [
+      {
+        "name": "Micio Team",
+        "title": "Project Enquiries",
+        "email": "Hello@micio.com.au",
+        "linkedin": null,
+        "source": "https://www.micio.com.au/",
+        "confidence": "high"
+      },
+      {
+        "name": "Clare Chang",
+        "title": "Founder",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/clarechang",
+        "source": "https://www.micio.com.au/about-us-wayfinding-signage-consultants-in-melbourne/",
+        "confidence": "high",
+        "notes": "Co-founder - established firm"
+      },
+      {
+        "name": "Thomas Williams",
+        "title": "Founder",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/thomas-williams-461b6345",
+        "source": "https://www.micio.com.au/about-us-wayfinding-signage-consultants-in-melbourne/",
+        "confidence": "high",
+        "notes": "Co-founder - established firm"
+      }
+    ],
+    "notes": "Melbourne-based wayfinding specialists. Founded by Clare Chang and Thomas Williams. Multi-sector: residential, workspaces, mixed-use, hospitality, arts & culture, community."
+  },
+  {
+    "companyId": 107,
+    "company": "Studio Semaphore",
+    "contacts": [
+      {
+        "name": "Studio Semaphore Team",
+        "title": "Project Enquiries",
+        "email": "info@studiosemaphore.com.au",
+        "linkedin": null,
+        "source": "https://studiosemaphore.com.au/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Airport credentials (Perth, Melbourne)."
+  },
+  {
+    "companyId": 108,
+    "company": "Anne Gordon Design",
+    "contacts": [
+      {
+        "name": "Anne Gordon Design Team",
+        "title": "Project Enquiries",
+        "email": "hello@annegordondesign.com",
+        "linkedin": null,
+        "source": "http://annegordondesign.com",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Sydney-based wayfinding consultants."
+  },
+  {
+    "companyId": 109,
+    "company": "Maynard Design",
+    "contacts": [
+      {
+        "name": "Maynard Design Melbourne",
+        "title": "Melbourne Studio",
+        "email": "melbourne@maynard-design.com",
+        "linkedin": null,
+        "source": "https://www.maynard-design.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "International firm with Melbourne presence."
+  },
+  {
+    "companyId": 110,
+    "company": "ASPECT Studios",
+    "contacts": [
+      {
+        "name": "ASPECT Studios Team",
+        "title": "Wayfinding Enquiries",
+        "email": "hello@aspect-studios.com",
+        "linkedin": null,
+        "source": "https://www.aspect-studios.com/au/services/wayfinding",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Interdisciplinary approach."
+  },
+  {
+    "companyId": 111,
+    "company": "Vivid Wayfinding",
+    "contacts": [
+      {
+        "name": "Vivid Wayfinding Team",
+        "title": "Project Enquiries",
+        "email": "info@vividwayfinding.com.au",
+        "linkedin": null,
+        "source": "https://www.vividwayfinding.com.au/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Multi-city Australian firm."
+  },
+  {
+    "companyId": 112,
+    "company": "BrandCulture",
+    "contacts": [
+      {
+        "name": "BrandCulture Team",
+        "title": "Project Enquiries",
+        "email": "info@brandculture.com.au",
+        "linkedin": null,
+        "source": "https://brandculture.com.au/wayfinding-signage-design/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Complex signage systems specialist."
+  },
+  {
+    "companyId": 113,
+    "company": "MASS",
+    "contacts": [
+      {
+        "name": "MASS Team",
+        "title": "Project Enquiries",
+        "email": "hello@mass.studio",
+        "linkedin": null,
+        "source": "https://melbournearchitecturalsignage.studio",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Melbourne spatial brand design."
+  },
+  {
+    "companyId": 114,
+    "company": "Citizen",
+    "contacts": [
+      {
+        "name": "Citizen Team",
+        "title": "Project Enquiries",
+        "email": "hello@citizengroup.com.au",
+        "linkedin": null,
+        "source": "https://www.citizengroup.com.au/placemakingwayfinding",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Brand/design/architectural collective."
+  },
+  {
+    "companyId": 115,
+    "company": "Collider",
+    "contacts": [
+      {
+        "name": "Collider Team",
+        "title": "Project Enquiries",
+        "email": "hello@collider.com.au",
+        "linkedin": null,
+        "source": "https://www.collider.com.au/studio/signage-and-wayfinding/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Award-winning. Published in Asia-Pacific Design."
+  },
+  {
+    "companyId": 116,
+    "company": "Studio Ongarato",
+    "contacts": [
+      {
+        "name": "Studio Ongarato Team",
+        "title": "New Business Enquiries",
+        "email": "newbusiness@studioongarato.com",
+        "linkedin": "https://www.linkedin.com/company/7613138/",
+        "source": "https://studioongarato.com.au/contact/",
+        "confidence": "high",
+        "notes": "Direct email confirmed from contact page"
+      },
+      {
+        "name": "Fabio Ongarato",
+        "title": "Founder & Creative Director",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/fabio-ongarato",
+        "source": "https://studioongarato.com.au/about/",
+        "confidence": "high",
+        "notes": "Founder - established firm in 1993"
+      },
+      {
+        "name": "Ronnen Goren",
+        "title": "Director",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/ronnen-goren",
+        "source": "https://studioongarato.com.au/about/",
+        "confidence": "high",
+        "notes": "Director - co-founder"
+      }
+    ],
+    "notes": "Award-winning Melbourne studio founded 1993. Major credentials: NGV, Art Gallery of NSW, Ace Hotel, Western Australian Museum. Offices also in Hong Kong."
+  },
+  {
+    "companyId": 117,
+    "company": "ZIGO",
+    "contacts": [
+      {
+        "name": "ZIGO Team",
+        "title": "Project Enquiries",
+        "email": "info@zigosign.com",
+        "linkedin": null,
+        "source": "https://www.zigosign.com/",
+        "confidence": "high",
+        "notes": "Direct email from company website"
+      }
+    ],
+    "notes": "Japanese wayfinding system specialist for five-star hotels, hospitals, malls, luxury real estate."
+  },
+  {
+    "companyId": 118,
+    "company": "Modulex Brazil",
+    "contacts": [
+      {
+        "name": "Modulex Brazil Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/company/modulex/",
+        "source": "https://modulex.com/brazil/",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "Global firm with local Brazilian presence. No direct email found on Brazilian site."
+  },
+  {
+    "companyId": 119,
+    "company": "CLA Programa\u00e7\u00e3o Visual",
+    "contacts": [
+      {
+        "name": "CLA Team",
+        "title": "Project Enquiries",
+        "email": "cla@clapvisual.com.br",
+        "linkedin": "",
+        "source": "https://www.clapvisual.com.br/contato",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Contact email publicly listed on website. 25+ years in Brazilian market."
+  },
+  {
+    "companyId": 120,
+    "company": "Placrim",
+    "contacts": [
+      {
+        "name": "Placrim Team",
+        "title": "Project Enquiries",
+        "email": "contato@placrim.com.br",
+        "linkedin": "",
+        "source": "https://www.placrim.com.br/contato/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Contact email and phone publicly listed on website."
+  },
+  {
+    "companyId": 121,
+    "company": "STUDIOMDA",
+    "contacts": [
+      {
+        "name": "STUDIOMDA Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://studiomda.com.br/",
+        "confidence": "low"
+      }
+    ],
+    "notes": "No direct contact info found on website."
+  },
+  {
+    "companyId": 122,
+    "company": "Martin Alba",
+    "contacts": [
+      {
+        "name": "Martin Alba Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://www.martinalba.com/",
+        "confidence": "low"
+      }
+    ],
+    "notes": "Website appears to have limited wayfinding content now. Contact info not directly available."
+  },
+  {
+    "companyId": 123,
+    "company": "Se\u00f1altec",
+    "contacts": [
+      {
+        "name": "Se\u00f1altec Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://www.senaltec.com.ar/empresa/",
+        "confidence": "low"
+      }
+    ],
+    "notes": "More focused on road signage. No direct contact email found."
+  },
+  {
+    "companyId": 124,
+    "company": "Wayfinding Consultores",
+    "contacts": [
+      {
+        "name": "Wayfinding Consultores Team",
+        "title": "Project Enquiries",
+        "email": "contacto@wayfinding.cl",
+        "linkedin": "https://cl.linkedin.com/company/wayfindingconsultores",
+        "source": "https://wayfinding.cl/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Direct email contacto@wayfinding.cl publicly listed. Only dedicated wayfinding consultancy in Chile."
+  },
+  {
+    "companyId": 125,
+    "company": "Siente Cinco",
+    "contacts": [
+      {
+        "name": "Siente Cinco Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://sientecinco.cl/",
+        "confidence": "low"
+      }
+    ],
+    "notes": "Contact form on website. No direct email found."
+  },
+  {
+    "companyId": 126,
+    "company": "Chile Dise\u00f1o",
+    "contacts": [
+      {
+        "name": "Chile Dise\u00f1o Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://www.chilediseno.org/",
+        "confidence": "low"
+      }
+    ],
+    "notes": "Association website. No direct contact for wayfinding services."
+  },
+  {
+    "companyId": 127,
+    "company": "Nazca Se\u00f1aletica",
+    "contacts": [
+      {
+        "name": "Nazca Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://nazca.com.co/",
+        "confidence": "low"
+      }
+    ],
+    "notes": "Website has contact page but no direct email found in initial fetch."
+  },
+  {
+    "companyId": 128,
+    "company": "Steer",
+    "contacts": [
+      {
+        "name": "Steer LATAM Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/company/steergroup/",
+        "source": "https://steergroup.com/",
+        "confidence": "low"
+      }
+    ],
+    "notes": "Global firm. Bogot\u00e1 office. Contact via global/regional channels."
+  },
+  {
+    "companyId": 129,
+    "company": "Vex Soluciones",
+    "contacts": [
+      {
+        "name": "Vex Soluciones Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://www.vexsoluciones.com/",
+        "confidence": "low"
+      }
+    ],
+    "notes": "Digital signage focus with wayfinding. Limited info available."
+  },
+  {
+    "companyId": 130,
+    "company": "CVDI Peru",
+    "contacts": [
+      {
+        "name": "Paulo Samanez",
+        "title": "Wayfinding and Signage Specialist",
+        "email": "",
+        "linkedin": "",
+        "source": "https://rocketreach.co/paulo-samanez-email_215663968",
+        "confidence": "low"
+      }
+    ],
+    "notes": "Individual contact found via LinkedIn. Company has limited web presence."
+  },
+  {
+    "companyId": 131,
+    "company": "Panavision (Central America)",
+    "contacts": [
+      {
+        "name": "Panavision Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://www.panavision.net.gt/contacto",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "Regional player covering 7 Central American countries. Phone: +502 2362-7041. Guatemala office."
+  },
+  {
+    "companyId": 132,
+    "company": "RSM Design (LATAM)",
+    "contacts": [
+      {
+        "name": "RSM Design Team",
+        "title": "Project Enquiries",
+        "email": "info@rsmdesign.com",
+        "linkedin": "https://www.linkedin.com/company/rsm-design",
+        "source": "https://rsmdesign.com/",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "US firm with LATAM operations. Completed Costa Rica project (Oxigeno). Contact via info@rsmdesign.com."
+  },
+  {
+    "companyId": 133,
+    "company": "Panavision (Central America)",
+    "contacts": [
+      {
+        "name": "Panavision Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://www.panavision.com.gt/",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "Regional player covering Costa Rica."
+  },
+  {
+    "companyId": 134,
+    "company": "Jackson Daly",
+    "contacts": [
+      {
+        "name": "Studio Team",
+        "title": "Project Enquiries",
+        "email": "info@jacksondaly.com",
+        "linkedin": "https://www.linkedin.com/company/jackson-daly-limited",
+        "source": "https://jacksondaly.com/contact/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Luxury hotel wayfinding specialist. Contact page lists info@jacksondaly.com and +44 (0)20 7234 0074"
+  },
+  {
+    "companyId": 135,
+    "company": "Air Design",
+    "contacts": [
+      {
+        "name": "Studio Team",
+        "title": "General Enquiries",
+        "email": "info@airdesign.co.uk",
+        "linkedin": null,
+        "source": "https://airdesign.co.uk/contact/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Award-winning branding & wayfinding. Contact page lists info@airdesign.co.uk for careers and general enquiries"
+  },
+  {
+    "companyId": 141,
+    "company": "Iwaarden",
+    "contacts": [
+      {
+        "name": "Iwaarden Team",
+        "title": "General Enquiries",
+        "email": "info@iwaarden.nl",
+        "linkedin": null,
+        "source": "https://www.iwaarden.nl/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Dutch signage company. Verified email from website. Did Pillows Grand Hotel Ter Borch project."
+  },
+  {
+    "companyId": 142,
+    "company": "Karas Prutscher",
+    "contacts": [
+      {
+        "name": "Prutscher Team",
+        "title": "General Enquiries",
+        "email": "office@prutscher.com",
+        "linkedin": null,
+        "source": "https://www.karas.at/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Vienna-based hotel signage. Verified email from website. Specializes in brass/engraved plaques."
+  },
+  {
+    "companyId": 143,
+    "company": "TwoWay",
+    "contacts": [
+      {
+        "name": "TwoWay Team",
+        "title": "General Enquiries",
+        "email": "geral@twoway.pt",
+        "linkedin": null,
+        "source": "https://twoway.pt/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Portuguese wayfinding consultancy. Verified email from website."
+  }
+]

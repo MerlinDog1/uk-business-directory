@@ -1,0 +1,3885 @@
+{
+  "method": "Public business profiles linked from the listed company site or corroborated by a named source. Profile activity was not verified.",
+  "profiles": [
+    {
+      "id": 1,
+      "company": "CJ Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/cj-signs-ltd/",
+      "source": "https://cjsigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 1,
+      "company": "CJ Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/cjsignslimited/",
+      "source": "https://cjsigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 2,
+      "company": "Signs Express Sheffield/Rotherham",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-sheffield/",
+      "source": "https://www.signsexpress.co.uk/sheffield-rotherham",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 2,
+      "company": "Signs Express Sheffield/Rotherham",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/sxsheffield/",
+      "source": "https://www.signsexpress.co.uk/sheffield-rotherham",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 11,
+      "company": "Monarch Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/monarchsigns1997/",
+      "source": "https://monarchsigns.com/about/",
+      "evidence": "Linked from the company contact/about page; account handle matches the company."
+    },
+    {
+      "id": 12,
+      "company": "Signs Express Norwich",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-norwich/",
+      "source": "https://www.signsexpress.co.uk/norwich",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 12,
+      "company": "Signs Express Norwich",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signsexpressnorwich/",
+      "source": "https://www.signsexpress.co.uk/norwich",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 13,
+      "company": "G Sign",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/gsign-limited/",
+      "source": "https://www.gsign.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 14,
+      "company": "Solar Signs and Graphics Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/solarsignsandgraphics/",
+      "source": "https://www.solarsignsandgraphics.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 15,
+      "company": "Imprint Signs & Graphics",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/imprintsignsltd/",
+      "source": "https://imprintsigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 16,
+      "company": "Red Dragon Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/red-dragon-media-limited/",
+      "source": "https://uk.linkedin.com/company/red-dragon-media-limited",
+      "evidence": "LinkedIn company profile names the business and links back to its directory-listed official website."
+    },
+    {
+      "id": 18,
+      "company": "FSG Signs and Graphics",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/fsg-signs-%26-graphics-limited/",
+      "source": "https://uk.linkedin.com/company/fsg-signs-%26-graphics-limited",
+      "evidence": "LinkedIn company profile names the business and links back to its directory-listed official website."
+    },
+    {
+      "id": 20,
+      "company": "SPP Digital",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/spp-digital-ltd/",
+      "source": "https://sppdigital.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 20,
+      "company": "SPP Digital",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/sppdigital/",
+      "source": "https://sppdigital.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 26,
+      "company": "Alan Hislop Glass Engraver",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/alanhislopglassengraver/",
+      "source": "https://www.ahengraving.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 30,
+      "company": "Pats Wooden Crafts and Engraving",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/patswoodencrafts_engraving/",
+      "source": "https://patswoodencrafts-engraving.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 37,
+      "company": "Majestic Crystal",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/majestic.crystal/",
+      "source": "https://www.majesticcrystal.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 38,
+      "company": "The Trophy Store",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/thetrophystore/",
+      "source": "https://www.thetrophystore.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 40,
+      "company": "County Cups",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/countycupsltd/",
+      "source": "https://www.countycups.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 41,
+      "company": "Running Imp",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/running-imp/",
+      "source": "https://runningimp.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 41,
+      "company": "Running Imp",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/running_imp/",
+      "source": "https://runningimp.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 42,
+      "company": "Sign Rite Grafix",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signritegrafix/",
+      "source": "https://signritegrafix.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 53,
+      "company": "Shelton Trophies",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/shelton-trophies-ltd/",
+      "source": "https://sheltontrophies.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 53,
+      "company": "Shelton Trophies",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/sheltontrophies/",
+      "source": "https://sheltontrophies.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 55,
+      "company": "MDH Teamwear & Trophies",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/mdhteamwearandtrophies/",
+      "source": "https://www.mdhteamwear.co.uk/trophies/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 57,
+      "company": "Premier Graphics & Signs Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/premier-graphics-and-signs-limited/",
+      "source": "https://uk.linkedin.com/company/premier-graphics-and-signs-limited",
+      "evidence": "LinkedIn company profile names the business and links back to its directory-listed official website."
+    },
+    {
+      "id": 60,
+      "company": "Signs Express South Durham",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-south-durham-and-teesside/",
+      "source": "https://www.signsexpress.co.uk/durhamsouth",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 60,
+      "company": "Signs Express South Durham",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/sxpsouthdurhamandteesside/",
+      "source": "https://www.signsexpress.co.uk/durhamsouth",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 70,
+      "company": "The Sussex Sign Company",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/sussex-signs/",
+      "source": "https://www.sussexsigns.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 70,
+      "company": "The Sussex Sign Company",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/thesussexsigncompany/",
+      "source": "https://www.sussexsigns.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 72,
+      "company": "Signtek",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signtek-eastbourne/",
+      "source": "https://uk.linkedin.com/company/signtek-eastbourne",
+      "evidence": "LinkedIn company profile names the business and links back to its directory-listed official website."
+    },
+    {
+      "id": 97,
+      "company": "EFX Awards",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/efx.awards/",
+      "source": "https://www.efx.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 101,
+      "company": "The D-Sign Hub Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/thedsignhub/",
+      "source": "https://www.dsignhub.co.uk/about/",
+      "evidence": "Linked from the company contact/about page; account handle matches the company."
+    },
+    {
+      "id": 103,
+      "company": "Ensign Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/ensign-graphic-solutions-ltd./",
+      "source": "https://www.ensignltd.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 103,
+      "company": "Ensign Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/ensignlimited/",
+      "source": "https://www.ensignltd.co.uk/about-us",
+      "evidence": "Linked from the company contact/about page; account handle matches the company."
+    },
+    {
+      "id": 104,
+      "company": "Graffit LTD",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/graffitltd/",
+      "source": "https://graffit.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 110,
+      "company": "Herts Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/HertsSigns/",
+      "source": "https://www.hertssigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 115,
+      "company": "A1 Trophies",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/a1trophies_com/",
+      "source": "https://www.a1trophies.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 118,
+      "company": "Medash Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/medash-signs-limited/",
+      "source": "https://medashsigns.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 118,
+      "company": "Medash Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/medashsigns/",
+      "source": "https://medashsigns.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 122,
+      "company": "Signworx",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signworxuk/",
+      "source": "https://www.signworx.co/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 123,
+      "company": "Signs Express NW Kent & SE London",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-dartford/",
+      "source": "https://www.signsexpress.co.uk/nwkent-selondon",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 123,
+      "company": "Signs Express NW Kent & SE London",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/sxnorthwestkent/",
+      "source": "https://www.signsexpress.co.uk/nwkent-selondon",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 137,
+      "company": "Esign UK",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/esignuk/",
+      "source": "https://www.esignuk.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 138,
+      "company": "Envirosigns Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/envirosigns/",
+      "source": "https://www.envirosignsltd.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 139,
+      "company": "Signs Base",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signsbase/",
+      "source": "https://www.signsbase.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 139,
+      "company": "Signs Base",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signsbase/",
+      "source": "https://www.signsbase.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 152,
+      "company": "Essex Trophy Centre",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/essex-trophy-centre/",
+      "source": "https://www.essextrophycentre.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 154,
+      "company": "FUZE Visual",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/we-are-fuze-uk/",
+      "source": "https://fuzevisual.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 154,
+      "company": "FUZE Visual",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/wearefuzeuk/",
+      "source": "https://fuzevisual.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 156,
+      "company": "Myall Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/myallsigns/",
+      "source": "https://www.myallsigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 159,
+      "company": "ABC Laser",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/abclaser/",
+      "source": "https://www.abcint.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 164,
+      "company": "Simply Signs Northwest",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/simply_signs_northwest/",
+      "source": "https://simplysigns-nw.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 175,
+      "company": "Staffordshire Signs & Graphics Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/staffordshiresigns/",
+      "source": "https://staffordshiresigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 188,
+      "company": "The Sign Bridge",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/the-sign-bridge/",
+      "source": "https://www.thesignbridge.com/high-peak-sign-maker",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 188,
+      "company": "The Sign Bridge",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/thesignbridge/",
+      "source": "https://www.thesignbridge.com/high-peak-sign-maker",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 190,
+      "company": "Tower Trophies",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/tower-trophies/",
+      "source": "https://www.towertrophies.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 190,
+      "company": "Tower Trophies",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/towertrophies/",
+      "source": "https://www.towertrophies.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 208,
+      "company": "Indigo Signs and Print",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/indigographicsiow/",
+      "source": "https://www.indigo-graphics.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 209,
+      "company": "Signpost Express",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signpost_express/",
+      "source": "https://www.signpostexpress.co.uk/contact/",
+      "evidence": "Linked from the company contact/about page; account handle matches the company."
+    },
+    {
+      "id": 210,
+      "company": "The Sign Company Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/thesigncoiw/",
+      "source": "https://thesigncompanyltd.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 219,
+      "company": "Lancaster Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/lancastersign/",
+      "source": "https://www.lancastersigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 220,
+      "company": "Links Signs & Graphics",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/linkssigns/",
+      "source": "https://www.linkssignsandgraphics.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 223,
+      "company": "Signs Express Lancaster",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-lancaster/",
+      "source": "https://www.signsexpress.co.uk/lancaster",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 223,
+      "company": "Signs Express Lancaster",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signsexpresslancaster/",
+      "source": "https://www.signsexpress.co.uk/lancaster",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 224,
+      "company": "Signs Express Preston",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-central-lancashire-/",
+      "source": "https://www.signsexpress.co.uk/preston",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 224,
+      "company": "Signs Express Preston",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signsexpresscl/",
+      "source": "https://www.signsexpress.co.uk/preston",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 230,
+      "company": "Trophy Cups",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/trophy_cups99/",
+      "source": "https://www.trophycups.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 232,
+      "company": "Kingdom Signs Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/kingdomsigns1/",
+      "source": "https://kingdomsigns.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 233,
+      "company": "Signs Express Oxford",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/sx-oxford/",
+      "source": "https://www.signsexpress.co.uk/oxford",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 233,
+      "company": "Signs Express Oxford",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signsexpressoxford/",
+      "source": "https://www.signsexpress.co.uk/oxford",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 240,
+      "company": "Signs Express Birmingham SW",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-birmingham-sw/",
+      "source": "https://www.signsexpress.co.uk/birminghamsw",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 240,
+      "company": "Signs Express Birmingham SW",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signsexpress_birminghamsw/",
+      "source": "https://www.signsexpress.co.uk/birminghamsw",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 241,
+      "company": "JM Sign & Print",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/jmsignandprint/",
+      "source": "https://www.jmsignandprint.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 242,
+      "company": "HNS Signs Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/hns-signs/",
+      "source": "https://hns-signs.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 242,
+      "company": "HNS Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/hnssignsltd/",
+      "source": "https://hns-signs.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 244,
+      "company": "Trophy Distributors UK Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/trophydistributors/",
+      "source": "https://www.trophydistributors.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 249,
+      "company": "Severn Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/severn-signs-ltd/",
+      "source": "https://www.severnsigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 252,
+      "company": "Gaudio Awards",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/gaudio-awards/",
+      "source": "https://www.gaudio.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 252,
+      "company": "Gaudio Awards",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/gaudioawards/",
+      "source": "https://www.gaudio.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 254,
+      "company": "Signs Express Newcastle",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-newcastle/",
+      "source": "https://www.signsexpress.co.uk/newcastle",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 254,
+      "company": "Signs Express Newcastle",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signs_express_newcastle/",
+      "source": "https://www.signsexpress.co.uk/newcastle",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 263,
+      "company": "D&P Trophies",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/dandptrophies/",
+      "source": "https://www.dandptrophies.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 264,
+      "company": "Signs Express Leicester",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/sxleicesterloughborough/",
+      "source": "https://www.signsexpress.co.uk/leicester",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 265,
+      "company": "Brookfield Signs and Graphics",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/brookfieldsigns/",
+      "source": "https://brookfieldsigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 277,
+      "company": "Top Trophies North",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/toptrophiesnorth/",
+      "source": "https://www.toptrophiesnorth.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 278,
+      "company": "G S Signs & Graphics",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/gssignsgraphics/",
+      "source": "https://www.gssigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 279,
+      "company": "Judson Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/judson-signs-ltd/",
+      "source": "https://www.judsonsigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 279,
+      "company": "Judson Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/judsonsigns/",
+      "source": "https://www.judsonsigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 280,
+      "company": "AR Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/ar-signs-east-of-england-ltd./",
+      "source": "https://www.arsigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 280,
+      "company": "AR Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/arsignsltd/",
+      "source": "https://www.arsigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 281,
+      "company": "Blueprint Nottingham",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/blueprint_nottingham/",
+      "source": "https://blueprintnottingham.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 282,
+      "company": "M-Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/msignsuk/",
+      "source": "https://www.msigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 288,
+      "company": "Showstoppers Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/showstopperslimited/",
+      "source": "https://www.showstoppersltd.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 289,
+      "company": "TrophyMaster",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/trophymaster/",
+      "source": "https://www.trophymaster.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 295,
+      "company": "Signwrite Studios",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signwrite-studios-ltd/",
+      "source": "https://signwritestudios.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 295,
+      "company": "Signwrite Studios",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signwritestudios/",
+      "source": "https://signwritestudios.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 307,
+      "company": "Complete Sign Solutions",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/complete-sign-solutions-ltd/",
+      "source": "https://www.signsolutionsuk.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 307,
+      "company": "Complete Sign Solutions",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/completesignsolutions/",
+      "source": "https://www.signsolutionsuk.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 309,
+      "company": "Cambridgeshire Sign Company",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/the-cambridge-sign-company-ltd/",
+      "source": "https://cambridgesigncompany.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 309,
+      "company": "Cambridgeshire Sign Company",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/cambridge_sign_company/",
+      "source": "https://cambridgesigncompany.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 311,
+      "company": "Signs Express Peterborough",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-peterborough/",
+      "source": "https://www.signsexpress.co.uk/peterborough",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 311,
+      "company": "Signs Express Peterborough",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signsexpresspeterborough/",
+      "source": "https://www.signsexpress.co.uk/peterborough",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 312,
+      "company": "SS Graphics & Specialist Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/specialist-signs-ltd/",
+      "source": "https://www.specialistsigns.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 312,
+      "company": "SS Graphics & Specialist Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/specialistsignsltd/",
+      "source": "https://www.specialistsigns.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 321,
+      "company": "The Cornish Print & Sign Company Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/the-cornish-print-sign-company/",
+      "source": "https://www.cornishprint.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 323,
+      "company": "More Creative",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/more_creative_solutions/",
+      "source": "https://www.morecreativesolutions.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 328,
+      "company": "Belmonte Boys Trophy Shop",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/belmonteboystrophyshop/",
+      "source": "https://www.belmonteboystrophyshop.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 333,
+      "company": "Reeds",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/we-are-reeds/",
+      "source": "https://wearereeds.co.uk/signage/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 333,
+      "company": "Reeds",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/reedscumbria/",
+      "source": "https://wearereeds.co.uk/signage/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 336,
+      "company": "Lake District Signs & Awnings",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signsblindsbydesign/",
+      "source": "https://lakedistrictsignsandawnings.co.uk/",
+      "evidence": "Official Lake District Signs website identifies the business as Signs & Blinds by Design: https://lakedistrictsignsandawnings.co.uk/signs/"
+    },
+    {
+      "id": 337,
+      "company": "AS Design Cumbria",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/asdesigncumbria/",
+      "source": "https://www.asdesigncumbria.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 343,
+      "company": "SJB Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/sjbsigns/",
+      "source": "https://www.sjbsigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 346,
+      "company": "Sign Vision",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/sign-visioncreativesignage/",
+      "source": "https://www.sign-vision.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 346,
+      "company": "Sign Vision",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/sign_vision/",
+      "source": "https://www.sign-vision.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 356,
+      "company": "Focused Laser Systems",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/focusedlasersystemsltd/",
+      "source": "https://www.focusedlasersystems.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 357,
+      "company": "Bay & Moor",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/bay-moor/",
+      "source": "https://www.bayandmoor.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 357,
+      "company": "Bay & Moor",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/bayandmoorltd/",
+      "source": "https://www.bayandmoor.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 358,
+      "company": "Cobblers and Keys",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/cobblersandkeys_swltd/",
+      "source": "https://cobblersandkeys.co.uk/engraving/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 374,
+      "company": "R & B Trophies",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/rb.trophies/",
+      "source": "https://www.r-and-b-trophies.co.uk/social-media/",
+      "evidence": "Linked from the company contact/about page; account handle matches the company."
+    },
+    {
+      "id": 379,
+      "company": "Harrisons Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/harrisonssigns/",
+      "source": "https://www.harrisonsigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 388,
+      "company": "Fusion Laser Cutting & Engraving",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/fusionlasercuttinghull/",
+      "source": "https://lasercuttinghull.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 390,
+      "company": "Glyphics",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/glyphics-ltd/",
+      "source": "https://www.glyphics.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 390,
+      "company": "Glyphics",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/glyphics/",
+      "source": "https://www.glyphics.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 391,
+      "company": "Efficient Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/efficientsigns/",
+      "source": "https://efficientsigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 392,
+      "company": "Sign Company London",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/thesigncompanylondon/",
+      "source": "https://www.signcompany.london/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 395,
+      "company": "Engravers Guild of London",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/engraversguild/",
+      "source": "https://www.engraversguild.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 397,
+      "company": "B&W Trophies",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/bw_trophies/",
+      "source": "https://www.bw-trophies.com/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 400,
+      "company": "Signs Express Manchester",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signsexpressmanchester/",
+      "source": "https://www.signsexpress.co.uk/manchester",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 400,
+      "company": "Signs Express Manchester",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signs.express.manchester/",
+      "source": "https://www.signsexpress.co.uk/manchester",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 403,
+      "company": "Gatley Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/gatleysigns/",
+      "source": "https://gatleysigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 412,
+      "company": "Lime Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/limesigns/",
+      "source": "https://www.limesigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 415,
+      "company": "Signs Express Southampton",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-southampton-/",
+      "source": "https://uk.linkedin.com/company/signs-express-southampton-",
+      "evidence": "LinkedIn profile identifies the local branch and links back to its official branch website."
+    },
+    {
+      "id": 415,
+      "company": "Signs Express Southampton",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/sxsouthampton/",
+      "source": "https://www.signsexpress.co.uk/southampton",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 416,
+      "company": "Signs Express Winchester",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-winchester/",
+      "source": "https://www.signsexpress.co.uk/winchester",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 416,
+      "company": "Signs Express Winchester",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/sx.winchester/",
+      "source": "https://www.signsexpress.co.uk/winchester",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 430,
+      "company": "Northern Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/northern-signs-ripon/",
+      "source": "https://www.northernsigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 430,
+      "company": "Northern Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/northernsignsripon/",
+      "source": "https://www.northernsigns.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 431,
+      "company": "Signs Express Scarborough",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-scarborough/",
+      "source": "https://www.signsexpress.co.uk/scarborough",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 431,
+      "company": "Signs Express Scarborough",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signsexpress_scarborough/",
+      "source": "https://www.signsexpress.co.uk/scarborough",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 455,
+      "company": "Phoenix Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/phoenixsignssussex/",
+      "source": "https://www.phoenixsignssussex.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 456,
+      "company": "Southcoast Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/southcoastsigns_/",
+      "source": "https://southcoast-signs.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 461,
+      "company": "Signfocus",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signfocus/",
+      "source": "https://signfocus.co.uk/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 462,
+      "company": "Signs Express Leeds",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-leeds/",
+      "source": "https://uk.linkedin.com/company/signs-express-leeds",
+      "evidence": "LinkedIn profile identifies the local branch and links back to its official branch website."
+    },
+    {
+      "id": 462,
+      "company": "Signs Express Leeds",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signs_express_leeds/",
+      "source": "https://www.signsexpress.co.uk/leeds",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 492,
+      "company": "Signs Express Salisbury",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signsexpresssalisbury/",
+      "source": "https://www.signsexpress.co.uk/salisbury/",
+      "evidence": "Listed on the company website; profile name or handle matches the company or local branch."
+    },
+    {
+      "id": 505,
+      "company": "Engraving Artists",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/engravingartists/",
+      "source": "https://www.engravingartists.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 507,
+      "company": "East Anglia Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/eastangliasignsltd/",
+      "source": "https://www.eastangliasigns.co.uk/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 517,
+      "company": "BEL Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/bel-signs/",
+      "source": "https://www.belsigns.co.uk/",
+      "evidence": "Both official sites name BEL Signs and list 01403 255442; profiles linked from belsigns.co.uk. https://www.brass-plaques.co.uk/"
+    },
+    {
+      "id": 517,
+      "company": "BEL Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/bel_signs/",
+      "source": "https://www.belsigns.co.uk/",
+      "evidence": "Both official sites name BEL Signs and list 01403 255442; profiles linked from belsigns.co.uk. https://www.brass-plaques.co.uk/"
+    },
+    {
+      "id": 518,
+      "company": "BEL Signs - Brass Plaques",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/bel-signs/",
+      "source": "https://www.belsigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 518,
+      "company": "BEL Signs - Brass Plaques",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/bel_signs/",
+      "source": "https://www.belsigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 520,
+      "company": "Brunel Engraving",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/brunelengravingco/",
+      "source": "https://www.brunelengraving.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 520,
+      "company": "Brunel Engraving",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/brunelengravingco/",
+      "source": "https://www.brunelengraving.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 521,
+      "company": "Total Industrial Engraving",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/total-industrial-engraving/",
+      "source": "https://totalindustrialengraving.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 522,
+      "company": "Leeds Engraving Centre",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/leeds_engraving_centre/",
+      "source": "https://leedsengravingcentre.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 526,
+      "company": "The Sign Maker Shop",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/thesignmakerdevon/",
+      "source": "https://www.sign-maker.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 528,
+      "company": "Selene Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/selenesigns/",
+      "source": "https://www.selene-signs.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 529,
+      "company": "MS Ltd - Metal Sheets",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/metalsheets_uk/",
+      "source": "https://metalsheets.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 530,
+      "company": "Impact Sign Solutions",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/impactsigns1994/",
+      "source": "https://impactsignsolutions.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 531,
+      "company": "MBUK Memorial Benches",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/memorialbenchesuk/",
+      "source": "https://memorialbenchesuk.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 535,
+      "company": "Mockridge - Etched Nameplates",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/mockridge-labels-and-nameplates-limited/",
+      "source": "https://mockridge.com",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 535,
+      "company": "Mockridge - Etched Nameplates",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/mockridge_labels/",
+      "source": "https://mockridge.com",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 537,
+      "company": "Signs Supplier UK",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signsupplier/",
+      "source": "https://signsupplier.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 537,
+      "company": "Signs Supplier UK",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signsupplier/",
+      "source": "https://signsupplier.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 542,
+      "company": "T Signs Salisbury",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/tsignsltd/",
+      "source": "https://www.tsigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 544,
+      "company": "International Bronze Plaque Co",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/internationalbronze/",
+      "source": "https://www.internationalbronze.com",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 545,
+      "company": "Memorial Plaques Co",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/angliasigncasting/",
+      "source": "https://www.angliasigncasting.co.uk/",
+      "evidence": "Linked from official website; company name verified on page. LinkedIn profile names former memorial-plaques.co.uk site: https://uk.linkedin.com/company/angliasigncasting/"
+    },
+    {
+      "id": 547,
+      "company": "Wholesale Signs UK",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/wholesalesigns/",
+      "source": "https://www.wholesalesigns.co.uk/contact-us",
+      "evidence": "Linked from a contact/about page on the verified company website."
+    },
+    {
+      "id": 548,
+      "company": "Viking Signs Grantham",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/viking-signs/",
+      "source": "https://vikingsigns.co.uk/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 549,
+      "company": "JFK Complete Sign Service",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/jfk-business-services-ltd/",
+      "source": "https://www.jfkltd.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 549,
+      "company": "JFK Complete Sign Service",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/jfksigns/",
+      "source": "https://www.jfkltd.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 553,
+      "company": "Supreme Trophies & Engraving",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/Supremeengraver/",
+      "source": "https://www.supremetrophies.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 554,
+      "company": "Gravesham Trophy Centre",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/graveshamtrophy/",
+      "source": "https://graveshamtrophycentre.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 556,
+      "company": "EFX Awards & Trophies",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/efx.awards/",
+      "source": "https://www.efx.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 557,
+      "company": "Trade Engraving & Printing",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/trade-engraving/",
+      "source": "https://tradeengraving.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 557,
+      "company": "Trade Engraving & Printing",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/tradeengraving/",
+      "source": "https://tradeengraving.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 558,
+      "company": "Nameplates.co.uk (Rudd Macnamara)",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/rudd.macnamara/",
+      "source": "https://www.nameplates.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 559,
+      "company": "GSM Graphic Arts",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/gsm-graphic-arts/",
+      "source": "https://www.gsmgraphicarts.com",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 560,
+      "company": "TMNetch - Custom Metal Engraving",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/tmn-electronics-co-limited/",
+      "source": "https://tmnetch.com",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 560,
+      "company": "TMNetch - Custom Metal Engraving",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/tmnetch/",
+      "source": "https://tmnetch.com",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 561,
+      "company": "ChemCut - Chemical Etching",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/chemcutcorporation/",
+      "source": "https://www.chemcut.net",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 562,
+      "company": "Promo Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/promosigns-ltd/",
+      "source": "https://promosigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 562,
+      "company": "Promo Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/promosigns/",
+      "source": "https://promosigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 567,
+      "company": "Broadway Trophies & Engraving",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/broadway_engraving/",
+      "source": "https://broadway-engraving.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 568,
+      "company": "Executive Trophies",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/executivetrophies/",
+      "source": "https://www.executivetrophies.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 581,
+      "company": "London Graphics",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/londongraphics/",
+      "source": "https://londongraphics.com",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 582,
+      "company": "Future Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/futuresignslb/",
+      "source": "https://www.fs-signs.co.uk/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 583,
+      "company": "Hype Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/hype_wraps1/",
+      "source": "https://www.hypewraps.co.uk/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 584,
+      "company": "The Local Sign Company",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/thelocalsigncompany/",
+      "source": "https://thelocalsigncompany.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 586,
+      "company": "Big Printing",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/bigprintinguk/",
+      "source": "https://bigprinting.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 590,
+      "company": "Top Trophies",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/top-trophies/",
+      "source": "https://toptrophies.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 593,
+      "company": "Creative Signs and Graphics",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/creativesignsandgraphics/",
+      "source": "https://www.creativesignsandgraphics.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 594,
+      "company": "One Four Design",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/one-four-design/",
+      "source": "https://www.onefourdesign.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 594,
+      "company": "One Four Design",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/onefourdesign.co.uk/",
+      "source": "https://www.onefourdesign.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 595,
+      "company": "Manor Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/manorsigns/",
+      "source": "https://www.manorsigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 596,
+      "company": "Damar Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/damarsigns/",
+      "source": "https://www.damarsigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 602,
+      "company": "Footprint Signs & Graphics",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/footprint.sg/",
+      "source": "https://www.footprintsignsandgraphics.com/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 606,
+      "company": "Zero Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/zero_signs/",
+      "source": "https://zerosigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 607,
+      "company": "Signs Unlimited",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signs_unlimited_warrington/",
+      "source": "https://signsunlimitedwarrington.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 608,
+      "company": "Cestrian Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/cestriansigns/",
+      "source": "https://www.cestriansigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 610,
+      "company": "Edge Laser Engraving",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/edgelaseruk/",
+      "source": "https://www.edgelaser.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 612,
+      "company": "Laserlea",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/laserlea/",
+      "source": "https://laserlea.com",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 619,
+      "company": "Creative Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/creativesignscornwall/",
+      "source": "https://www.creativesignscornwall.co.uk/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 622,
+      "company": "Cut By Beam",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/cutbybeam/",
+      "source": "https://cutbybeam.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 623,
+      "company": "More Awards",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/moreawards/",
+      "source": "https://moreawards.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 630,
+      "company": "Nicholson & Coulthard",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/nicholsoncoulthardltd/",
+      "source": "https://www.carlislediamonds.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 634,
+      "company": "Acres Signs & Graphics",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/acres-signs-graphics-limited/",
+      "source": "https://acressigns.com/contact/",
+      "evidence": "Linked from a contact/about page on the verified company website."
+    },
+    {
+      "id": 634,
+      "company": "Acres Signs & Graphics",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/acressigns/",
+      "source": "https://acressigns.com/contact/",
+      "evidence": "Linked from a contact/about page on the verified company website."
+    },
+    {
+      "id": 635,
+      "company": "Robert Lewis Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/robertlewissigns/",
+      "source": "https://www.robertlewissigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 636,
+      "company": "Derby Sign & Graphics",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/derby-sign-and-graphics/",
+      "source": "https://www.derbysignandgraphics.com",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 636,
+      "company": "Derby Sign & Graphics",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/derbysignandgraphics/",
+      "source": "https://www.derbysignandgraphics.com",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 638,
+      "company": "Eagle Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/eagle-signs/",
+      "source": "https://www.eaglesigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 639,
+      "company": "Ashley House",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/ashley-house-printing-company-limited/",
+      "source": "https://www.ashleyhouse.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 639,
+      "company": "Ashley House",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/ashleyhouseprint/",
+      "source": "https://www.ashleyhouse.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 644,
+      "company": "TWF Signs & Graphics",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/twf-signs/",
+      "source": "https://www.twfsigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 644,
+      "company": "TWF Signs & Graphics",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/twf_signs/",
+      "source": "https://www.twfsigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 646,
+      "company": "Signtech Graphics",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signtech_graphics/",
+      "source": "https://www.signtech-graphics.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 648,
+      "company": "Laser Crystal",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/Lasercrystal3d/",
+      "source": "https://lasercrystal.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 653,
+      "company": "Synergy",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/synergy-sign-solutions-ltd/",
+      "source": "https://synergy-signs.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 653,
+      "company": "Synergy",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/synergysignsolutionsltd/",
+      "source": "https://synergy-signs.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 654,
+      "company": "Interplan Sign Systems Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/interplan-sign-systems-ltd/",
+      "source": "https://www.interplan-signs.co.uk/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 654,
+      "company": "Interplan Sign Systems Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/interplansigns/",
+      "source": "https://www.interplan-signs.co.uk/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 669,
+      "company": "Blue Sky Signs Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/blue-sky-signs-ltd/",
+      "source": "https://www.blueskysigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 669,
+      "company": "Blue Sky Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/blueskysignsltd/",
+      "source": "https://www.blueskysigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 676,
+      "company": "Impression Graphics & Installations",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/impression.graphics/",
+      "source": "https://www.impressiongraphics.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 677,
+      "company": "Boundstone UK Engraving",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/boundstone-uk-ltd/",
+      "source": "https://www.boundstone-engraving.com",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 677,
+      "company": "Boundstone UK Engraving",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/boundstoneuk/",
+      "source": "https://www.boundstone-engraving.com",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 687,
+      "company": "LMB Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-watford/",
+      "source": "https://www.lmbsigns.co.uk/contact/",
+      "evidence": "Linked from a contact/about page on the verified company website. LinkedIn profile identifies LMB Signs and lists lmbsigns.co.uk despite its old URL: https://uk.linkedin.com/company/signs-express-watford/"
+    },
+    {
+      "id": 687,
+      "company": "LMB Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/lmbsignsit/",
+      "source": "https://www.lmbsigns.co.uk/contact/",
+      "evidence": "Linked from a contact/about page on the verified company website. LinkedIn profile identifies LMB Signs and lists lmbsigns.co.uk despite its old URL: https://uk.linkedin.com/company/signs-express-watford/"
+    },
+    {
+      "id": 700,
+      "company": "White Cliffs Engraving",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/whitecliffs.engraving/",
+      "source": "https://whitecliffsengraving.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 701,
+      "company": "Graham Taylor Engravers",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/gtengravers/",
+      "source": "https://www.grahamtaylorengravers.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 706,
+      "company": "Poppy Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/poppysignsltd/",
+      "source": "https://www.poppysigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 706,
+      "company": "Poppy Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/poppysignsltd/",
+      "source": "https://www.poppysigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 709,
+      "company": "Signs Preston",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signspreston/",
+      "source": "https://www.signspreston.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 710,
+      "company": "Optimum Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/optimum_signs1/",
+      "source": "https://www.optimumsigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 716,
+      "company": "Sign Direct",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/sign.direct.ltd/",
+      "source": "https://www.signdirect.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 717,
+      "company": "Soar Valley Press",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/soar-valley-press/",
+      "source": "https://www.soarvalleypress.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 717,
+      "company": "Soar Valley Press",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/svpdesignprint/",
+      "source": "https://www.soarvalleypress.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 722,
+      "company": "Sign Shop Lincoln",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/sign-shop-lincoln/",
+      "source": "https://signshoplincoln.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 723,
+      "company": "Viking Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/viking-signs/",
+      "source": "https://vikingsigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 733,
+      "company": "Cromer Trophies",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/burbidgesofnorfolk/",
+      "source": "https://cromertrophies.co.uk",
+      "evidence": "Linked from official website; company name verified on page. Companies House records renaming Cromer Trophies to Burbidge's of Norfolk: https://find-and-update.company-information.service.gov.uk/company/04794060"
+    },
+    {
+      "id": 736,
+      "company": "SignHub",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signhubharrogate/",
+      "source": "https://www.signhubharrogate.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 737,
+      "company": "Alpha Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/alphasignsthirsk/",
+      "source": "https://www.alphasignsthirsk.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 740,
+      "company": "TrophiesPlus",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/trophiesplusuk/",
+      "source": "https://www.trophiesplus.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 743,
+      "company": "XSign",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/xsign-ltd/",
+      "source": "https://xsign.com",
+      "evidence": "Linked from official website; company name verified on page. Former LinkedIn URL redirects to the current xsign profile: https://uk.linkedin.com/company/d-line-uk-ltd"
+    },
+    {
+      "id": 744,
+      "company": "Pumpkin Signs & Display",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/_pumpkinsd/",
+      "source": "https://pumpkinsd.co.uk/northampton/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 751,
+      "company": "RC Laserworks Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/rc-laserworks-ltd/",
+      "source": "https://www.rclaserworks.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 751,
+      "company": "RC Laserworks Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/rclaserworks/",
+      "source": "https://www.rclaserworks.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 758,
+      "company": "Edge Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/edgesigns/",
+      "source": "https://www.edge-signs.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 765,
+      "company": "Barker Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/barkersigns/",
+      "source": "https://barkersigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 770,
+      "company": "Surrey Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/surrey-signs-and-display-ltd/",
+      "source": "https://www.surreysigns.co.uk/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 770,
+      "company": "Surrey Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/surreysigns/",
+      "source": "https://www.surreysigns.co.uk/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 771,
+      "company": "Signs & Posters",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/scottssigns/",
+      "source": "https://scottssignsandposters.co.uk/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 777,
+      "company": "Signs & Safety Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-safety-ltd/",
+      "source": "https://www.signsandsafety.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 777,
+      "company": "Signs & Safety Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signssafetyltd/",
+      "source": "https://www.signsandsafety.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 779,
+      "company": "The Wood Sign Company",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/thewoodsigncompany/",
+      "source": "https://thewoodsigncompany.co.uk/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 781,
+      "company": "Signs With Flair",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signswithflair/",
+      "source": "https://www.signswithflair.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 784,
+      "company": "SignCo Belfast",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/belfast_signco/",
+      "source": "https://www.signco.info",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 793,
+      "company": "Prestige Trophies",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/prestigetrophiesbelfastni/",
+      "source": "https://prestigetrophies.co.uk/?v=7885444af42e",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 805,
+      "company": "Signs Express Worcester",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-worcester/",
+      "source": "https://uksigns.org/members-profile/signs-express-worcester/",
+      "evidence": "BSGA member page names this business, matches its official website and links this account in the member social section."
+    },
+    {
+      "id": 808,
+      "company": "City Signs Worcester",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/citysigns/",
+      "source": "https://www.citysigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 808,
+      "company": "City Signs Worcester",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/citysignsworcester/",
+      "source": "https://www.citysigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 810,
+      "company": "Red-Penguin",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/redpenguinhq/",
+      "source": "https://www.red-penguin.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 813,
+      "company": "Hopmarket Trophies",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/hopmarkettrophies/",
+      "source": "https://hopmarket-trophies.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 816,
+      "company": "AJB Reprographics",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/ajb_reprographics/",
+      "source": "https://www.ajbrepro.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 817,
+      "company": "Phatt Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/phattprinting/",
+      "source": "https://phattsigns.com",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 818,
+      "company": "Signmasta",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/sign_masta/",
+      "source": "https://www.signmasta.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 819,
+      "company": "Signability",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signabilityuk/",
+      "source": "https://www.signabilityuk.com",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 819,
+      "company": "Signability",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signabilityuk/",
+      "source": "https://www.signabilityuk.com",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 829,
+      "company": "Sparta Signage",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/sparta.signage/",
+      "source": "https://spartasignage.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 830,
+      "company": "Elite Sign Birmingham",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/elitegroupglobal/",
+      "source": "https://elitesign.co.uk",
+      "evidence": "Linked from official website; company name verified on page. LinkedIn profile posts refer to elitesign.co.uk: https://uk.linkedin.com/company/elitegroupglobal/"
+    },
+    {
+      "id": 830,
+      "company": "Elite Sign Birmingham",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/elitesignprint/",
+      "source": "https://elitesign.co.uk",
+      "evidence": "Linked from official website; company name verified on page. LinkedIn profile posts refer to elitesign.co.uk: https://uk.linkedin.com/company/elitegroupglobal/"
+    },
+    {
+      "id": 831,
+      "company": "Brandit Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/brandit_signs/",
+      "source": "https://www.branditsigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 844,
+      "company": "Sign Vision Exeter",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/sign-visioncreativesignage/",
+      "source": "https://www.sign-vision.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 844,
+      "company": "Sign Vision Exeter",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/sign_vision/",
+      "source": "https://www.sign-vision.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 845,
+      "company": "Signs Express Exeter",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-exeter/",
+      "source": "https://uksigns.org/members-profile/signs-express-exeter/",
+      "evidence": "BSGA member page names this business, matches its official website and links this account in the member social section."
+    },
+    {
+      "id": 849,
+      "company": "Lumen Signs Exeter",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/lumensignshq/",
+      "source": "https://www.lumensigns.co.uk/devon/sign-company-in-exeter",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 849,
+      "company": "Lumen Signs Exeter",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/lumensignshq/",
+      "source": "https://www.lumensigns.co.uk/devon/sign-company-in-exeter",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 851,
+      "company": "Foremost Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/foremostsignsltd/",
+      "source": "https://foremostsigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 852,
+      "company": "Sign Man (SW)",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signmansw/",
+      "source": "https://www.signmansw.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 854,
+      "company": "Image Sign Co",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/image-sign-systems/",
+      "source": "https://image-sign.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 854,
+      "company": "Image Sign Co",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/image_signs/",
+      "source": "https://image-sign.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 856,
+      "company": "Sign & Print Factor",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signprintfactor/",
+      "source": "https://www.signandprintfactor.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 858,
+      "company": "Sumo Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/sumo-signs/",
+      "source": "https://sumo-signs.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 858,
+      "company": "Sumo Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/sumosignsuk/",
+      "source": "https://sumo-signs.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 862,
+      "company": "Elite Sign Solutions",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/elitesignsol/",
+      "source": "https://www.elitesignsolutions.co.uk/contact-us/",
+      "evidence": "Linked from a contact/about page on the verified company website."
+    },
+    {
+      "id": 862,
+      "company": "Elite Sign Solutions",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/elitesignsol/",
+      "source": "https://www.elitesignsolutions.co.uk/contact-us/",
+      "evidence": "Linked from a contact/about page on the verified company website."
+    },
+    {
+      "id": 864,
+      "company": "Signage Systems Manchester",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signagesystems/",
+      "source": "https://www.signage-systems.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 865,
+      "company": "Manchester Signage",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/manchestersignage/",
+      "source": "https://manchestersignage.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 866,
+      "company": "Hartbrights Sign Solutions",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/hartbrights/",
+      "source": "https://www.hartbrights.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 869,
+      "company": "BK Screenprint",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/bkscreenprint/",
+      "source": "https://bkscreenprint.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 870,
+      "company": "Reeds Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/we-are-reeds/",
+      "source": "https://wearereeds.co.uk/signage/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 870,
+      "company": "Reeds Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/reedscumbria/",
+      "source": "https://wearereeds.co.uk/signage/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 873,
+      "company": "Sign Here Reading",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/_signhere6/",
+      "source": "https://www.signhere.biz",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 874,
+      "company": "Signsense",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signsenseuk/",
+      "source": "https://www.signsenseuk.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 874,
+      "company": "Signsense",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signsenseuk/",
+      "source": "https://www.signsenseuk.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 876,
+      "company": "Signtastic Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signtastic_signs/",
+      "source": "https://signtasticsigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 882,
+      "company": "Broadfield Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/broadfield-signs-ltd/",
+      "source": "https://broadfieldsigns.co.uk/contact/",
+      "evidence": "Linked from official website; company name verified on page. Linked from a contact/about page on the verified company website."
+    },
+    {
+      "id": 882,
+      "company": "Broadfield Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/broadfieldsigns/",
+      "source": "https://broadfieldsigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page. Linked from a contact/about page on the verified company website."
+    },
+    {
+      "id": 883,
+      "company": "Image Sign Studio",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/imagesignstudio/",
+      "source": "https://imagesign.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 884,
+      "company": "CJ Signs Sheffield",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/cj-signs-ltd/",
+      "source": "https://cjsigns.co.uk/signs/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 884,
+      "company": "CJ Signs Sheffield",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/cjsignslimited/",
+      "source": "https://cjsigns.co.uk/signs/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 891,
+      "company": "Dragon Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/dragonsignsuk/",
+      "source": "https://dragonsigns.com/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 898,
+      "company": "Signs Express Swansea",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs-express-swansea/",
+      "source": "https://uksigns.org/members-profile/signs-express-swansea/",
+      "evidence": "BSGA member page names this business, matches its official website and links this account in the member social section."
+    },
+    {
+      "id": 907,
+      "company": "The Sign Shop Dunstable",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/thesignshopdunstable/",
+      "source": "https://thesignshop-dunstable.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 909,
+      "company": "Motive Graphics",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/motivegraphics/",
+      "source": "https://motivegraphics.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 922,
+      "company": "Lincs Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/lincssigns/",
+      "source": "https://lincs-signs.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 923,
+      "company": "Elite Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/elite4signs/",
+      "source": "https://elite4signs.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 925,
+      "company": "Design Display",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/design.display/",
+      "source": "https://www.designdisplay.co.uk/",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 927,
+      "company": "Ellis Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/ellis-signs-limited/",
+      "source": "https://ellissigns.co.uk",
+      "evidence": "Linked from official website; company name verified on page."
+    },
+    {
+      "id": 946,
+      "company": "Sign Architects",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signarchitectsuk/",
+      "source": "https://uksigns.org/members-profile/sign-architects/",
+      "evidence": "BSGA member page names this business, matches its official website and links this account in the member social section."
+    },
+    {
+      "id": 948,
+      "company": "Lumen Signs Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/lumensignshq/",
+      "source": "https://www.lumensigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 948,
+      "company": "Lumen Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/lumensignshq/",
+      "source": "https://www.lumensigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 957,
+      "company": "S6 Customs Limited",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/s6customs/",
+      "source": "https://www.s6customs.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 959,
+      "company": "Signexcel Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signexcel/",
+      "source": "https://www.signexcel.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 960,
+      "company": "Signscape",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signscape-and-signconex-ltd/",
+      "source": "https://sasl.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 962,
+      "company": "Anglia Sign Casting",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/angliasigncasting/",
+      "source": "https://www.angliasigncasting.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 965,
+      "company": "Signforce Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/sign-force-limited/",
+      "source": "https://signforce.co.uk/contact/",
+      "evidence": "The official contact page links this company profile, and its phone 01603 411573 matches the directory."
+    },
+    {
+      "id": 965,
+      "company": "Signforce Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signforce_ltd/",
+      "source": "https://signforce.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 971,
+      "company": "Concept Signs (essex)",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/conceptsigns/",
+      "source": "http://www.conceptsignsltd.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 973,
+      "company": "Extreme Signs & Designs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/extreme__graphics/",
+      "source": "https://www.extremegraphics.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent. Official page phone 01473 811874 matches directory despite trading-name variation."
+    },
+    {
+      "id": 978,
+      "company": "Evolution Signs & Graphics",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/evolutionsignsandgraphics/",
+      "source": "https://www.evolution-signsandgraphics.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 979,
+      "company": "Lemon Signs Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/lemon-signs/",
+      "source": "https://www.lemonsigns.com/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 979,
+      "company": "Lemon Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/lemonsigns/",
+      "source": "https://www.lemonsigns.com/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 983,
+      "company": "Allen Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/allen-signs-ltd/",
+      "source": "https://allen-signs.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 983,
+      "company": "Allen Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/Allen_Signs/",
+      "source": "https://allen-signs.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 984,
+      "company": "Corby Graphix",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/corby-graphix-limited/",
+      "source": "https://corbygraphix.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 984,
+      "company": "Corby Graphix",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/corbygraphix/",
+      "source": "https://corbygraphix.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 985,
+      "company": "John E Wright",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/johnewrighthub/",
+      "source": "https://www.johnewright.com/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 987,
+      "company": "Autographic Designs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/autographic-designs-limited/",
+      "source": "https://www.autographicdesigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 987,
+      "company": "Autographic Designs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/autographicdesigns/",
+      "source": "https://www.autographicdesigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 988,
+      "company": "Embello",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/teamembello/",
+      "source": "https://www.embello.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 989,
+      "company": "Hardy Signs Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/hardy-signs-ltd/",
+      "source": "https://hardysigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 989,
+      "company": "Hardy Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/hardysigns/",
+      "source": "https://hardysigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 992,
+      "company": "Design Penguin",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/design_penguin_creative/",
+      "source": "https://designpenguin.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 993,
+      "company": "Fusion Wraps Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/fusion_wrapsltd/",
+      "source": "https://www.fusionwrapsltd.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 995,
+      "company": "Artworks Solutions Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/artworks-solutions-ltd/",
+      "source": "https://www.artworks-solutions.com/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 995,
+      "company": "Artworks Solutions Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/artworks_uk/",
+      "source": "https://www.artworks-solutions.com/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 996,
+      "company": "Beta Signs Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/beta-signs-ltd/",
+      "source": "https://betasigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 996,
+      "company": "Beta Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/betasignsltd/",
+      "source": "https://betasigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 998,
+      "company": "Cobal Sign Systems Midlands",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/cobalsigns/",
+      "source": "https://cobal.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 998,
+      "company": "Cobal Sign Systems Midlands",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/cobal_signs/",
+      "source": "https://cobal.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 999,
+      "company": "Coventry Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/coventrysigns/",
+      "source": "https://www.coventry-signs.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1000,
+      "company": "Fire Route Safety Midlands",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/fireroutesafety/",
+      "source": "https://www.fireroutesafety.co.uk/contact/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1001,
+      "company": "Graphic Signs Coventry",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/graphicsigns/",
+      "source": "https://graphic-signs.co.uk/contact",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1003,
+      "company": "Lavastar Signs Midlands",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/lavastar/",
+      "source": "https://www.lavastar.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1003,
+      "company": "Lavastar Signs Midlands",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/teamlavastar/",
+      "source": "https://www.lavastar.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1006,
+      "company": "Sign Park Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signpark.uk/",
+      "source": "https://signpark.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1007,
+      "company": "Signed Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signed-ltd/",
+      "source": "https://www.signedltd.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1007,
+      "company": "Signed Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signed_ltd/",
+      "source": "https://www.signedltd.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1011,
+      "company": "Signtech (Midlands) Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signtechmidlands/",
+      "source": "https://signtech.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1036,
+      "company": "4c Design",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/4c-design/",
+      "source": "https://www.4cdesign.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1036,
+      "company": "4c Design",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/4cdesign/",
+      "source": "https://www.4cdesign.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1038,
+      "company": "Arken Creative",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/arken-creative/",
+      "source": "https://www.arkencreative.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1038,
+      "company": "Arken Creative",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/arkencreative/",
+      "source": "https://www.arkencreative.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1039,
+      "company": "DAS Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/dassigns/",
+      "source": "https://dassigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1040,
+      "company": "DH Design & Print",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/dhdesignandprint/",
+      "source": "https://dhdesignandprint.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1045,
+      "company": "Four-by-Two",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/four-by-two/",
+      "source": "https://www.four-by-two.com/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1045,
+      "company": "Four-by-Two",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/four_by_two/",
+      "source": "https://www.four-by-two.com/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1046,
+      "company": "Fraser Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/frasersigns/",
+      "source": "https://frasersigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1048,
+      "company": "Icon Signs Dundee",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/iconsignsltd/",
+      "source": "http://iconsignsdundee.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1050,
+      "company": "Ironside Farrar Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/ironside-farrar-limited/",
+      "source": "https://ironsidefarrar.com/about.htm",
+      "evidence": "The official about page identifies Ironside Farrar Ltd and links this company profile."
+    },
+    {
+      "id": 1053,
+      "company": "Mackinnon Slater",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/mackinnonslater/",
+      "source": "https://www.mackinnonslater.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1056,
+      "company": "Mima Group",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/weare_mima/",
+      "source": "https://mimagroup.com/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1057,
+      "company": "Mixit Signs & Visual",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/mixit-signs-visual-ltd/",
+      "source": "https://www.mixit-signs.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1057,
+      "company": "Mixit Signs & Visual",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/mixitsigns/",
+      "source": "https://www.mixit-signs.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1058,
+      "company": "Norsign Group",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/norsign-llp/",
+      "source": "https://www.norsign.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1059,
+      "company": "One Design Aberdeen",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/one-design-aberdeen/",
+      "source": "https://www.onedesignaberdeen.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1059,
+      "company": "One Design Aberdeen",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/onedesignaberdeen/",
+      "source": "https://www.onedesignaberdeen.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1060,
+      "company": "Scotland's Bravest Manufacturing Company",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/rbve-sbmc/",
+      "source": "https://scotlandsbravest.org.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent. LinkedIn profile itself identifies Scotland's Bravest Manufacturing Company."
+    },
+    {
+      "id": 1062,
+      "company": "Significant Others",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/significantothers/",
+      "source": "https://significantothers.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1062,
+      "company": "Significant Others",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/significant_others_design/",
+      "source": "https://significantothers.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1064,
+      "company": "Signs Express Aberdeen",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/signs-express-aberdeen",
+      "source": "https://uk.linkedin.com/company/signs-express-aberdeen",
+      "evidence": "Public branch LinkedIn profile identifies Signs Express Aberdeen and links to the official Aberdeen branch website."
+    },
+    {
+      "id": 1065,
+      "company": "Solas Neon Sign Co.",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/solas_signs/",
+      "source": "https://www.solassigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1067,
+      "company": "Specialized Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/specialized-signs-limited/",
+      "source": "https://www.specializedsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1067,
+      "company": "Specialized Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/specializedsignsuk/",
+      "source": "https://www.specializedsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1068,
+      "company": "Tangent",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/tangentgraphic/",
+      "source": "https://tangentgraphic.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1070,
+      "company": "Warriors Studio",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/warriorsstudio/",
+      "source": "https://warriorsstudio.com/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1074,
+      "company": "Allspeed Signs & Graphics",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/allspeed-signs-graphics-ltd/",
+      "source": "https://www.allspeedsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1074,
+      "company": "Allspeed Signs & Graphics",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/allspeedsigns/",
+      "source": "https://www.allspeedsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1075,
+      "company": "Andean Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/andean-signs/",
+      "source": "https://www.andeansigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1075,
+      "company": "Andean Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/andeansigns/",
+      "source": "https://www.andeansigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1077,
+      "company": "Magic Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/magicsignsash/",
+      "source": "https://www.magicsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1078,
+      "company": "Mint Signs & Graphics Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/2277523/",
+      "source": "https://mintsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1078,
+      "company": "Mint Signs & Graphics Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/mint_signs/",
+      "source": "https://mintsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1080,
+      "company": "Top Notch Signs & Graphics Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/topnotchsigns/",
+      "source": "https://topnotchsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1081,
+      "company": "Vision Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/visionsignsdisplays/",
+      "source": "https://visionsigns.com/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1084,
+      "company": "Anchor Sign Makers",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/anchorsignmakers/",
+      "source": "https://www.anchor-signmakers.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1088,
+      "company": "Henwood Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/_henwoodsigns_/",
+      "source": "https://www.henwoodsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1089,
+      "company": "Imageworx Group",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/imageworxsigns/",
+      "source": "https://www.imageworxsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1092,
+      "company": "Peach Design",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/peach-design/",
+      "source": "https://www.peachdesign.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1095,
+      "company": "SignGen Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signgen_/",
+      "source": "https://signgen.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1096,
+      "company": "Signpost Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signpostsigns.sidcup/",
+      "source": "https://www.signpostsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1098,
+      "company": "Steve Bronson Sign Writer",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/bronsonsigns/",
+      "source": "https://bronsonsigns.co.uk/contactme.html",
+      "evidence": "The official contact page links this account and its phone 01732 358667 matches the directory."
+    },
+    {
+      "id": 1101,
+      "company": "A J Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/ajsignsltd/",
+      "source": "https://www.ajsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1103,
+      "company": "Carousel Lights",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/carousel-lights/",
+      "source": "http://www.carousellights.com/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1106,
+      "company": "Epic Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/epic_signs_/",
+      "source": "https://epic-signs.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1108,
+      "company": "Print Copy Sign Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/printcopysign/",
+      "source": "https://www.printcopysign.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1113,
+      "company": "Mood Signs Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/mood-signs-ltd/",
+      "source": "https://moodsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1113,
+      "company": "Mood Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/moodsigns/",
+      "source": "https://moodsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1115,
+      "company": "Scotts Signs & Posters",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/scottssigns/",
+      "source": "https://scottssignsandposters.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1116,
+      "company": "South East Signage",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/south_east_signage/",
+      "source": "https://southeastsignage.com/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1117,
+      "company": "The Sign Company (e G) Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signcoeg/",
+      "source": "https://thesigncompany.org.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1118,
+      "company": "Worthing Sign Co",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/sussexsigncollective/",
+      "source": "http://sussexsignco.com/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent. Official site and public listing match directory Martlets Way address; Worthing Sign Co is associated with Sussex Sign Collective."
+    },
+    {
+      "id": 1122,
+      "company": "Create Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/createsignsuk/",
+      "source": "https://create-signs.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1132,
+      "company": "Signs of Good Taste",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signsofgoodtaste/",
+      "source": "http://www.signsofgoodtaste.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1155,
+      "company": "Naked Signs Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/naked-signs-limited/",
+      "source": "https://www.nakedsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1167,
+      "company": "A S A P Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/asapsignswrexham/",
+      "source": "https://www.asap-signs.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1210,
+      "company": "Silvercloud Signs & Display",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/silvercloudsigns/",
+      "source": "https://www.silvercloudsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1211,
+      "company": "Tint Wizard Wales",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/tint_wizard/",
+      "source": "https://www.tintwizard.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1217,
+      "company": "Andrews Signs & Engravers Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/15178920/",
+      "source": "https://www.andrewssigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1217,
+      "company": "Andrews Signs & Engravers Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/andrewssignsyork/",
+      "source": "https://www.andrewssigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1218,
+      "company": "Atam Signs Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/atamcouk/",
+      "source": "https://atamsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1218,
+      "company": "Atam Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/atam_couk/",
+      "source": "https://atamsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1220,
+      "company": "Nichols Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/nicholssignsltd/",
+      "source": "https://www.nicholssigns.net/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1222,
+      "company": "Butterfield Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/butterfield_signs/",
+      "source": "http://butterfieldsigns.com/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1223,
+      "company": "C V Graphics",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/cvgraphicsuk/",
+      "source": "https://cvgraphics.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1223,
+      "company": "C V Graphics",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/cvgraphicsuk/",
+      "source": "https://cvgraphics.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1226,
+      "company": "Omega Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/omega_signs/",
+      "source": "https://omega-signs.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1227,
+      "company": "Signs Direct (Bradford)",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/10442801/",
+      "source": "https://www.signsdirect.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1236,
+      "company": "CLS Signage",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/cls-signage/",
+      "source": "https://clssignage.com/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1237,
+      "company": "Chris Hamill Signs Ltd",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/ch.signs923/",
+      "source": "https://www.chrishamillsigns.co.uk/contact-us",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1241,
+      "company": "Kerr Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/kerr-signs-ltd/",
+      "source": "https://kerrsigns.com/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1246,
+      "company": "Signal Signs Omagh Limited",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signal-signs-omagh-ltd/",
+      "source": "https://www.signalsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1246,
+      "company": "Signal Signs Omagh Limited",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signalsigns/",
+      "source": "https://www.signalsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1247,
+      "company": "Signlines",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/signlines.graphics/",
+      "source": "http://signlines.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1248,
+      "company": "Signs NI",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/yourlocalsigncompany/",
+      "source": "https://www.signsni.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent. Official site describes itself as Your Local Sign Company, matching the account name."
+    },
+    {
+      "id": 1249,
+      "company": "South Down Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/southdownsigns/",
+      "source": "https://southdownsigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1250,
+      "company": "Trade Made",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/cncrouterit/",
+      "source": "https://www.trademade.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent. Account appears in the official site social bar; page metadata references the prior cncrouterit.co.uk domain."
+    },
+    {
+      "id": 1254,
+      "company": "Mprint",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/mprintdesigns/",
+      "source": "https://www.mprintdesigns.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1262,
+      "company": "OnlineTrophies (Aford Awards)",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/onlinetrophies.co.uk/",
+      "source": "https://www.onlinetrophies.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 1263,
+      "company": "Trophy Store",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/trophystore-co-uk-ltd/",
+      "source": "https://www.trophystore.co.uk/",
+      "evidence": "Direct social link on the listed business website; candidate name and context are consistent."
+    },
+    {
+      "id": 10,
+      "company": "Rockingham Trophies",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/rockingham-trophies",
+      "source": "https://uk.linkedin.com/company/rockingham-trophies",
+      "evidence": "Public LinkedIn company page identifies the company and links to its directory-listed official website."
+    },
+    {
+      "id": 15,
+      "company": "Imprint Signs & Graphics",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/imprint-signs-graphics",
+      "source": "https://uk.linkedin.com/company/imprint-signs-graphics",
+      "evidence": "Public LinkedIn company page identifies the company and links to its directory-listed official website."
+    },
+    {
+      "id": 97,
+      "company": "EFX Awards",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/efx-awards-trophies",
+      "source": "https://www.linkedin.com/company/efx-awards-trophies",
+      "evidence": "Public LinkedIn company page identifies the company and links to its directory-listed official website."
+    },
+    {
+      "id": 136,
+      "company": "Trophies & Gifts",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/west-florida-trophies-%26-gifts",
+      "source": "https://uk.linkedin.com/company/west-florida-trophies-%26-gifts",
+      "evidence": "Public LinkedIn company page identifies the company and links to its directory-listed official website. Public page names Trophies & Gifts in Canterbury and links trophies-gifts.co.uk, although its older URL slug contains a different geographic name."
+    },
+    {
+      "id": 184,
+      "company": "Sign Systems",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/sign-systems-uk-ltd",
+      "source": "https://uk.linkedin.com/company/sign-systems-uk-ltd",
+      "evidence": "Public LinkedIn company page identifies the company and links to its directory-listed official website."
+    },
+    {
+      "id": 247,
+      "company": "FASTSIGNS Gloucester",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/fastsigns-gloucester",
+      "source": "https://uk.linkedin.com/company/fastsigns-gloucester",
+      "evidence": "LinkedIn company profile identifies FASTSIGNS Gloucester and links directly to the Gloucester branch website."
+    },
+    {
+      "id": 261,
+      "company": "Victory Signs",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/victory-signs-newcastle-limited",
+      "source": "https://uk.linkedin.com/company/victory-signs-newcastle-limited",
+      "evidence": "Public LinkedIn company page identifies the company and links to its directory-listed official website."
+    },
+    {
+      "id": 337,
+      "company": "AS Design Cumbria",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/as-design-cumbria",
+      "source": "https://uk.linkedin.com/company/as-design-cumbria",
+      "evidence": "Public LinkedIn company page identifies the company and links to its directory-listed official website."
+    },
+    {
+      "id": 391,
+      "company": "Efficient Signs",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/efficientsigns",
+      "source": "https://uk.linkedin.com/company/efficientsigns",
+      "evidence": "Public LinkedIn company page identifies the company and links to its directory-listed official website. The address also matches UNIT 11, Leyton Business Centre; a different page sharing the domain has an old different address."
+    },
+    {
+      "id": 392,
+      "company": "Sign Company London",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/signcompanylondon",
+      "source": "https://uk.linkedin.com/company/signcompanylondon",
+      "evidence": "Public LinkedIn company page identifies the company and links to its directory-listed official website."
+    },
+    {
+      "id": 394,
+      "company": "ACS Engraving",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/acs-engraving-limited",
+      "source": "https://uk.linkedin.com/company/acs-engraving-limited",
+      "evidence": "Public LinkedIn company page identifies the company and links to its directory-listed official website."
+    },
+    {
+      "id": 468,
+      "company": "Montgomery Engravers",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/montgomery-engravers-limited",
+      "source": "https://uk.linkedin.com/company/montgomery-engravers-limited",
+      "evidence": "Public LinkedIn company page identifies the company and links to its directory-listed official website."
+    },
+    {
+      "id": 500,
+      "company": "RT Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/rtsigns/",
+      "source": "https://www.linkedin.com/company/rtsigns/",
+      "evidence": "LinkedIn company profile names RT Signs and explicitly lists the directory website domain rtsigns.com; verified using publicly indexed profile."
+    },
+    {
+      "id": 539,
+      "company": "Black Box Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/blackboxsigns/",
+      "source": "https://www.linkedin.com/company/blackboxsigns/",
+      "evidence": "LinkedIn company profile names Black Box Signs and explicitly lists the directory website domain entertheblackbox.co.uk; verified using publicly indexed profile."
+    },
+    {
+      "id": 554,
+      "company": "Gravesham Trophy Centre",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/gravesham-trophy-centre/",
+      "source": "https://www.linkedin.com/company/gravesham-trophy-centre/",
+      "evidence": "LinkedIn company profile names Gravesham Trophy Centre and explicitly lists the directory website domain graveshamtrophycentre.co.uk; verified using publicly indexed profile."
+    },
+    {
+      "id": 581,
+      "company": "London Graphics",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/london-graphics/",
+      "source": "https://www.linkedin.com/company/london-graphics/",
+      "evidence": "LinkedIn company profile names London Graphics and explicitly lists the directory website domain londongraphics.com; verified using publicly indexed profile."
+    },
+    {
+      "id": 593,
+      "company": "Creative Signs and Graphics",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/creative-signs-and-graphics-ltd/",
+      "source": "https://www.linkedin.com/company/creative-signs-and-graphics-ltd/",
+      "evidence": "LinkedIn company profile names Creative Signs and Graphics and explicitly lists the directory website domain creativesignsandgraphics.co.uk; verified using publicly indexed profile."
+    },
+    {
+      "id": 648,
+      "company": "Laser Crystal",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/laser-crystal-ltd/",
+      "source": "https://www.linkedin.com/company/laser-crystal-ltd/",
+      "evidence": "LinkedIn company profile names Laser Crystal and explicitly lists the directory website domain lasercrystal.co.uk; verified using publicly indexed profile."
+    },
+    {
+      "id": 676,
+      "company": "Impression Graphics & Installations",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/impression-graphics-installations/",
+      "source": "https://www.linkedin.com/company/impression-graphics-installations/",
+      "evidence": "LinkedIn company profile names Impression Graphics & Installations and explicitly lists the directory website domain impressiongraphics.co.uk; verified using publicly indexed profile."
+    },
+    {
+      "id": 712,
+      "company": "Culzean Engraving",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/culzean-engraving-limited/",
+      "source": "https://www.linkedin.com/company/culzean-engraving-limited/",
+      "evidence": "LinkedIn company profile names Culzean Engraving and explicitly lists the directory website domain culzeanengraving.co.uk; verified using publicly indexed profile."
+    },
+    {
+      "id": 727,
+      "company": "Benson Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/benson-signs-limited/",
+      "source": "https://bensonsigns.com/",
+      "evidence": "Both accounts are linked from the current company site. Its address and phone match the directory-listed former domain; see https://www.benson-signs.co.uk/contact.html and https://bensonsigns.com/wp-content/uploads/2022/12/Benson-Signs-Privacy-Notice-05-12-22.pdf"
+    },
+    {
+      "id": 727,
+      "company": "Benson Signs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/bensonsigns/",
+      "source": "https://bensonsigns.com/",
+      "evidence": "Both accounts are linked from the current company site. Its address and phone match the directory-listed former domain; see https://www.benson-signs.co.uk/contact.html and https://bensonsigns.com/wp-content/uploads/2022/12/Benson-Signs-Privacy-Notice-05-12-22.pdf"
+    },
+    {
+      "id": 739,
+      "company": "Blue Raptor Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/blueraptorsigns/",
+      "source": "https://uk.linkedin.com/company/blueraptorsigns",
+      "evidence": "Company LinkedIn page explicitly lists the same blueraptorsigns.com domain and Scarborough location as the directory entry."
+    },
+    {
+      "id": 742,
+      "company": "MG Signs Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/mg-signs-ltd/",
+      "source": "https://www.linkedin.com/company/mg-signs-ltd/",
+      "evidence": "LinkedIn company profile names MG Signs Ltd and explicitly lists the directory website domain mgsigns.com; verified using publicly indexed profile."
+    },
+    {
+      "id": 793,
+      "company": "Prestige Trophies",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/prestige-trophies-ni/",
+      "source": "https://www.linkedin.com/company/prestige-trophies-ni/",
+      "evidence": "LinkedIn company profile names Prestige Trophies and explicitly lists the directory website domain prestigetrophies.co.uk; verified using publicly indexed profile."
+    },
+    {
+      "id": 794,
+      "company": "Ironside Trophies",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/ironside-trophies/",
+      "source": "https://www.linkedin.com/company/ironside-trophies/",
+      "evidence": "LinkedIn company profile names Ironside Trophies and explicitly lists the directory website domain ironsidetrophies.co.uk; verified using publicly indexed profile."
+    },
+    {
+      "id": 809,
+      "company": "PB Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/pbsigns/",
+      "source": "https://www.linkedin.com/company/pbsigns/",
+      "evidence": "LinkedIn company profile names PB Signs and explicitly lists the directory website domain pbsigns.co.uk; verified using publicly indexed profile."
+    },
+    {
+      "id": 908,
+      "company": "Simplex Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/simplex-trade-signs/",
+      "source": "https://www.linkedin.com/company/simplex-trade-signs/",
+      "evidence": "LinkedIn company profile names Simplex Ltd and explicitly lists the directory website domain simplexltd.com; verified using publicly indexed profile."
+    },
+    {
+      "id": 915,
+      "company": "Prestige Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/prestige-signs/",
+      "source": "https://www.linkedin.com/company/prestige-signs/",
+      "evidence": "LinkedIn company profile names Prestige Signs and explicitly lists the directory website domain prestigesigns.net; verified using publicly indexed profile."
+    },
+    {
+      "id": 917,
+      "company": "Signs2Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/signs2signs/",
+      "source": "https://www.linkedin.com/company/signs2signs/",
+      "evidence": "LinkedIn company profile names Signs2Signs and explicitly lists the directory website domain signs2signs.co.uk; verified using publicly indexed profile."
+    },
+    {
+      "id": 919,
+      "company": "Sign UK",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/sign-uk-limited/",
+      "source": "https://www.linkedin.com/company/sign-uk-limited/",
+      "evidence": "LinkedIn company profile names Sign UK and explicitly lists the directory website domain sign-uk.com; verified using publicly indexed profile."
+    },
+    {
+      "id": 945,
+      "company": "E U Signs Ltd",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/eu-signs-ltd",
+      "source": "https://uk.linkedin.com/company/eu-signs-ltd",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 954,
+      "company": "Essex Sign & Print",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/essex-sign-%26-print",
+      "source": "https://uk.linkedin.com/company/essex-sign-%26-print",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 980,
+      "company": "Direct Signs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/direct-signs-limited/",
+      "source": "https://www.linkedin.com/company/direct-signs-limited/",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 982,
+      "company": "SignFab (UK) Ltd",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/signfab-uk-ltd",
+      "source": "https://uk.linkedin.com/company/signfab-uk-ltd",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 985,
+      "company": "John E Wright",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/john-e-wright-%26-co-ltd",
+      "source": "https://uk.linkedin.com/company/john-e-wright-%26-co-ltd",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 988,
+      "company": "Embello",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/teamembello",
+      "source": "https://www.linkedin.com/company/teamembello",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 1010,
+      "company": "Image Technique",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/image-technique-ltd",
+      "source": "https://uk.linkedin.com/company/image-technique-ltd",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 1040,
+      "company": "DH Design & Print",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/dh-design-print",
+      "source": "https://uk.linkedin.com/company/dh-design-print",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 1046,
+      "company": "Fraser Signs",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/fraser-signs-ltd",
+      "source": "https://uk.linkedin.com/company/fraser-signs-ltd",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 1065,
+      "company": "Solas Neon Sign Co.",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/solas-signs",
+      "source": "https://uk.linkedin.com/company/solas-signs",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 1070,
+      "company": "Warriors Studio",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/warriors-studio",
+      "source": "https://uk.linkedin.com/company/warriors-studio",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 1099,
+      "company": "The Bespoke Sign House",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/the-bespoke-sign-house",
+      "source": "https://www.linkedin.com/company/the-bespoke-sign-house",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 1108,
+      "company": "Print Copy Sign Ltd",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/printandsign",
+      "source": "https://uk.linkedin.com/company/printandsign",
+      "evidence": "LinkedIn company profile uses the alternate Print & Sign Services brand and repeatedly lists printcopysign.co.uk and info@printcopysign.co.uk."
+    },
+    {
+      "id": 1136,
+      "company": "D X Signs Ltd",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/dxsigns",
+      "source": "https://uk.linkedin.com/company/dxsigns",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 1170,
+      "company": "Art Graphics Signs",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/art-graphics-sonic-signs-limited",
+      "source": "https://uk.linkedin.com/company/art-graphics-sonic-signs-limited",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 1172,
+      "company": "Chillipepper Signs",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/chillipepper-signs",
+      "source": "https://uk.linkedin.com/company/chillipepper-signs",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 1198,
+      "company": "Positive Signs Ltd",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/positive-signs-limited",
+      "source": "https://uk.linkedin.com/company/positive-signs-limited",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 1212,
+      "company": "Vision Signs & Graphics",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/vision-signs-wales",
+      "source": "https://www.linkedin.com/company/vision-signs-wales",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 1213,
+      "company": "Wall Signs Ltd",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/wall-signs-in-flint",
+      "source": "https://uk.linkedin.com/company/wall-signs-in-flint",
+      "evidence": "Public LinkedIn company profile names this business and links its exact website; location and/or address also match."
+    },
+    {
+      "id": 1250,
+      "company": "Trade Made",
+      "platform": "linkedin",
+      "url": "https://uk.linkedin.com/company/trademade01",
+      "source": "https://uk.linkedin.com/company/trademade01",
+      "evidence": "LinkedIn company profile names Trade Made and lists its exact website and Newry telephone."
+    },
+    {
+      "id": 1260,
+      "company": "National Engravers",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/national-engravers-uk",
+      "source": "https://www.linkedin.com/company/national-engravers-uk",
+      "evidence": "LinkedIn company profile names National Engravers UK and lists the exact website and Ashford location."
+    }
+  ]
+}

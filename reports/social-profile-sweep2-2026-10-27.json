@@ -1,0 +1,13 @@
+{
+  "method": "The public company profile lists the same official website, location and signage business.",
+  "profiles": [
+    {
+      "dataset": "signs",
+      "id": 1296,
+      "company": "Sign Services UK Ltd",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/sign-services-uk-ltd/",
+      "source": "https://uk.linkedin.com/company/sign-services-uk-ltd"
+    }
+  ]
+}

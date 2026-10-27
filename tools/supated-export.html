@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Export SUPATED customers</title>
+  <style>
+    body { font: 16px/1.5 system-ui, sans-serif; max-width: 38rem; margin: 3rem auto; padding: 0 1rem; color: #172234; }
+    label { display: block; font-weight: 600; margin-top: 1rem; }
+    input { display: block; width: 100%; box-sizing: border-box; padding: .65rem; margin-top: .3rem; font: inherit; }
+    button { margin-top: 1.25rem; padding: .7rem 1rem; font: inherit; cursor: pointer; }
+    #status { white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>Export SUPATED customers</h1>
+  <p>Sign in with your normal SUPATED account. This reads company names, postcodes and phone numbers directly from SUPATED and saves a private JSON file on this computer for comparison.</p>
+  <p>The password and session are held only in this page and are not saved. The file is saved outside the public directory repository.</p>
+  <form id="exportForm">
+    <label>Email<input id="email" type="email" autocomplete="username" required></label>
+    <label>Password<input id="password" type="password" autocomplete="current-password" required></label>
+    <button id="submit" type="submit">Sign in and save customers</button>
+  </form>
+  <p id="status" role="status" aria-live="polite"></p>
+  <script>
+    const form = document.getElementById('exportForm');
+    const status = document.getElementById('status');
+    const submit = document.getElementById('submit');
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      submit.disabled = true;
+      status.textContent = 'Signing in…';
+      try {
+        const configResponse = await fetch('/config', {cache: 'no-store'});
+        if (!configResponse.ok) throw new Error('Local SUPATED configuration is missing. See docs/supated-export.md.');
+        const { url, key } = await configResponse.json();
+        const email = document.getElementById('email').value.trim();
+        const passwordField = document.getElementById('password');
+        const login = await fetch(`${url}/auth/v1/token?grant_type=password`, {
+          method: 'POST', headers: { apikey: key, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, password: passwordField.value }),
+        });
+        passwordField.value = '';
+        const session = await login.json();
+        if (!login.ok || !session.access_token) throw new Error('Sign-in failed. Check your SUPATED credentials.');
+        const customers = [];
+        const pageSize = 1000;
+        let expectedTotal = null;
+        for (let offset = 0; ; ) {
+          status.textContent = `Reading customers… ${customers.length} loaded`;
+          const query = new URLSearchParams({ select: 'company,postcode,phone_number', order: 'id', limit: String(pageSize), offset: String(offset) });
+          const response = await fetch(`${url}/rest/v1/customers?${query}`, {
+            headers: { apikey: key, Authorization: `Bearer ${session.access_token}`, Accept: 'application/json', Prefer: 'count=exact' },
+          });
+          if (!response.ok) throw new Error(`Customer read failed (HTTP ${response.status}). No file was saved.`);
+          const page = await response.json();
+          if (!Array.isArray(page)) throw new Error('Unexpected customer response. No file was saved.');
+          const range = response.headers.get('content-range');
+          const totalMatch = range && range.match(/\/(\d+)$/);
+          if (!totalMatch) throw new Error('Could not verify the total customer count. No file was saved.');
+          const total = Number(totalMatch[1]);
+          if (expectedTotal !== null && total !== expectedTotal) throw new Error('The customer list changed during export. Please retry.');
+          expectedTotal = total;
+          customers.push(...page);
+          offset += page.length;
+          if (offset === expectedTotal) break;
+          if (!page.length || offset > expectedTotal) throw new Error('Could not retrieve the complete customer list. No file was saved.');
+        }
+        if (!customers.length) throw new Error('No customers were returned. No file was saved; check your account access.');
+        const save = await fetch('/save', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ customers }) });
+        const saved = await save.json();
+        if (!save.ok) throw new Error(saved.error || 'Could not save the export.');
+        status.textContent = `${customers.length} customers saved privately to:\n${saved.path}`;
+      } catch (error) {
+        document.getElementById('password').value = '';
+        status.textContent = error.message || 'Export failed.';
+      } finally {
+        submit.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>

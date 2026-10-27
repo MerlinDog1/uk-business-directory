@@ -24,3 +24,8 @@ npm-debug.log*
 # Environment
 .env
 .env.local
+
+# Python bytecode and local browser automation
+__pycache__/
+*.pyc
+.playwright-cli/

@@ -3,132 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UK Sign Directory | Signage, Engraving & Trophy Suppliers</title>
-    <meta name="description" content="Searchable directory of UK signage, engraving, plaque, print, and trophy suppliers.">
-    <link rel="stylesheet" href="css/styles.css">
+    <title>UK Sign Directory | Find your next connection</title>
+    <meta name="description" content="Explore UK sign makers and wayfinding consultancies in the UK and around the world.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+    <script src="vendor/leaflet/leaflet.js"></script>
 </head>
-<body data-data-file="data/directory-data.json">
+<body class="uk-directory" data-data-file="data/directory-data.json">
     <header class="header">
         <div class="container">
             <div class="header-content">
-                <h1 class="logo">🇬🇧 UK Sign Directory</h1>
-                <p class="tagline">Signage, engraving, plaques, print and trophy suppliers</p>
-                <nav class="header-nav">
-                    <a href="index.html" class="nav-link active">UK signs</a>
-                    <a href="nordics.html" class="nav-link">Nordics</a>
+                <a class="brand" href="index.html" aria-label="Sign Index home">
+                    <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M6 24V8h8.8c4 0 6.2 1.8 6.2 5.1 0 2.2-1.2 3.7-3.2 4.5L25 24h-5.2l-6.5-5.8h-3V24H6Z" fill="currentColor"/><path d="M10.3 14.8h4.1c1.6 0 2.5-.6 2.5-1.8s-.9-1.8-2.5-1.8h-4.1v3.6Z" fill="#1D3C34"/></svg></span>
+                    <span class="brand-copy"><strong>SIGN INDEX</strong><small>THE TRADE DIRECTORY</small></span>
+                </a>
+                <nav class="header-nav" aria-label="Directory region">
+                    <span class="nav-caption">EXPLORE</span>
+                    <a href="index.html" class="nav-link active" aria-current="page">Directories</a>
+                    <a href="nordics.html" class="nav-link">Nordics <span aria-hidden="true">↗</span></a>
                 </nav>
+            </div>
+            <div class="hero">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="eyebrow-dot"></span> <span id="heroEyebrow">THE UK SIGN INDUSTRY, ALL IN ONE PLACE</span></p>
+                    <h1>Find your next <em>connection.</em></h1>
+                    <p class="hero-description" id="heroDescription">Discover sign makers, engravers and creative businesses across the UK.</p>
+                </div>
+                <div class="hero-aside" aria-hidden="true"><span class="hero-aside-label">THE DIRECTORY</span><span class="hero-aside-number">01<span>/</span></span><span class="hero-aside-line"></span><span class="hero-aside-caption">MADE FOR<br>THE TRADE</span></div>
             </div>
         </div>
     </header>
 
     <main class="main">
         <div class="container">
-            <section class="search-section">
-                <div class="search-box">
-                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <path d="M21 21l-4.35-4.35"></path>
-                    </svg>
-                    <input type="text" id="searchInput" placeholder="Search by company name, address, or keyword..." autocomplete="off">
-                    <button id="clearSearch" class="clear-btn" style="display: none;">✕</button>
+            <section class="directory-switcher" aria-label="Choose directory">
+                <div class="directory-switcher-copy"><span class="section-kicker">EXPLORE THE DIRECTORY</span><strong>Choose your list</strong><small>Each list keeps its own selection and customer review.</small></div>
+                <div class="directory-switcher-actions" role="group" aria-label="Choose directory">
+                    <button id="signsDataset" class="directory-switch active" type="button" aria-pressed="true"><span>UK signs</span><small>Sign makers &amp; suppliers</small></button>
+                    <button id="wayfindingDataset" class="directory-switch" type="button" aria-pressed="false"><span>UK wayfinding</span><small>Consultancies &amp; studios</small></button>
+                    <button id="globalWayfindingDataset" class="directory-switch" type="button" aria-pressed="false"><span>Global wayfinding</span><small>International studios</small></button>
                 </div>
-                
-                <div class="filters">
-                    <div class="filter-group" style="flex: 2; min-width: 280px;">
-                        <label>Categories</label>
-                        <div id="categoryCheckboxes" class="category-checkboxes">
-                            <!-- Populated by JS -->
-                        </div>
-                        <div class="filter-actions">
-                            <button id="selectAllCats" class="filter-action-btn">Select All</button>
-                            <button id="clearCats" class="filter-action-btn">Clear</button>
-                        </div>
-                    </div>
-                    <div class="filter-group">
-                        <label for="countyFilter">County</label>
-                        <select id="countyFilter">
-                            <option value="">All Counties</option>
-                        </select>
-                    </div>
-                    <div class="filter-group">
-                        <label for="sortBy">Sort By</label>
-                        <select id="sortBy">
-                            <option value="name-asc">Name A-Z</option>
-                            <option value="name-desc">Name Z-A</option>
-                            <option value="county-asc">County A-Z</option>
-                            <option value="county-desc">County Z-A</option>
-                            <option value="category-asc">Category A-Z</option>
-                        </select>
-                    </div>
-                    <div class="filter-group checkbox-group">
-                        <label for="plaquesOnly">
-                            <input type="checkbox" id="plaquesOnly">
-                            <span>🏅 Plaque sellers</span>
-                        </label>
-                    </div>
-                    <div class="filter-group checkbox-group">
-                        <label for="hasEmail">
-                            <input type="checkbox" id="hasEmail">
-                            <span>📧 Has email</span>
-                        </label>
-                    </div>
-                    <button id="resetFilters" class="reset-btn">Reset</button>
-                    <div class="filter-group" style="margin-left: auto;">
-                        <label>Selection</label>
-                        <div class="selection-actions">
-                            <button id="selectAllBtn" class="action-btn">Select All</button>
-                            <button id="deselectAllBtn" class="action-btn">Deselect All</button>
-                            <button id="downloadCsvBtn" class="action-btn primary" disabled>Download CSV (<span id="selectedCount">0</span>)</button>
-                        </div>
-                    </div>
+                <p id="datasetSwitchStatus" class="dataset-switch-status" role="status" aria-live="polite"></p>
+            </section>
+            <section class="customer-panel" aria-labelledby="customerPanelTitle">
+                <div class="customer-panel-copy">
+                    <span class="panel-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3.2 19.2 6v5.6c0 4-2.8 6.8-7.2 9-4.4-2.2-7.2-5-7.2-9V6L12 3.2Z"/><path d="m9 11.7 2 2 4-4"/></svg></span>
+                    <div><div class="panel-heading"><h2 id="customerPanelTitle">Customer check</h2><span class="panel-private">PRIVATE TO YOU</span></div>
+                    <p id="customerOverlaySummary" role="status">No comparison loaded — all businesses are unchecked.</p></div>
+                </div>
+                <div class="customer-panel-actions">
+                    <label class="action-btn customer-upload">Load comparison <input type="file" id="customerOverlayFile" accept=".json,application/json"></label>
+                    <button id="saveCustomerOverlay" class="action-btn" type="button" disabled>Save review</button>
+                    <button id="clearCustomerOverlay" class="action-btn" type="button" disabled>Clear</button>
                 </div>
             </section>
 
-            <section class="results-section">
-                <div class="results-header">
-                    <p class="results-count"><span id="resultsCount">0</span> businesses found</p>
-                    <div class="view-toggle">
-                        <button id="gridView" class="view-btn active" title="Grid View">▦</button>
-                        <button id="listView" class="view-btn" title="List View">☰</button>
-                        <button id="mapView" class="view-btn" title="Map View">🗺</button>
+            <div class="workspace-grid">
+                <aside class="search-section" aria-label="Search and filters">
+                    <div class="sidebar-heading"><div><span class="section-kicker">REFINE YOUR SEARCH</span><h2>Find businesses</h2></div><span class="sidebar-heading-icon" aria-hidden="true">✳</span></div>
+                    <div class="search-box">
+                        <label class="sr-only" for="searchInput">Search businesses</label>
+                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.8" cy="10.8" r="7"></circle><path d="m16 16 4.3 4.3"></path></svg>
+                        <input type="text" id="searchInput" placeholder="Name, place, keyword..." autocomplete="off">
+                        <button id="clearSearch" class="clear-btn" type="button" aria-label="Clear search" style="display: none;">✕</button>
                     </div>
-                </div>
-                
-                <div id="loading" class="loading">
-                    <div class="spinner"></div>
-                    <p>Loading directory...</p>
-                </div>
-                
-                <div id="resultsGrid" class="results-grid"></div>
-                <div id="resultsList" class="results-list" style="display: none;"></div>
-                <div id="mapContainer" class="map-container" style="display: none;">
-                    <div id="map"></div>
-                </div>
-                
-                <div id="noResults" class="no-results" style="display: none;">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <path d="M21 21l-4.35-4.35"></path>
-                        <path d="M8 8l6 6M14 8l-6 6"></path>
-                    </svg>
-                    <h3>No businesses found</h3>
-                    <p>Try adjusting your search or filters</p>
-                </div>
-            </section>
+                    <input class="mobile-filter-checkbox" type="checkbox" id="mobileFilterToggle" aria-controls="sidebarFilterControls">
+                    <label class="mobile-filter-toggle" for="mobileFilterToggle"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg> Filters</span><span class="mobile-filter-show">Show filters <span aria-hidden="true">＋</span></span><span class="mobile-filter-hide">Hide filters <span aria-hidden="true">−</span></span></label>
+                    <div class="sidebar-filter-controls" id="sidebarFilterControls">
+                    <div class="filter-section-heading"><span>FILTER BY</span><button id="resetFilters" class="reset-btn" type="button">Clear filters <span aria-hidden="true">↺</span></button></div>
+                    <div class="filters">
+                        <div class="filter-group"><label for="countyFilter">Location</label><select id="countyFilter"><option value="">All counties</option></select><small id="locationSourceNote" class="location-source-note" hidden>Countries come from the source directory and may not reflect every office.</small></div>
+                        <div class="filter-group"><label for="customerStatusFilter">Customer status</label><select id="customerStatusFilter"><option value="all">All statuses</option><option value="confirmed">Strong customer match</option><option value="possible">Possible match — review</option><option value="rejected">Rejected match</option><option value="unmatched">No match found</option><option value="unchecked">Unchecked</option></select></div>
+                        <div class="filter-group"><label for="sortBy">Sort by</label><select id="sortBy"><option value="name-asc">Name A–Z</option><option value="name-desc">Name Z–A</option><option value="county-asc">County A–Z</option><option value="county-desc">County Z–A</option><option value="category-asc">Category A–Z</option></select></div>
+                        <div class="filter-group category-group"><div class="filter-label-row"><span class="filter-label">Categories</span><div class="filter-actions"><button id="selectAllCats" class="filter-action-btn" type="button">All</button><span aria-hidden="true">/</span><button id="clearCats" class="filter-action-btn" type="button">Clear</button></div></div><div id="categoryCheckboxes" class="category-checkboxes"></div></div>
+                        <fieldset class="quick-filters"><legend>Quick filters</legend>
+                            <div class="filter-group checkbox-group recent-filter"><label for="recentlyAdded"><input type="checkbox" id="recentlyAdded"><span>Recently added</span></label></div>
+                            <div class="filter-group checkbox-group recent-filter"><label for="latestResearch"><input type="checkbox" id="latestResearch"><span>Latest sweep</span></label></div>
+                            <div class="filter-group checkbox-group"><label for="plaquesOnly"><input type="checkbox" id="plaquesOnly"><span>Plaque sellers</span></label></div>
+                            <div class="filter-group checkbox-group"><label for="hasEmail"><input type="checkbox" id="hasEmail"><span>Has email</span></label></div>
+                            <div class="filter-group checkbox-group"><label for="hasLinkedIn"><input type="checkbox" id="hasLinkedIn"><span>Has LinkedIn</span></label></div>
+                            <div class="filter-group checkbox-group"><label for="hasInstagram"><input type="checkbox" id="hasInstagram"><span>Has Instagram</span></label></div>
+                        </fieldset>
+                    </div>
+                    <p class="sidebar-note"><span aria-hidden="true">✳</span> A little more information makes the right connection easier.</p>
+                    </div>
+                </aside>
+
+                <section class="results-section" aria-label="Directory results">
+                    <div class="results-header">
+                        <div><span class="section-kicker" id="directoryKicker">UK SIGNS DIRECTORY</span><h2 id="directoryHeading">Businesses <span class="results-heading-dot">.</span></h2><p class="results-count"><span id="resultsCount">0</span> businesses found</p></div>
+                        <div class="view-controls"><div class="view-toggle" aria-label="Choose display view">
+                            <button id="gridView" class="view-btn active" type="button" title="Grid view" aria-label="Grid view"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/></svg></button>
+                            <button id="listView" class="view-btn" type="button" title="List view" aria-label="List view"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01" stroke-linecap="round"/></svg></button>
+                            <button id="mapView" class="view-btn" type="button" title="Map view" aria-label="Map view" aria-describedby="mapUnavailableNotice"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m3.5 6 5-2 7 2 5-2v14l-5 2-7-2-5 2V6ZM8.5 4v14M15.5 6v14"/></svg></button>
+                        </div><small id="mapUnavailableNotice" class="map-unavailable-notice" hidden>Map unavailable · country labels may not reflect every office.</small></div>
+                    </div>
+                    <div class="selection-bar">
+                        <div class="selection-intro"><span class="selection-icon" aria-hidden="true">✓</span><div><strong>Build your list</strong><small>Select businesses to export</small></div></div>
+                        <div class="selection-actions">
+                            <button id="selectAllBtn" class="action-btn" type="button" title="Select all businesses shown by the current filters">Select shown</button>
+                            <button id="deselectAllBtn" class="action-btn" type="button" title="Clear the entire selection, including businesses hidden by filters">Clear selection</button>
+                            <button id="selectCustomersBtn" class="action-btn" type="button" title="Select strong and possible matches across the whole directory" disabled>Select matches</button>
+                            <button id="deselectCustomersBtn" class="action-btn" type="button" title="Deselect strong and possible matches across the whole directory" disabled>Deselect matches</button>
+                            <button id="downloadCsvBtn" class="action-btn primary" type="button" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3v11m-4-4 4 4 4-4M5 16v3h14v-3"/></svg> Export CSV <span class="selected-count" id="selectedCount">0</span></button>
+                        </div>
+                    </div>
+                    <p id="globalContactNotice" class="global-contact-notice" hidden></p>
+                    <div id="loading" class="loading"><div class="spinner"></div><p>Loading directory...</p></div>
+                    <div id="resultsGrid" class="results-grid"></div>
+                    <div id="resultsList" class="results-list" style="display: none;"></div>
+                    <div id="mapContainer" class="map-container" style="display: none;"><div id="map"></div></div>
+                    <div id="noResults" class="no-results" style="display: none;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35M8 8l6 6M14 8l-6 6"></path></svg><h3>No businesses found</h3><p>Try another search or adjust your filters.</p></div>
+                </section>
+            </div>
         </div>
     </main>
-
-    <footer class="footer">
-        <div class="container">
-            <p>UK Sign Directory • Architects split into their own directory</p>
-        </div>
-    </footer>
-
+    <footer class="footer"><div class="container"><div class="footer-content"><span><strong>SIGN INDEX</strong> <span class="footer-divider">/</span> TRADE DIRECTORY</span><span>Made for making connections <span aria-hidden="true">✳</span></span></div></div></footer>
     <script src="js/app.js"></script>
 </body>
 </html>
