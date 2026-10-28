@@ -34,7 +34,7 @@ A searchable, filterable directory of UK signage, engraving, plaque, print, and 
 
 ## Data Coverage
 
-- **1,032 UK sign businesses** after splitting architects into their own repository and adding researched leads
+- **1,067 UK sign businesses** after splitting architects into their own repository and adding researched leads
 - **60 UK wayfinding** and **193 global wayfinding** entries, including researched additions to the imported snapshots
 - Coverage across England, Wales, Scotland, Northern Ireland, and the Isle of Man
 - Signage, engraving, trophy, plaque, and print-related categories
