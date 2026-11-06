@@ -1,0 +1,901 @@
+{
+  "method": "Public business sources; existing values were not overwritten.",
+  "updates": [
+    {
+      "id": 15,
+      "company": "Imprint Signs & Graphics",
+      "field": "email",
+      "value": "info@imprintsigns.co.uk",
+      "source": "https://imprintsigns.co.uk/product/operatives-working-overhead-sign/",
+      "evidence": "Email published on the Norfolk business website."
+    },
+    {
+      "id": 671,
+      "company": "Trophy World",
+      "field": "phone",
+      "value": "01452 722111",
+      "source": "https://www.trophyworldglos.co.uk/",
+      "evidence": "Official phone number replaces a placeholder number."
+    },
+    {
+      "id": 1055,
+      "company": "McBride Signs",
+      "field": "phone",
+      "value": "01463 237303",
+      "source": "https://www.mcbridesigns.co.uk/get-in-touch",
+      "evidence": "Official phone number replaces the number previously listed."
+    },
+    {
+      "id": 1055,
+      "company": "McBride Signs",
+      "field": "address",
+      "value": "2 Henderson Drive, Inverness IV1 1TR",
+      "source": "https://www.mcbridesigns.co.uk/get-in-touch",
+      "evidence": "Official address replaces the address previously listed."
+    },
+    {
+      "id": 26,
+      "company": "Alan Hislop Glass Engraver",
+      "field": "email",
+      "value": "info@ahengraving.co.uk",
+      "source": "https://www.ahengraving.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 29,
+      "company": "Apex Signs & Engraving",
+      "field": "email",
+      "value": "signs@aseuk.co.uk",
+      "source": "https://aseuk.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 926,
+      "company": "Ark Signs Ltd",
+      "field": "email",
+      "value": "sales@arksigns.co.uk",
+      "source": "https://www.arksigns.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 639,
+      "company": "Ashley House",
+      "field": "email",
+      "value": "hello@ashleyhouse.co.uk",
+      "source": "https://www.ashleyhouse.co.uk/contact-us",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 493,
+      "company": "Aura Signs",
+      "field": "email",
+      "value": "info@aurasigns.co.uk",
+      "source": "https://www.aurasigns.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 518,
+      "company": "BEL Signs - Brass Plaques",
+      "field": "email",
+      "value": "info@belsigns.co.uk",
+      "source": "https://www.belsigns.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 309,
+      "company": "Cambridgeshire Sign Company",
+      "field": "email",
+      "value": "sales@cambridgesigncompany.co.uk",
+      "source": "https://cambridgesigncompany.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 540,
+      "company": "Canonbury Signs & Engraving",
+      "field": "email",
+      "value": "info@canonburysigns.co.uk",
+      "source": "https://canonburysigns.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 761,
+      "company": "Cherwell Trophies & Screens",
+      "field": "email",
+      "value": "hello@cherwelltrophies.co.uk",
+      "source": "https://cherwelltrophies.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 180,
+      "company": "City Signs",
+      "field": "email",
+      "value": "sales@city-signs.co.uk",
+      "source": "https://www.city-signs.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 618,
+      "company": "Cornwall Signs",
+      "field": "instagram",
+      "value": "https://www.instagram.com/cornwallsigns",
+      "source": "https://cornwallsigns.com/",
+      "evidence": "Profile linked from business website."
+    },
+    {
+      "id": 56,
+      "company": "County Durham Signs",
+      "field": "email",
+      "value": "countydurhamsigns@hotmail.com",
+      "source": "https://countydurhamsigns.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 245,
+      "company": "County Signs Gloucester",
+      "field": "email",
+      "value": "info@countysigns.co.uk",
+      "source": "https://countysigns.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 610,
+      "company": "Edge Laser Engraving",
+      "field": "email",
+      "value": "info@edgelaser.co.uk",
+      "source": "https://www.edgelaser.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 556,
+      "company": "EFX Awards & Trophies",
+      "field": "email",
+      "value": "award@efx.co.uk",
+      "source": "https://www.efx.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 541,
+      "company": "Engraving Studios",
+      "field": "instagram",
+      "value": "https://www.instagram.com/engravingstudios/",
+      "source": "https://engravingstudios.co.uk/",
+      "evidence": "Profile linked from business website."
+    },
+    {
+      "id": 1321,
+      "company": "Engraving Village",
+      "field": "instagram",
+      "value": "https://www.instagram.com/engravingvillage",
+      "source": "https://engravingvillage.co.uk/",
+      "evidence": "Profile linked from business website."
+    },
+    {
+      "id": 715,
+      "company": "Etchells Signs",
+      "field": "email",
+      "value": "info@etchellssigns.co.uk",
+      "source": "https://www.etchellssigns.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 356,
+      "company": "Focused Laser Systems",
+      "field": "email",
+      "value": "sales@focusedlasersystems.com",
+      "source": "https://www.focusedlasersystems.com/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 154,
+      "company": "FUZE Visual",
+      "field": "email",
+      "value": "hello@fuzevisual.co.uk",
+      "source": "https://fuzevisual.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 13,
+      "company": "G Sign",
+      "field": "email",
+      "value": "info@gsign.co.uk",
+      "source": "https://www.gsign.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 613,
+      "company": "GB Trophies",
+      "field": "email",
+      "value": "sales@gbtrophies.co.uk",
+      "source": "https://www.gbtrophies.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 613,
+      "company": "GB Trophies",
+      "field": "instagram",
+      "value": "https://www.instagram.com/gbtrophies/",
+      "source": "https://www.gbtrophies.co.uk/",
+      "evidence": "Profile linked from business website."
+    },
+    {
+      "id": 661,
+      "company": "GE Awards",
+      "field": "email",
+      "value": "info@ge-awards.co.uk",
+      "source": "https://www.ge-awards.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 661,
+      "company": "GE Awards",
+      "field": "instagram",
+      "value": "https://www.instagram.com/ge_awards/",
+      "source": "https://www.ge-awards.co.uk/",
+      "evidence": "Profile linked from business website."
+    },
+    {
+      "id": 554,
+      "company": "Gravesham Trophy Centre",
+      "field": "email",
+      "value": "sales@graveshamtrophycentre.co.uk",
+      "source": "https://graveshamtrophycentre.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 559,
+      "company": "GSM Graphic Arts",
+      "field": "email",
+      "value": "webenquiry@gsmgraphicarts.com",
+      "source": "https://www.gsmgraphicarts.com/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 645,
+      "company": "Hardy Signs",
+      "field": "email",
+      "value": "sales@hardysigns.com",
+      "source": "https://www.hardysigns.com/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 186,
+      "company": "Howson Signs",
+      "field": "email",
+      "value": "howsons@aol.com",
+      "source": "https://howsonsigns.co.uk/general-signage/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 530,
+      "company": "Impact Sign Solutions",
+      "field": "email",
+      "value": "info@impactsignsolutions.co.uk",
+      "source": "https://impactsignsolutions.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 654,
+      "company": "Interplan Sign Systems Ltd",
+      "field": "email",
+      "value": "sales@interplan-signs.co.uk",
+      "source": "https://www.interplan-signs.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 212,
+      "company": "iwsigns (Biltmore)",
+      "field": "email",
+      "value": "sales@iwsigns.co.uk",
+      "source": "https://www.iwsigns.co.uk/find-us-and-contact",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 241,
+      "company": "JM Sign & Print",
+      "field": "email",
+      "value": "info@jmsignandprint.co.uk",
+      "source": "https://www.jmsignandprint.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 1336,
+      "company": "JonesnCo Cast Metal Signs",
+      "field": "instagram",
+      "value": "https://instagram.com/jones.nco",
+      "source": "https://www.customsignsplus.co.uk/",
+      "evidence": "Profile linked from business website."
+    },
+    {
+      "id": 310,
+      "company": "JPB Signs",
+      "field": "email",
+      "value": "hello@jpbsigns.co.uk",
+      "source": "https://www.jpbsigns.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 344,
+      "company": "Ken White Signs",
+      "field": "email",
+      "value": "sales@kenwhitesigns.co.uk",
+      "source": "https://kenwhitesigns.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 648,
+      "company": "Laser Crystal",
+      "field": "email",
+      "value": "sales@lasercrystal.co.uk",
+      "source": "https://lasercrystal.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 522,
+      "company": "Leeds Engraving Centre",
+      "field": "email",
+      "value": "info@leedsengravingcentre.co.uk",
+      "source": "https://leedsengravingcentre.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 412,
+      "company": "Lime Signs",
+      "field": "email",
+      "value": "info@limesigns.co.uk",
+      "source": "https://www.limesigns.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 482,
+      "company": "Luxe Graphics",
+      "field": "email",
+      "value": "info@luxegraphics.co.uk",
+      "source": "https://luxegraphics.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 410,
+      "company": "Lymm Engraving",
+      "field": "email",
+      "value": "enquiries@lymmengraving.co.uk",
+      "source": "https://www.lymmengraving.co.uk/contact.html",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 918,
+      "company": "Manchester Signs",
+      "field": "email",
+      "value": "sales@manchester-signs.com",
+      "source": "https://manchester-signs.com/contact-manchester-sign-maker/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 531,
+      "company": "MBUK Memorial Benches",
+      "field": "email",
+      "value": "mail@memorialbenchesuk.co.uk",
+      "source": "https://memorialbenchesuk.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 1055,
+      "company": "McBride Signs",
+      "field": "linkedin",
+      "value": "https://www.linkedin.com/company/mcbride-signs-&-engraving-services-limited",
+      "source": "https://www.mcbridesigns.co.uk/",
+      "evidence": "Company profile linked from business website."
+    },
+    {
+      "id": 623,
+      "company": "More Awards",
+      "field": "email",
+      "value": "sales@moreawards.co.uk",
+      "source": "https://moreawards.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 909,
+      "company": "Motive Graphics",
+      "field": "email",
+      "value": "hello@motivegraphics.co.uk",
+      "source": "https://motivegraphics.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 909,
+      "company": "Motive Graphics",
+      "field": "instagram",
+      "value": "https://www.instagram.com/MotiveGraphics/",
+      "source": "https://motivegraphics.co.uk/",
+      "evidence": "Profile linked from business website."
+    },
+    {
+      "id": 529,
+      "company": "MS Ltd - Metal Sheets",
+      "field": "email",
+      "value": "sales@metalsheets.co.uk",
+      "source": "https://metalsheets.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 156,
+      "company": "Myall Signs",
+      "field": "email",
+      "value": "info@myallsigns.co.uk",
+      "source": "https://www.myallsigns.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 211,
+      "company": "Perry Signs",
+      "field": "email",
+      "value": "info@perrysigns.co.uk",
+      "source": "https://www.perrysigns.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 523,
+      "company": "Plaques Engraved",
+      "field": "email",
+      "value": "impressionsengraving@gmail.com",
+      "source": "https://www.plaquesengraved.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 1344,
+      "company": "Radecal Signs",
+      "field": "instagram",
+      "value": "https://www.instagram.com/radecalsigns.limited/",
+      "source": "https://radecalsigns.com/",
+      "evidence": "Profile linked from business website."
+    },
+    {
+      "id": 1344,
+      "company": "Radecal Signs",
+      "field": "linkedin",
+      "value": "https://www.linkedin.com/company/radecal-signs-graphics-ltd/",
+      "source": "https://radecalsigns.com/",
+      "evidence": "Company profile linked from business website."
+    },
+    {
+      "id": 555,
+      "company": "RYAN PGT - Trophies & Awards",
+      "field": "email",
+      "value": "sales@ryanpgt.co.uk",
+      "source": "https://www.ryanpgt.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 288,
+      "company": "Showstoppers Ltd",
+      "field": "email",
+      "value": "webinfo@showstoppersltd.co.uk",
+      "source": "https://www.showstoppersltd.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 716,
+      "company": "Sign Direct",
+      "field": "email",
+      "value": "sales@signdirect.co.uk",
+      "source": "https://www.signdirect.co.uk/contact/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 920,
+      "company": "Sign Right UK",
+      "field": "email",
+      "value": "info@signrightuk.com",
+      "source": "https://signrightuk.com/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 919,
+      "company": "Sign UK",
+      "field": "email",
+      "value": "sales@sign-uk.com",
+      "source": "https://www.sign-uk.com/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 919,
+      "company": "Sign UK",
+      "field": "instagram",
+      "value": "https://www.instagram.com/sign_uk",
+      "source": "https://www.sign-uk.com/",
+      "evidence": "Profile linked from business website."
+    },
+    {
+      "id": 346,
+      "company": "Sign Vision",
+      "field": "email",
+      "value": "Sales@sign-vision.co.uk",
+      "source": "https://www.sign-vision.co.uk/contact/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 1061,
+      "company": "Sign-it",
+      "field": "instagram",
+      "value": "https://www.instagram.com/signitessex",
+      "source": "https://www.sign-it.co.uk/",
+      "evidence": "Profile linked from business website."
+    },
+    {
+      "id": 461,
+      "company": "Signfocus",
+      "field": "email",
+      "value": "info@signfocus.co.uk",
+      "source": "https://signfocus.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 209,
+      "company": "Signpost Express",
+      "field": "email",
+      "value": "signs@signpostexpress.co.uk",
+      "source": "https://www.signpostexpress.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 380,
+      "company": "Signs & Graphics Etc",
+      "field": "email",
+      "value": "info@sgetc.co.uk",
+      "source": "https://sgetc.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 777,
+      "company": "Signs & Safety Ltd",
+      "field": "email",
+      "value": "info@signsandsafety.co.uk",
+      "source": "https://www.signsandsafety.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 537,
+      "company": "Signs Supplier UK",
+      "field": "email",
+      "value": "info@signsupplier.co.uk",
+      "source": "https://signsupplier.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 774,
+      "company": "Signwright Ltd",
+      "field": "email",
+      "value": "studio@signwright.ltd.uk",
+      "source": "https://www.signwright.ltd.uk/about-us/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 347,
+      "company": "Signz",
+      "field": "instagram",
+      "value": "https://www.instagram.com/signz_uk/",
+      "source": "https://www.signz.co.uk/contact/",
+      "evidence": "Profile linked from business website."
+    },
+    {
+      "id": 532,
+      "company": "SK Signs & Labels Ltd",
+      "field": "email",
+      "value": "info@sksigns.co.uk",
+      "source": "https://sksigns.co.uk/pages/contact-us",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 738,
+      "company": "Spectrum Signs",
+      "field": "email",
+      "value": "info@signsbyspectrum.com",
+      "source": "http://www.signsbyspectrum.com/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 749,
+      "company": "Spotty Dog Signs",
+      "field": "email",
+      "value": "spottydogsigns@hotmail.co.uk",
+      "source": "https://www.spottydogsigns.co.uk/contact",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 20,
+      "company": "SPP Digital",
+      "field": "email",
+      "value": "sales@sppdigital.co.uk",
+      "source": "https://sppdigital.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 161,
+      "company": "Stephen Alexander Trophies",
+      "field": "email",
+      "value": "enquiries@satrophies.co.uk",
+      "source": "https://www.satrophies.co.uk/contact",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 553,
+      "company": "Supreme Trophies & Engraving",
+      "field": "email",
+      "value": "sales@SupremeTrophies.co.uk",
+      "source": "https://www.supremetrophies.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 655,
+      "company": "Swift Engraving Services Ltd",
+      "field": "email",
+      "value": "sales@swift-engraving.co.uk",
+      "source": "https://swift-engraving.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 302,
+      "company": "Symbol Sam Signs",
+      "field": "email",
+      "value": "info@symbolsamsigns.co.uk",
+      "source": "https://symbolsamsigns.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 542,
+      "company": "T Signs Salisbury",
+      "field": "email",
+      "value": "admin@tsigns.co.uk",
+      "source": "https://www.tsigns.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 413,
+      "company": "Talk Design & Print",
+      "field": "email",
+      "value": "hello@talkdesignandprint.com",
+      "source": "https://www.talkdesignandprint.com/basingstoke-sign-company/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 1331,
+      "company": "Tavy Signs",
+      "field": "instagram",
+      "value": "https://instagram.com/tavysigns",
+      "source": "https://tavysigns.co.uk/",
+      "evidence": "Profile linked from business website."
+    },
+    {
+      "id": 68,
+      "company": "Teesdale Glass Engravers",
+      "field": "email",
+      "value": "enquiries@teesdaleglassengravers.co.uk",
+      "source": "https://www.teesdaleglassengravers.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 188,
+      "company": "The Sign Bridge",
+      "field": "email",
+      "value": "hello@thesignbridge.com",
+      "source": "https://www.thesignbridge.com/high-peak-sign-maker",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 210,
+      "company": "The Sign Company Ltd",
+      "field": "email",
+      "value": "info@thesigncompanyltd.co.uk",
+      "source": "https://thesigncompanyltd.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 526,
+      "company": "The Sign Maker Shop",
+      "field": "email",
+      "value": "sales@sign-maker.net",
+      "source": "https://www.sign-maker.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 19,
+      "company": "The Signsmith",
+      "field": "email",
+      "value": "sales@thesignsmith.co.uk",
+      "source": "https://www.thesignsmith.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 779,
+      "company": "The Wood Sign Company",
+      "field": "email",
+      "value": "info@thewoodsigncompany.co.uk",
+      "source": "https://thewoodsigncompany.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 552,
+      "company": "Tiger Trophies",
+      "field": "email",
+      "value": "sales@tigertrophies.co.uk",
+      "source": "https://tigertrophies.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 557,
+      "company": "Trade Engraving & Printing",
+      "field": "email",
+      "value": "contact@tradeengraving.co.uk",
+      "source": "https://tradeengraving.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 525,
+      "company": "UK Memorials - Brass Plaques",
+      "field": "email",
+      "value": "sales@uk-memorials.net",
+      "source": "https://uk-memorials.net/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 678,
+      "company": "Victory Trophies",
+      "field": "email",
+      "value": "info@victorytrophies.co.uk",
+      "source": "https://victorytrophies.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 527,
+      "company": "Vinnys Trophies & Engraving",
+      "field": "email",
+      "value": "sales@vinnys.co.uk",
+      "source": "https://vinnys.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 442,
+      "company": "W.L. Jones Engravers",
+      "field": "email",
+      "value": "sales@wljones-engravers.co.uk",
+      "source": "https://www.wljones-engravers.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 700,
+      "company": "White Cliffs Engraving",
+      "field": "email",
+      "value": "info@whitecliffsengraving.co.uk",
+      "source": "https://whitecliffsengraving.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 743,
+      "company": "XSign",
+      "field": "email",
+      "value": "sales@xsign.com",
+      "source": "https://xsign.com/contact-us/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 460,
+      "company": "Yorkshire Signs",
+      "field": "email",
+      "value": "hello@yorkshiresigns.co.uk",
+      "source": "https://yorkshiresigns.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 606,
+      "company": "Zero Signs",
+      "field": "email",
+      "value": "sales@zerosigns.co.uk",
+      "source": "https://zerosigns.co.uk/",
+      "evidence": "Email linked from business website."
+    },
+    {
+      "id": 11,
+      "company": "Monarch Signs",
+      "field": "email",
+      "value": "norwich@monarchsigns.com",
+      "source": "https://monarchsigns.com/",
+      "evidence": "Business website email link."
+    },
+    {
+      "id": 150,
+      "company": "Graphic Engraving",
+      "field": "email",
+      "value": "applemanjames@hotmail.co.uk",
+      "source": "https://www.graphicengraving.co.uk",
+      "evidence": "Business website email link."
+    },
+    {
+      "id": 183,
+      "company": "Signs Now Chesterfield",
+      "field": "email",
+      "value": "info@signsnoweastmidlands.co.uk",
+      "source": "https://www.signsnowchesterfield.co.uk/",
+      "evidence": "Business website email link."
+    },
+    {
+      "id": 430,
+      "company": "Northern Signs",
+      "field": "email",
+      "value": "gary@northernsigns.co.uk",
+      "source": "https://www.northernsigns.co.uk",
+      "evidence": "Business website email link."
+    },
+    {
+      "id": 521,
+      "company": "Total Industrial Engraving",
+      "field": "email",
+      "value": "info@tie.uk.com",
+      "source": "https://totalindustrialengraving.co.uk",
+      "evidence": "Business website email link."
+    },
+    {
+      "id": 549,
+      "company": "JFK Complete Sign Service",
+      "field": "email",
+      "value": "sales@jfkltd.co.uk",
+      "source": "https://www.jfkltd.co.uk",
+      "evidence": "Business website email link."
+    },
+    {
+      "id": 558,
+      "company": "Nameplates.co.uk (Rudd Macnamara)",
+      "field": "email",
+      "value": "enquiries@ruddmacnamara.com",
+      "source": "https://www.nameplates.co.uk",
+      "evidence": "Business website email link."
+    },
+    {
+      "id": 604,
+      "company": "Signwork Ltd",
+      "field": "email",
+      "value": "dave@signwork.co.uk",
+      "source": "https://signwork.co.uk",
+      "evidence": "Business website email link."
+    },
+    {
+      "id": 635,
+      "company": "Robert Lewis Signs",
+      "field": "email",
+      "value": "robert@robertlewissigns.co.uk",
+      "source": "https://www.robertlewissigns.co.uk",
+      "evidence": "Business website email link."
+    },
+    {
+      "id": 671,
+      "company": "Trophy World",
+      "field": "email",
+      "value": "zlundberg@btinternet.com",
+      "source": "https://www.trophyworldglos.co.uk",
+      "evidence": "Business website email link."
+    },
+    {
+      "id": 701,
+      "company": "Graham Taylor Engravers",
+      "field": "email",
+      "value": "info@gtengravers.co.uk",
+      "source": "https://www.grahamtaylorengravers.co.uk",
+      "evidence": "Business website email link."
+    },
+    {
+      "id": 744,
+      "company": "Pumpkin Signs & Display",
+      "field": "email",
+      "value": "hello@pumpkinprint.co.uk",
+      "source": "https://pumpkinsd.co.uk/northampton/",
+      "evidence": "Business website email link."
+    },
+    {
+      "id": 775,
+      "company": "Star Signs",
+      "field": "email",
+      "value": "sales@sscsigns.co.uk",
+      "source": "https://sign-making.co/",
+      "evidence": "Email linked from business website; owner profile corroborates the business name and contact."
+    }
+  ]
+}
