@@ -30,7 +30,7 @@ const server = http.createServer((request, response) => {
   }
   // Only the local directory page may read the private comparison. The server
   // never exposes it to the public GitHub Pages site or other browser origins.
-  if (request.method === 'GET' && (request.url === '/comparison' || request.url === '/comparison?dataset=wayfinding' || request.url === '/comparison?dataset=global-wayfinding')) {
+  if (request.method === 'GET' && (request.url === '/comparison' || request.url === '/comparison?dataset=wayfinding' || request.url === '/comparison?dataset=global-wayfinding' || request.url === '/comparison?dataset=nordics')) {
     if (request.headers.host !== '127.0.0.1:8766' || request.headers.origin !== 'http://127.0.0.1:8767') {
       response.writeHead(403, { 'Cache-Control': 'no-store' }).end();
       return;
@@ -40,6 +40,7 @@ const server = http.createServer((request, response) => {
         '/comparison': 'customer-comparison.json',
         '/comparison?dataset=wayfinding': 'wayfinding-customer-comparison.json',
         '/comparison?dataset=global-wayfinding': 'global-wayfinding-customer-comparison.json',
+        '/comparison?dataset=nordics': 'nordics-customer-comparison.json',
       };
       const filename = filenames[request.url];
       const comparison = readFileSync(join(homedir(), '.supated-directory', filename));

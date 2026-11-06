@@ -11,7 +11,9 @@ class BusinessDirectory {
         this.markers = [];
         this.customerMatches = null;
         this.customerEvidence = new Map();
-        this.activeDataset = 'signs';
+        this.showProtectedCustomers = false;
+        this.allowCustomerSelection = false;
+        this.activeDataset = document.body?.dataset?.dataset || 'signs';
         this.datasetStates = new Map();
         this.datasetData = new Map();
         this.overlayAttempted = new Set();
@@ -22,7 +24,7 @@ class BusinessDirectory {
         this.globalSupplement = null;
         this.globalSupplementPromise = null;
         this.datasetFiles = {signs: 'data/directory-data.json', wayfinding: 'data/wayfinding-directory-data.json', 'global-wayfinding': 'data/global-wayfinding-directory-data.json'};
-        this.datasetLabels = {signs: 'UK signs', wayfinding: 'UK wayfinding', 'global-wayfinding': 'Global wayfinding'};
+        this.datasetLabels = {signs: 'UK signs', wayfinding: 'UK wayfinding', 'global-wayfinding': 'Global wayfinding', nordics: 'Nordics'};
         
         // DOM Elements
         this.searchInput = document.getElementById('searchInput');
@@ -53,6 +55,8 @@ class BusinessDirectory {
         this.saveCustomerOverlayBtn = document.getElementById('saveCustomerOverlay');
         this.selectCustomersBtn = document.getElementById('selectCustomersBtn');
         this.deselectCustomersBtn = document.getElementById('deselectCustomersBtn');
+        this.showCustomerMatchesBtn = document.getElementById('showCustomerMatches');
+        this.allowCustomerSelectionBtn = document.getElementById('allowCustomerSelection');
         this.datasetButtons = {signs: document.getElementById('signsDataset'), wayfinding: document.getElementById('wayfindingDataset'), 'global-wayfinding': document.getElementById('globalWayfindingDataset')};
         this.datasetSwitchStatus = document.getElementById('datasetSwitchStatus');
         
@@ -65,8 +69,8 @@ class BusinessDirectory {
         this.datasetData.set(this.activeDataset, this.businesses);
         this.populateCategoryCheckboxes();
         this.populateFilters();
-        this.sort();
-        this.render();
+        this.refreshOverlayControls();
+        this.filter();
         await this.loadLocalCustomerOverlay();
     }
     
@@ -122,6 +126,8 @@ class BusinessDirectory {
         if (this.saveCustomerOverlayBtn) this.saveCustomerOverlayBtn.addEventListener('click', () => this.saveCustomerOverlay());
         if (this.selectCustomersBtn) this.selectCustomersBtn.addEventListener('click', () => this.setCustomerSelection(true));
         if (this.deselectCustomersBtn) this.deselectCustomersBtn.addEventListener('click', () => this.setCustomerSelection(false));
+        if (this.showCustomerMatchesBtn) this.showCustomerMatchesBtn.addEventListener('click', () => this.toggleProtectedCustomers());
+        if (this.allowCustomerSelectionBtn) this.allowCustomerSelectionBtn.addEventListener('click', () => this.toggleCustomerSelection());
         for (const container of [this.resultsGrid, this.resultsList]) {
             container.addEventListener('click', event => {
                 const button = event.target.closest('[data-review-id]');
@@ -129,6 +135,7 @@ class BusinessDirectory {
                 const id = Number(button.dataset.reviewId);
                 if (!this.customerMatches || !this.customerMatches.has(id)) return;
                 this.customerMatches.set(id, button.dataset.reviewStatus);
+                if (button.dataset.reviewStatus === 'confirmed' || button.dataset.reviewStatus === 'possible') this.selectedBusinesses.delete(id);
                 this.updateCustomerSummary();
                 this.filter();
             });
@@ -222,6 +229,9 @@ class BusinessDirectory {
             this.selectedCategories = state?.selectedCategories || new Set();
             this.customerMatches = state?.customerMatches || null;
             this.customerEvidence = state?.customerEvidence || new Map();
+            this.showProtectedCustomers = false;
+            this.allowCustomerSelection = false;
+            this.removeProtectedSelections();
             this.searchInput.value = state?.search || '';
             this.clearSearchBtn.style.display = this.searchInput.value ? 'flex' : 'none';
             this.sortBy.value = state?.sort || 'name-asc';
@@ -232,7 +242,7 @@ class BusinessDirectory {
             this.populateCategoryCheckboxes();
             this.populateFilters();
             this.countyFilter.value = state?.county || '';
-            if (this.customerStatusFilter) this.customerStatusFilter.value = state?.customerStatus || 'all';
+            if (this.customerStatusFilter) this.customerStatusFilter.value = ['confirmed', 'possible'].includes(state?.customerStatus) ? 'all' : state?.customerStatus || 'all';
             for (const [name, button] of Object.entries(this.datasetButtons)) {
                 button.classList.toggle('active', name === dataset);
                 button.setAttribute('aria-pressed', String(name === dataset));
@@ -281,10 +291,23 @@ class BusinessDirectory {
         const hasOverlay = this.customerMatches !== null;
         this.clearCustomerOverlayBtn.disabled = !hasOverlay;
         this.saveCustomerOverlayBtn.disabled = !hasOverlay;
-        this.selectCustomersBtn.disabled = !hasOverlay;
+        this.selectCustomersBtn.hidden = !this.allowCustomerSelection;
+        this.selectCustomersBtn.disabled = !hasOverlay || !this.allowCustomerSelection;
         this.deselectCustomersBtn.disabled = !hasOverlay;
+        if (this.showCustomerMatchesBtn) {
+            this.showCustomerMatchesBtn.disabled = !hasOverlay;
+            this.showCustomerMatchesBtn.textContent = this.showProtectedCustomers ? 'Hide customer matches' : 'Review hidden matches';
+        }
+        if (this.allowCustomerSelectionBtn) {
+            this.allowCustomerSelectionBtn.hidden = !hasOverlay || !this.showProtectedCustomers;
+            this.allowCustomerSelectionBtn.textContent = this.allowCustomerSelection ? 'Lock customer selection' : 'Allow selecting matches';
+        }
+        for (const status of ['confirmed', 'possible']) {
+            const option = this.customerStatusFilter?.querySelector(`option[value="${status}"]`);
+            if (option) option.disabled = !this.showProtectedCustomers;
+        }
         if (hasOverlay) this.updateCustomerSummary();
-        else this.customerOverlaySummary.textContent = `No ${this.datasetLabels[this.activeDataset]} comparison loaded — all businesses are unchecked.`;
+        else this.customerOverlaySummary.textContent = `Load your private ${this.datasetLabels[this.activeDataset]} comparison to show and export prospects. Customer protection is unavailable until it is loaded.`;
     }
 
     // Contact and outreach material is historical source data. Its IDs are
@@ -385,7 +408,7 @@ class BusinessDirectory {
             this.applyCustomerOverlay(overlay);
         } catch (error) {
             if (dataset !== this.activeDataset || sequence !== this.switchSequence || this.overlayGeneration.get(dataset) !== generation) return;
-            this.customerOverlaySummary.textContent = `Could not load comparison: ${error.message} ${this.customerMatches ? 'The previous comparison is still active.' : 'All businesses remain unchecked.'}`;
+            this.customerOverlaySummary.textContent = `Could not load comparison: ${error.message} ${this.customerMatches ? 'The previous comparison is still active.' : 'Prospects remain hidden until a valid comparison is loaded.'}`;
         } finally {
             this.customerOverlayFile.value = '';
         }
@@ -443,6 +466,10 @@ class BusinessDirectory {
         }
         this.customerMatches = matches;
         this.customerEvidence = evidence;
+        this.showProtectedCustomers = false;
+        this.allowCustomerSelection = false;
+        this.removeProtectedSelections();
+        if (['confirmed', 'possible'].includes(this.customerStatusFilter?.value)) this.customerStatusFilter.value = 'all';
         this.overlayAttempted.add(this.activeDataset);
         this.updateCustomerSummary();
         this.refreshOverlayControls();
@@ -453,6 +480,9 @@ class BusinessDirectory {
         this.overlayGeneration.set(this.activeDataset, (this.overlayGeneration.get(this.activeDataset) || 0) + 1);
         this.overlayInFlight.delete(this.activeDataset);
         this.overlayAttempted.add(this.activeDataset);
+        this.allowCustomerSelection = false;
+        this.showProtectedCustomers = false;
+        this.removeProtectedSelections();
         this.customerMatches = null;
         this.customerEvidence.clear();
         this.refreshOverlayControls();
@@ -463,6 +493,45 @@ class BusinessDirectory {
     customerStatus(business) {
         if (!this.customerMatches) return 'unchecked';
         return this.customerMatches.get(business.id) || 'unmatched';
+    }
+
+    isProtectedCustomer(business) {
+        return ['confirmed', 'possible'].includes(this.customerStatus(business));
+    }
+
+    canSelectBusiness(business) {
+        if (!this.customerStatusFilter) return true;
+        if (!this.customerMatches) return false;
+        return !this.isProtectedCustomer(business) || (this.showProtectedCustomers && this.allowCustomerSelection);
+    }
+
+    removeProtectedSelections() {
+        if (!this.customerMatches) return;
+        for (const [id, status] of this.customerMatches) {
+            if (status === 'confirmed' || status === 'possible') this.selectedBusinesses.delete(id);
+        }
+    }
+
+    toggleProtectedCustomers() {
+        if (!this.customerMatches) return;
+        if (!this.showProtectedCustomers && !window.confirm('Show existing customers and possible customer matches for review? They will remain unavailable for selection and export.')) return;
+        this.showProtectedCustomers = !this.showProtectedCustomers;
+        if (!this.showProtectedCustomers) {
+            this.allowCustomerSelection = false;
+            this.removeProtectedSelections();
+            if (['confirmed', 'possible'].includes(this.customerStatusFilter.value)) this.customerStatusFilter.value = 'all';
+        }
+        this.refreshOverlayControls();
+        this.filter();
+    }
+
+    toggleCustomerSelection() {
+        if (!this.customerMatches || !this.showProtectedCustomers) return;
+        if (!this.allowCustomerSelection && !window.confirm('Allow existing customers and possible matches to be selected and exported?')) return;
+        this.allowCustomerSelection = !this.allowCustomerSelection;
+        if (!this.allowCustomerSelection) this.removeProtectedSelections();
+        this.refreshOverlayControls();
+        this.filter();
     }
 
     saveCustomerOverlay() {
@@ -499,11 +568,12 @@ class BusinessDirectory {
     updateCustomerSummary() {
         const values = [...this.customerMatches.values()];
         const count = status => values.filter(value => value === status).length;
-        this.customerOverlaySummary.textContent = `Comparison loaded: ${count('confirmed')} strong matches, ${count('possible')} possible, ${count('rejected')} rejected. Reviews last only until this tab reloads. No match found does not guarantee a new customer.`;
+        const protection = this.allowCustomerSelection ? 'Customer selection unlocked.' : this.showProtectedCustomers ? 'Matches shown for review; selection locked.' : 'Strong and possible customer matches hidden and excluded.';
+        this.customerOverlaySummary.textContent = `${protection} ${count('confirmed')} strong, ${count('possible')} possible, ${count('rejected')} rejected. Save reviews before reloading. No match found does not guarantee a new customer.`;
     }
 
     setCustomerSelection(selected) {
-        if (!this.customerMatches) return;
+        if (!this.customerMatches || (selected && !this.allowCustomerSelection)) return;
         this.customerMatches.forEach((status, id) => {
             if (status === 'rejected') return;
             if (selected) this.selectedBusinesses.add(id);
@@ -592,7 +662,8 @@ class BusinessDirectory {
             const matchesLatestResearch = !latestResearchOnly || (!!latestBatch && business.researchBatch === latestBatch);
 
             const matchesCustomerStatus = customerStatus === 'all' || this.customerStatus(business) === customerStatus;
-            return matchesSearch && matchesCategory && matchesCounty && matchesPlaque && matchesEmail && matchesLinkedIn && matchesInstagram && matchesRecentlyAdded && matchesLatestResearch && matchesCustomerStatus;
+            const matchesCustomerProtection = !this.customerStatusFilter || (this.customerMatches && (this.showProtectedCustomers || !this.isProtectedCustomer(business)));
+            return matchesSearch && matchesCategory && matchesCounty && matchesPlaque && matchesEmail && matchesLinkedIn && matchesInstagram && matchesRecentlyAdded && matchesLatestResearch && matchesCustomerStatus && matchesCustomerProtection;
         });
         
         this.sort();
@@ -680,6 +751,9 @@ class BusinessDirectory {
         
         if (count === 0) {
             this.noResults.style.display = 'block';
+            const needsComparison = !!this.customerStatusFilter && !this.customerMatches;
+            this.noResults.querySelector('h3').textContent = needsComparison ? 'Customer comparison needed' : 'No businesses found';
+            this.noResults.querySelector('p').textContent = needsComparison ? 'Load the private comparison above to show prospects while keeping customer matches protected.' : 'Try another search or adjust your filters.';
             this.resultsGrid.innerHTML = '';
             this.resultsList.innerHTML = '';
             if (this.currentView === 'map' && this.map) this.renderMap();
@@ -706,7 +780,8 @@ class BusinessDirectory {
         this.resultsGrid.querySelectorAll('.business-checkbox').forEach(cb => {
             cb.addEventListener('change', (e) => {
                 const id = parseInt(e.target.dataset.id);
-                if (e.target.checked) {
+                const business = this.businesses.find(item => item.id === id);
+                if (e.target.checked && business && this.canSelectBusiness(business)) {
                     this.selectedBusinesses.add(id);
                 } else {
                     this.selectedBusinesses.delete(id);
@@ -723,7 +798,8 @@ class BusinessDirectory {
         this.resultsList.querySelectorAll('.business-checkbox').forEach(cb => {
             cb.addEventListener('change', (e) => {
                 const id = parseInt(e.target.dataset.id);
-                if (e.target.checked) {
+                const business = this.businesses.find(item => item.id === id);
+                if (e.target.checked && business && this.canSelectBusiness(business)) {
                     this.selectedBusinesses.add(id);
                 } else {
                     this.selectedBusinesses.delete(id);
@@ -734,9 +810,10 @@ class BusinessDirectory {
     }
     
     updateSelectionUI() {
-        const count = this.selectedBusinesses.size;
+        const count = this.businesses.filter(b => this.selectedBusinesses.has(b.id) && this.canSelectBusiness(b)).length;
         this.selectedCountSpan.textContent = count;
         this.downloadCsvBtn.disabled = count === 0;
+        if (this.selectAllBtn) this.selectAllBtn.disabled = !!this.customerStatusFilter && !this.customerMatches;
         
         // Update all checkbox states
         document.querySelectorAll('.business-checkbox').forEach(cb => {
@@ -747,7 +824,7 @@ class BusinessDirectory {
     }
     
     selectAll() {
-        this.filteredBusinesses.forEach(b => this.selectedBusinesses.add(b.id));
+        this.filteredBusinesses.forEach(b => { if (this.canSelectBusiness(b)) this.selectedBusinesses.add(b.id); });
         this.updateSelectionUI();
     }
     
@@ -757,7 +834,7 @@ class BusinessDirectory {
     }
     
     downloadCsv() {
-        const selected = this.businesses.filter(b => this.selectedBusinesses.has(b.id));
+        const selected = this.businesses.filter(b => this.selectedBusinesses.has(b.id) && this.canSelectBusiness(b));
         
         if (selected.length === 0) return;
         
@@ -913,6 +990,7 @@ class BusinessDirectory {
     createCardHTML(business) {
         const categoryClass = this.getCategoryClass(business.category);
         const isSelected = this.selectedBusinesses.has(business.id) ? 'checked' : '';
+        const selectionDisabled = !this.canSelectBusiness(business) ? 'disabled title="Customer selection is locked"' : '';
         const name = this.escapeHtml(business.company || 'Unnamed business');
         const links = this.businessLinks(business);
         const location = this.escapeHtml(business.county || 'Location not listed');
@@ -921,7 +999,7 @@ class BusinessDirectory {
             <article class="business-card ${isSelected ? 'selected' : ''}">
                 <div class="card-header">
                     <label class="select-checkbox">
-                        <input type="checkbox" class="business-checkbox" data-id="${business.id}" aria-label="Select ${name}" ${isSelected}>
+                        <input type="checkbox" class="business-checkbox" data-id="${business.id}" aria-label="Select ${name}" ${isSelected} ${selectionDisabled}>
                         <span class="checkmark" aria-hidden="true"></span>
                     </label>
                     <div class="card-title-area">
@@ -949,6 +1027,7 @@ class BusinessDirectory {
     createListItemHTML(business) {
         const categoryClass = this.getCategoryClass(business.category);
         const isSelected = this.selectedBusinesses.has(business.id) ? 'checked' : '';
+        const selectionDisabled = !this.canSelectBusiness(business) ? 'disabled title="Customer selection is locked"' : '';
         const name = this.escapeHtml(business.company || 'Unnamed business');
         const links = this.businessLinks(business);
         const phone = typeof business.phone === 'string' ? business.phone.trim() : '';
@@ -957,7 +1036,7 @@ class BusinessDirectory {
         return `
             <article class="business-list-item ${isSelected ? 'selected' : ''}">
                 <label class="select-checkbox">
-                    <input type="checkbox" class="business-checkbox" data-id="${business.id}" aria-label="Select ${name}" ${isSelected}>
+                    <input type="checkbox" class="business-checkbox" data-id="${business.id}" aria-label="Select ${name}" ${isSelected} ${selectionDisabled}>
                     <span class="checkmark" aria-hidden="true"></span>
                 </label>
                 <div class="list-item-main">

@@ -59,6 +59,14 @@
                     <button id="saveCustomerOverlay" class="action-btn" type="button" disabled>Save review</button>
                     <button id="clearCustomerOverlay" class="action-btn" type="button" disabled>Clear</button>
                 </div>
+                <details class="customer-protection" id="customerProtection">
+                    <summary>Customer protection settings</summary>
+                    <p>Strong and possible customer matches are hidden and excluded from exports by default. Showing them and allowing their selection require separate confirmations.</p>
+                    <div class="customer-protection-actions">
+                        <button id="showCustomerMatches" class="action-btn" type="button" disabled>Review hidden matches</button>
+                        <button id="allowCustomerSelection" class="action-btn" type="button" hidden>Allow selecting matches</button>
+                    </div>
+                </details>
             </section>
 
             <div class="workspace-grid">
@@ -106,7 +114,7 @@
                         <div class="selection-actions">
                             <button id="selectAllBtn" class="action-btn" type="button" title="Select all businesses shown by the current filters">Select shown</button>
                             <button id="deselectAllBtn" class="action-btn" type="button" title="Clear the entire selection, including businesses hidden by filters">Clear selection</button>
-                            <button id="selectCustomersBtn" class="action-btn" type="button" title="Select strong and possible matches across the whole directory" disabled>Select matches</button>
+                            <button id="selectCustomersBtn" class="action-btn" type="button" title="Select strong and possible matches across the whole directory" hidden disabled>Select matches</button>
                             <button id="deselectCustomersBtn" class="action-btn" type="button" title="Deselect strong and possible matches across the whole directory" disabled>Deselect matches</button>
                             <button id="downloadCsvBtn" class="action-btn primary" type="button" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3v11m-4-4 4 4 4-4M5 16v3h14v-3"/></svg> Export CSV <span class="selected-count" id="selectedCount">0</span></button>
                         </div>

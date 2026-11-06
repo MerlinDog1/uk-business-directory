@@ -785,6 +785,10 @@ body {
 .customer-upload { cursor: pointer; display: inline-flex; align-items: center; }
 .customer-upload input { position: absolute; width: 1px; height: 1px; opacity: 0; }
 .customer-upload:focus-within { outline: 2px solid #2563eb; outline-offset: 2px; }
+.customer-protection { flex-basis: 100%; font-size: .8rem; color: #466b50; }
+.customer-protection summary { cursor: pointer; font-weight: 700; }
+.customer-protection-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .5rem; }
+#allowCustomerSelection[hidden], #selectCustomersBtn[hidden] { display: none !important; }
 .customer-badge { display: inline-block; padding: .2rem .5rem; margin: .2rem .25rem .2rem 0; border-radius: 999px; font-size: .75rem; font-weight: 700; }
 .customer-confirmed { color: #065f46; background: #d1fae5; }
 .customer-possible { color: #92400e; background: #fef3c7; }

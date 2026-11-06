@@ -132,6 +132,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('customers', type=Path, help='SUPATED customer export, CSV or JSON')
     parser.add_argument('--directory', type=Path, default=Path(__file__).resolve().parent.parent / 'data/directory-data.json')
+    parser.add_argument('--dataset', choices=('signs', 'wayfinding', 'global-wayfinding', 'nordics'), help='Directory identity for the private comparison')
     parser.add_argument('--output', type=Path, required=True, help='Private overlay JSON output')
     parser.add_argument('--review', type=Path, help='Optional private report containing customer names')
     args = parser.parse_args()
@@ -148,6 +149,8 @@ def main():
         if not any(values(row)['name'] for row in customers):
             raise ValueError('No customer company names found; check the export headers')
         overlay, review = compare(directory, customers)
+        if args.dataset:
+            overlay['dataset'] = args.dataset
         args.output.write_text(json.dumps(overlay, indent=2) + '\n', encoding='utf-8')
         if args.review:
             args.review.write_text(json.dumps(review, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')

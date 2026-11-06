@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
-<body data-data-file="data/nordic-directory-data.json">
+<body data-data-file="data/nordic-directory-data.json" data-dataset="nordics">
     <header class="header">
         <div class="container">
             <div class="header-content">
@@ -28,6 +28,24 @@
 
     <main class="main">
         <div class="container">
+            <section class="customer-panel" aria-labelledby="customerPanelTitle">
+                <div><h2 id="customerPanelTitle">Customer check</h2><p id="customerOverlaySummary" role="status">Load a private comparison to show prospects.</p></div>
+                <div class="customer-panel-actions">
+                    <label class="action-btn customer-upload">Load comparison <input type="file" id="customerOverlayFile" accept=".json,application/json"></label>
+                    <button id="saveCustomerOverlay" class="action-btn" type="button" disabled>Save review</button>
+                    <button id="clearCustomerOverlay" class="action-btn" type="button" disabled>Clear</button>
+                </div>
+                <details class="customer-protection">
+                    <summary>Customer protection settings</summary>
+                    <p>Strong and possible customer matches are hidden and excluded from exports by default. Showing them and allowing their selection require separate confirmations.</p>
+                    <div class="customer-protection-actions">
+                        <button id="showCustomerMatches" class="action-btn" type="button" disabled>Review hidden matches</button>
+                        <button id="allowCustomerSelection" class="action-btn" type="button" hidden>Allow selecting matches</button>
+                        <button id="selectCustomersBtn" class="action-btn" type="button" hidden disabled>Select matches</button>
+                        <button id="deselectCustomersBtn" class="action-btn" type="button" disabled>Deselect matches</button>
+                    </div>
+                </details>
+            </section>
             <section class="search-section">
                 <div class="search-box">
                     <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -53,6 +71,7 @@
                             <option value="">All Countries</option>
                         </select>
                     </div>
+                    <div class="filter-group"><label for="customerStatusFilter">Customer status</label><select id="customerStatusFilter"><option value="all">All statuses</option><option value="confirmed">Strong customer match</option><option value="possible">Possible match — review</option><option value="rejected">Rejected match</option><option value="unmatched">No match found</option><option value="unchecked">Unchecked</option></select></div>
                     <div class="filter-group">
                         <label for="sortBy">Sort By</label>
                         <select id="sortBy">
